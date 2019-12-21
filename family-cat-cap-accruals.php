@@ -23,24 +23,39 @@
 					<div class="row header">
 						<?php include '_header.php'; ?>
 						<div class="report-wrapper">
-							
-							<h1>Family Cat Cap Accruals
-								<div class="print-nav">
+							<div class="h1">Family Cap Accruals<div class="print-nav">
 									<ul>
 										<li>
-											<small><a href="#">Print&nbsp;
-													<i class="fas fa-print"></i></span></a>
-											</small>
-											<ul>
-												<li><a href="#">.PDF</a></li>
-												<li><a href="#">.CSV</a></li>
-												<li><a href="#">.TXT</a></li>
-											</ul>
+											<small>
+												<a href="#" data-toggle="modal"
+													data-target="#print">Print&nbsp;<i
+														class="fas fa-print"></i></a></small>
 										</li>
 									</ul>
 								</div>
-							</h1>
+							</div>
 							<hr />
+							<div class="col-12">
+								<div class="row">
+									<div class="col-1 label">DUZ:</div>
+									<div class="col-1">239553</div>
+
+								</div>
+								<div class="row">
+									<div class="col-1 label">Date:</div>
+									<div class="col-1">1/9/2019</div>
+
+								</div>
+								<div class="row">
+									<div class="col-1 label">Time:</div>
+									<div class="col-1">13:32 PST</div>
+									<div class="col-1 label"></div>
+									<div class="col-8">BENEFICIARIES of Example, Beneficiary FOR CALENDAR YEAR
+										2018</div>
+									<div class="col-1">&nbsp;</div>
+								</div>
+							</div>
+							<hr class="cru-rule">
 							<div class="row">
 								<div class="col-md-1"><label>Beneficiary Name:</label></div>
 								<div class="col-md-11 pl35">Lastname, First</div>
@@ -58,7 +73,7 @@
 											<th scope="col" class="setwidth-5">Deduct Amount</th>
 											<th scope="col" class="setwidth-5">Prev. Service</th>
 											<th scope="col" class="setwidth-5">Cost Share</th>
-											<th scope="col" class="setwidth-5">Prev. service</th>
+											<th scope="col" class="setwidth-5">Prev. Service</th>
 											<th scope="col" class="setwidth-5">CK Ret</th>
 										</tr>
 									</thead>
@@ -67,12 +82,12 @@
 											<td>SED5421</td>
 											<td>01/20/18</td>
 											<td></td>
-											<td>47.45</td>
-											<td>47.45</td>
-											<td>47.45</td>
-											<td>0.00</td>
+											<td class="r">47.45</td>
+											<td class="r">47.45</td>
+											<td class="r">47.45</td>
+											<td class="r">0.00</td>
 											<td></td>
-											<td>0.00</td>
+											<td class="r">0.00</td>
 											<td></td>
 											<td></td>
 										</tr>
@@ -80,12 +95,12 @@
 											<td>SHL5541</td>
 											<td>01/31/18</td>
 											<td></td>
-											<td>9.00</td>
-											<td>9.00</td>
-											<td>9.00</td>
-											<td>0.00</td>
+											<td class="r">9.00</td>
+											<td class="r">9.00</td>
+											<td class="r">9.00</td>
+											<td class="r">0.00</td>
 											<td></td>
-											<td>0.00</td>
+											<td class="r">0.00</td>
 											<td></td>
 											<td>N</td>
 										</tr>
@@ -93,12 +108,12 @@
 											<td>SGS9567</td>
 											<td>02/14/18</td>
 											<td></td>
-											<td>0.90</td>
-											<td>0.90</td>
-											<td>0.90</td>
-											<td>0.00</td>
+											<td class="r">0.90</td>
+											<td class="r">0.90</td>
+											<td class="r">0.90</td>
+											<td class="r">0.00</td>
 											<td></td>
-											<td>0.00</td>
+											<td class="r">0.00</td>
 											<td></td>
 											<td></td>
 										</tr>
@@ -106,12 +121,12 @@
 											<td>SVV4100</td>
 											<td>02/22/18</td>
 											<td></td>
-											<td>10.64</td>
-											<td>10.64</td>
-											<td>10.64</td>
-											<td>0.00</td>
+											<td class="r">10.64</td>
+											<td class="r">10.64</td>
+											<td class="r">10.64</td>
+											<td class="r">0.00</td>
 											<td></td>
-											<td>0.00</td>
+											<td class="r">0.00</td>
 											<td></td>
 											<td>N</td>
 										</tr>
@@ -119,12 +134,12 @@
 											<td>SHV5002</td>
 											<td>05/12/18</td>
 											<td></td>
-											<td>91.88</td>
-											<td>91.88</td>
-											<td>0.00</td>
-											<td>91.88</td>
+											<td class="r">91.88</td>
+											<td class="r">91.88</td>
+											<td class="r">0.00</td>
+											<td class="r">91.88</td>
 											<td></td>
-											<td>0.00</td>
+											<td class="r">0.00</td>
 											<td></td>
 											<td></td>
 										</tr>
@@ -132,12 +147,12 @@
 											<td>SHW7974</td>
 											<td>06/30/18</td>
 											<td></td>
-											<td>123.00</td>
-											<td>123.00</td>
-											<td>0.00</td>
-											<td>0.00</td>
+											<td class="r">123.00</td>
+											<td class="r">123.00</td>
+											<td class="r">0.00</td>
+											<td class="r">0.00</td>
 											<td>WAIVED</td>
-											<td>0.00</td>
+											<td class="r">0.00</td>
 											<td></td>
 											<td></td>
 										</tr>
@@ -145,12 +160,12 @@
 											<td>SWA5400</td>
 											<td>07/05/18</td>
 											<td></td>
-											<td>64.48</td>
-											<td>64.48</td>
-											<td>50.00</td>
-											<td>14.48</td>
+											<td class="r">64.48</td>
+											<td class="r">64.48</td>
+											<td class="r">50.00</td>
+											<td class="r">14.48</td>
 											<td></td>
-											<td>0.00</td>
+											<td class="r">0.00</td>
 											<td></td>
 											<td></td>
 										</tr>
@@ -158,12 +173,12 @@
 											<td>SGT2030</td>
 											<td>11/25/18</td>
 											<td></td>
-											<td>14.20</td>
-											<td>14.20</td>
-											<td>14.20</td>
-											<td>0.00</td>
+											<td class="r">14.20</td>
+											<td class="r">14.20</td>
+											<td class="r">14.20</td>
+											<td class="r">0.00</td>
 											<td></td>
-											<td>0.00</td>
+											<td class="r">0.00</td>
 											<td></td>
 											<td></td>
 										</tr>
@@ -171,12 +186,12 @@
 											<td>SXF1288</td>
 											<td>12/01/18</td>
 											<td></td>
-											<td>1,093.13</td>
-											<td>834.59</td>
-											<td>697.24</td>
-											<td>17.31</td>
+											<td class="r">1,093.13</td>
+											<td class="r">834.59</td>
+											<td class="r">697.24</td>
+											<td class="r">17.31</td>
 											<td></td>
-											<td>0.00</td>
+											<td class="r">0.00</td>
 											<td></td>
 											<td></td>
 										</tr>
@@ -184,12 +199,12 @@
 											<td>SBA2659</td>
 											<td>11/13/18</td>
 											<td></td>
-											<td>145.00</td>
-											<td>71.21</td>
-											<td>53.15</td>
-											<td>0.00</td>
+											<td class="r">145.00</td>
+											<td class="r">71.21</td>
+											<td class="r">53.15</td>
+											<td class="r">0.00</td>
 											<td></td>
-											<td>17.21</td>
+											<td class="r">17.21</td>
 											<td></td>
 											<td>N</td>
 										</tr>
@@ -197,12 +212,12 @@
 											<td>SCC5004</td>
 											<td>12/05/18</td>
 											<td></td>
-											<td>10.00</td>
-											<td>10.00</td>
-											<td>0.00</td>
-											<td>10.00</td>
+											<td class="r">10.00</td>
+											<td class="r">10.00</td>
+											<td class="r">0.00</td>
+											<td class="r">10.00</td>
 											<td></td>
-											<td>0.00</td>
+											<td class="r">0.00</td>
 											<td></td>
 											<td></td>
 										</tr>
@@ -210,12 +225,12 @@
 											<td>SXC2004</td>
 											<td>12/15/18</td>
 											<td></td>
-											<td>145.04</td>
-											<td>145.04</td>
-											<td>0.00</td>
-											<td>0.00</td>
-											<td>WAVED</td>
-											<td>0.00</td>
+											<td class="r">145.04</td>
+											<td class="r">145.04</td>
+											<td class="r">0.00</td>
+											<td class="r">0.00</td>
+											<td>WAIVED</td>
+											<td class="r">0.00</td>
 											<td></td>
 											<td></td>
 										</tr>
@@ -223,25 +238,25 @@
 											<td>SAC9204</td>
 											<td>12/19/18</td>
 											<td></td>
-											<td>3.60</td>
-											<td>3.60</td>
-											<td>1.00</td>
-											<td>0.00</td>
-											<td>WAVED</td>
-											<td>0.00</td>
-											<td>WAVED</td>
+											<td class="r">3.60</td>
+											<td class="r">3.60</td>
+											<td class="r">1.00</td>
+											<td class="r">0.00</td>
+											<td>WAIVED</td>
+											<td class="r">0.00</td>
+											<td>WAIVED</td>
 											<td>N</td>
 										</tr>
 										<tr>
 											<td>SAS6841</td>
 											<td>01/15/19</td>
 											<td></td>
-											<td>92.40</td>
-											<td>92.40</td>
-											<td>0.00</td>
-											<td>0.00</td>
-											<td>WAVED</td>
-											<td>0.00</td>
+											<td class="r">92.40</td>
+											<td class="r">92.40</td>
+											<td class="r">0.00</td>
+											<td class="r">0.00</td>
+											<td>WAIVED</td>
+											<td class="r">0.00</td>
 											<td></td>
 											<td>N</td>
 										</tr>
@@ -249,12 +264,12 @@
 											<td>SYS4451</td>
 											<td>01/25/19</td>
 											<td></td>
-											<td>107.33</td>
-											<td>107.33</td>
-											<td>100.33</td>
-											<td>7.00</td>
+											<td class="r">107.33</td>
+											<td class="r">107.33</td>
+											<td class="r">100.33</td>
+											<td class="r">7.00</td>
 											<td></td>
-											<td>0.00</td>
+											<td class="r">0.00</td>
 											<td></td>
 											<td>N</td>
 										</tr>
@@ -270,6 +285,7 @@
 			</div>
 		</div>
 	</main>
+	<?php include '_printbutton.php'; ?>
 	<?php include '_globals-bottom.php'; ?>
 </body>
 

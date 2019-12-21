@@ -23,22 +23,17 @@
 					<div class="row header">
 						<?php include '_header.php'; ?>
 						<div class="report-wrapper">
-							
-							<h1>Waiver Accumulator Report<div class="print-nav">
+							<div class="h1">Waiver Accumulator Report<div class="print-nav">
 									<ul>
 										<li>
-											<small><a href="#">Print&nbsp;
-													<i class="fas fa-print"></i></span></a>
-											</small>
-											<ul>
-												<li><a href="#">.PDF</a></li>
-												<li><a href="#">.CSV</a></li>
-												<li><a href="#">.TXT</a></li>
-											</ul>
+											<small>
+												<a href="#" data-toggle="modal"
+													data-target="#print">Print&nbsp;<i
+														class="fas fa-print"></i></a></small>
 										</li>
 									</ul>
 								</div>
-							</h1>
+							</div>
 							<hr />
 							<div class="col-12">
 								Lorum Ipsem...
@@ -53,6 +48,7 @@
 			</div>
 		</div>
 	</main>
+	<?php include '_printbutton.php'; ?>
 	<?php include '_globals-bottom.php'; ?>
 </body>
 

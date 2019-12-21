@@ -24,48 +24,35 @@
 					<div class="row header">
 						<?php include '_header.php'; ?>
 						<div class="report-wrapper">
-						
-							<h1>Health Administration Center Post-Processing Report | <small>TT26477</small>
+							<div class="h1">Health Administration Center Post-Processing Report |
+								<small>TT26477</small>
 								<div class="print-nav">
 									<ul>
 										<li>
-											<small><a href="#">Print&nbsp;
-													<i class="fas fa-print"></i></span></a>
-											</small>
-											<ul>
-												<li><a href="#">.PDF</a></li>
-												<li><a href="#">.CSV</a></li>
-												<li><a href="#">.TXT</a></li>
-											</ul>
+											<small>
+												<a href="#" data-toggle="modal"
+													data-target="#print">Print&nbsp;<i
+														class="fas fa-print"></i></a></small>
 										</li>
 									</ul>
 								</div>
-							</h1>
+							</div>
 							<hr />
 							<div class="col-12">
 								<div class="row">
 									<div class="col-1 label">DUZ:</div>
 									<div class="col-3">123456</div>
-									<div class="col-1 label"></div>
-									<div class="col-3"></div>
-									<div class="col-1">&nbsp;</div>
-									<div class="col-3">&nbsp;</div>
+
 								</div>
 								<div class="row">
 									<div class="col-1 label">Date:</div>
 									<div class="col-3">01/20/2019</div>
-									<div class="col-1 label"></div>
-									<div class="col-3"></div>
-									<div class="col-1">&nbsp;</div>
-									<div class="col-3">&nbsp;</div>
+
 								</div>
 								<div class="row">
 									<div class="col-1 label">Time:</div>
 									<div class="col-3">1200 PST</div>
-									<div class="col-1 label"></div>
-									<div class="col-3"></div>
-									<div class="col-1">&nbsp;</div>
-									<div class="col-3">&nbsp;</div>
+
 								</div>
 							</div>
 							<hr class="cru-rule">
@@ -111,8 +98,8 @@
 									<div class="col-2">MMM DD, YYYY</div>
 								</div>
 								<div class="row">
-									<div class="col-2 label r">Sponsors:</div>
-									<div class="col-2">Sponsors Name</div>
+									<div class="col-2 label r">Sponsor:</div>
+									<div class="col-2">Sponsor Name</div>
 									<div class="col-2 label"></div>
 									<div class="col-2"> </div>
 									<div class="col-2 label r">Comp.Date</div>
@@ -141,16 +128,16 @@
 							<table class="table-cru tight">
 								<thead class="thead-cru">
 									<tr class="first">
-										<th scope="col" style="width:10%;">DX/PX/NDC P/L</th>
+										<th scope="col" style="width:10%;">DX's/PX's/NDC's P/L</th>
 										<th scope="col" style="width:8%;">Unt/Qty</th>
 										<th scope="col" style="width:9%;">Total Chg</th>
 										<th scope="col" style="width:9%;">Total AA</th>
-										<th scope="col" style="width:9%;">Medicaid</th>
+										<th scope="col" style="width:9%;">Mcaid</th>
 										<th scope="col" style="width:9%; white-space:nowrap;">OHI #1 PD</th>
 										<th scope="col" style="width:9%; white-space:nowrap;">OHI #1 PR</th>
 										<th scope="col"
 											style="width:6%; border-right:none; padding-left:14px;">
-											Deductible</th>
+											Deduct</th>
 										<th scope="col" style="width:1%;"></th>
 										<th scope="col" style="width:9%;">Payments</th>
 										<th scope="col" style="width:3%;">AI</th>
@@ -167,7 +154,7 @@
 										<th scope="col">OHI PR Bal</th>
 										<th scope="col"
 											style="border-right:none; padding-left:14px; white-space:nowrap;">
-											Cost Share</th>
+											Cst Share</th>
 										<th scope="col"></th>
 										<th scope="col"></th>
 										<th scope="col"></th>
@@ -191,6 +178,9 @@
 										<td></td>
 									</tr>
 									<tr>
+										<td colspan="12">&nbsp;</td>
+									</tr>
+									<tr>
 										<td>V76.0</td>
 										<td>1</td>
 										<td></td>
@@ -203,6 +193,9 @@
 										<td></td>
 										<td>AC</td>
 										<td></td>
+									</tr>
+									<tr>
+										<td colspan="12">&nbsp;</td>
 									</tr>
 									<tr>
 										<td>244.9</td>
@@ -219,6 +212,9 @@
 										<td></td>
 									</tr>
 									<tr>
+										<td colspan="12">&nbsp;</td>
+									</tr>
+									<tr>
 										<td>578.0</td>
 										<td>1</td>
 										<td></td>
@@ -231,6 +227,9 @@
 										<td></td>
 										<td>AC</td>
 										<td></td>
+									</tr>
+									<tr>
+										<td colspan="12">&nbsp;</td>
 									</tr>
 									<tr>
 										<td>99396</td>
@@ -261,6 +260,9 @@
 										<td></td>
 									</tr>
 									<tr>
+										<td colspan="12">&nbsp;</td>
+									</tr>
+									<tr>
 										<td>36415</td>
 										<td>1</td>
 										<td>8.00</td>
@@ -287,6 +289,9 @@
 										<td></td>
 										<td>AC</td>
 										<td></td>
+									</tr>
+									<tr>
+										<td colspan="12">&nbsp;</td>
 									</tr>
 									<tr>
 										<td>81000</td>
@@ -318,82 +323,80 @@
 									</tr>
 
 									<tr class="totals-first">
-										<th scope="col">Totals:</th>
-										<th scope="col"></th>
-										<th scope="col">223.00</th>
-										<th scope="col">99.36</th>
-										<th scope="col"></th>
-										<th scope="col"></th>
-										<th scope="col"></th>
-										<th scope="col" style="border-right:none;">0.00</th>
-										<th scope="col"></th>
-										<th scope="col">99.36</th>
-										<th scope="col"></th>
-										<th scope="col"></th>
+										<td class="fauxth">Totals:</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">223.00</td>
+										<td class="fauxth">99.36</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth" style="border-right:none;">0.00</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">99.36</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">&nbsp;</td>
 									</tr>
 									<tr class="totals-second">
-										<th scope="col"></th>
-										<th scope="col"></th>
-										<th scope="col">223.00</th>
-										<th scope="col">99.36</th>
-										<th scope="col"></th>
-										<th scope="col"></th>
-										<th scope="col"></th>
-										<th scope="col" style="border-right:none;">0.00</th>
-										<th scope="col"></th>
-										<th scope="col"></th>
-										<th scope="col"></th>
-										<th scope="col"></th>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth"></td>
+										<td class="fauxth"></td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth" style="border-right:none;">0.00</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">&nbsp;</td>
 									</tr>
 								</tbody>
 							</table>
 
 							<hr class="cru-rule">
+							<h3>Post Processing Report Information</h3>
+							<hr />
 							<table class="faux tight">
 								<tbody>
 									<tr>
 										<td class="label setwidth-25">Total Charges Billed:</td>
-										<td class="setwidth-5">$223.00</td>
+										<td class="setwidth-5">233.00</td>
 										<td class="setwidth-1 red"></td>
 										<td class="label setwidth-25">CITI Maximum Reimbursement Rate:</td>
 										<td class="setwidth-5">N/A</td>
-										<td class="label setwidth-25">CHAMPVA Beneficiary Deductible 2019:
-										</td>
-										<td class="setwidth-5">$0.00</td>
+										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
 										<td class="label setwidth-25">Calculated Allowable Amount:</td>
-										<td class="setwidth-5">$99.36</td>
+										<td class="setwidth-5">99.36</td>
 										<td class="setwidth-1 red"></td>
 										<td class="label setwidth-25">MEDICAID Amount:</td>
 										<td class="setwidth-5">N/A</td>
-										<td class="label setwidth-25">CHAMPVA Family Deductible 2019:</td>
-										<td class="setwidth-5">$0.00</td>
+										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
 										<td class="label setwidth-25">Amount Applied to Deductible:</td>
-										<td class="setwidth-5">$0.00 </td>
+										<td class="setwidth-5">0.00 </td>
 										<td class="setwidth-1 red"></td>
 										<td class="label setwidth-25">Amount Paid by TPL:</td>
 										<td class="setwidth-5">N/A</td>
-										<td class="label setwidth-26">CHAMPVA Family Catastrophic Cap 2019:
-										</td>
-										<td class="setwidth-5">$0.00</td>
+										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
-										<td class="label setwidth-25">Cost Share Credited to Cat. Cap:</td>
-										<td class="setwidth-5">$0.00 </td>
-										<td class="setwidth-1 red"> W</td>
+										<td class="label setwidth-25">Cost Share Credited to Cat Cap:</td>
+										<td class="setwidth-1">0.00 </td>
+										<td class="setwidth-1 red left"> W</td>
 										<td class="label setwidth-25">Amount Reversed from Deductible:</td>
 										<td class="setwidth-5">N/A</td>
+										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
-										<td class="label setwidth-25">Amount Paid by Other Health Insurance:
-										</td>
+										<td class="label setwidth-25">Amount Paid by Other Insurance(s):</td>
+										<td class="setwidth-5">N/A </td>
+										<td class="setwidth-1 red"> </td>
+										<td class="label setwidth-25">Amount Reversed from Cat Cap:</td>
 										<td class="setwidth-5">N/A</td>
-										<td class="setwidth-1 red"></td>
-										<td class="label setwidth-25">Amount Reversed from Cat. Cap:</td>
-										<td class="setwidth-5">N/A</td>
+										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
 										<td class="label setwidth-25">Patient Responsibility Amount:</td>
@@ -402,35 +405,94 @@
 										<td class="label setwidth-25">Amount Reduced from Previous Payment:
 										</td>
 										<td class="setwidth-5">N/A</td>
+										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
-										<td class="label setwidth-25">Amount Paid by Beneficiary by Vendor:
+										<td class="label setwidth-25">Amount Paid by Beneficiary to Vendor:
 										</td>
-										<td class="setwidth-5">$0.00</td>
+										<td class="setwidth-5">0.00</td>
 										<td class="setwidth-1 red"></td>
 										<td class="label setwidth-25">Last PDI Payment Difference:</td>
-										<td class="setwidth-5">$0.00</td>
+										<td class="setwidth-5">0.00</td>
+										<td class="setwidth-5">&nbsp;</td>
 									</tr>
-									<tr>
+									<tr style="margin-top:7px;">
 										<td class="label setwidth-25">Total Amount to be PAID on claim:</td>
-										<td class="setwidth-5">$99.36</td>
+										<td class="setwidth-5">99.36</td>
 										<td class="setwidth-1 red"></td>
-										<td class="label setwidth-25">Total Payment for PDI#20191111111111:
-										</td>
-										<td class="setwidth-5">$99.36</td>
+										<td class="label setwidth-25">Total Payment for Current PDI#
+											201913691113664:</td>
+										<td class="setwidth-5">99.36</td>
+										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
 										<td class="label setwidth-25">Amount PAID to Vendor:</td>
-										<td class="setwidth-5">$99.36</td>
+										<td class="setwidth-5">20.38</td>
 										<td class="setwidth-1 red"></td>
 									</tr>
 									<tr>
 										<td class="label setwidth-25">Amount PAID to Beneficiary:</td>
-										<td class="setwidth-5">$0.00</td>
+										<td class="setwidth-5">99.36</td>
 										<td class="setwidth-1 red"></td>
+									</tr>
+									<tr>
+										<td colspan="6">&nbsp;</td>
+
+									</tr>
+									<tr>
+										<td class="label setwidth-25">CHAMPVA Beneficiary Deductible 2009:
+										</td>
+										<td class="setwidth-5">0.00</td>
+										<td class="setwidth-10">
+										</td>
+									</tr>
+									<tr>
+										<td class="label setwidth-25">CHAMPVA Family Deductible 2009:</td>
+										<td class="setwidth-5">0.00</td>
+									</tr>
+									<tr>
+										<td class="label setwidth-26">CHAMPVA Family Catastrophic Cap 2009:
+										</td>
+										<td class="setwidth-5">0.00</td>
 									</tr>
 								</tbody>
 							</table>
+							<hr />
+							<p class="mt20">Actions for Claim:</p>
+							<div class="row">
+								<div class="col-1">&nbsp;</div>
+								<div class="col-3">1) Explanation of Benefits</div>
+								<div class="col-3">2) SNA CAPPS (Submitted Capps)</div>
+							</div>
+							<div class="row">
+								<div class="col-1">&nbsp;</div>
+								<div class="col-3">3) ClaimCheck (Complete)</div>
+								<div class="col-3">4) EDI: MEDCOB</div>
+							</div>
+							<div class="row">
+								<div class="col-2"></div>
+								<div class="col-10"></div>
+							</div>
+							<div class="row mt20">
+								<div class="col-2">Claim Reasons:</div>
+								<div class="col-10">319 - CFR 17.272(B)(3) REQUIRES PROVIDER TO ACCEPT CHAMPVA
+									ALLOWABLE AS FULL PAYMENT.</div>
+							</div>
+							<div class="row">
+								<div class="col-2"></div>
+								<div class="col-10">322 - COST SHARE FOR CLAIM MAY NOT ALWAYS BE PATIENT
+									LIABILITY; OHI / CAT CAP MAY IMPACT.</div>
+							</div>
+							<div class="row">
+								<div class="col-2"></div>
+								<div class="col-10">356 - REMINDER - MAIL CLAIMS TO: CHAMPVA, PO Box 469064,
+									DENVER, CO 80246-9064.</div>
+							</div>
+							<div class="row">
+								<div class="col-2"></div>
+								<div class="col-10">371 - WHEN RESUBMITTING CLAIMS YOU MUST ATTACH THE CHAMPVA
+									EOB FOR PROPER PROCESSING.</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -440,10 +502,7 @@
 			</div>
 		</div>
 	</main>
-
-
-
-
+	<?php include '_printbutton.php'; ?>
 	<?php include '_globals-bottom.php'; ?>
 </body>
 

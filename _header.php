@@ -1,3 +1,11 @@
-<img width="100%" height="203px" alt="Cru Banner" src="/dist/img/cru-banner-index.jpg">
-<div class="col-md-12 mt25"><small><a class="btn btn-back" href="landing-page.php">&nbsp;<i
-				class="fas fa-angle-left"></i>&nbsp;DCS Home</a></small></div>
+<img width="100%" height="208px"
+	alt="Claims Processing and Eligibility - CHAMPVA Regulatory Updates - CRU - VA|U.S. Department of Veterans Affairs"
+	title="Claims Processing and Eligibility - CHAMPVA Regulatory Updates - CRU - VA|U.S. Department of Veterans Affairs"
+	src="/dist/img/cru-banner.jpg">
+<div class="col-md-12 mt25">
+	<small>
+		<a class="btn btn-back" role="button" href="landing-page.php" tabindex=1>&nbsp;
+			<i class="fas fa-angle-left"></i>&nbsp;DCS Home
+		</a>
+	</small>
+</div>

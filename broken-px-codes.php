@@ -8,8 +8,6 @@
 	<meta http-equiv="cache-control" content="no-cache" />
 	<title>cru-portal-prototype</title>
 	<?php include '_globals-top.php'; ?>
-
-
 	<script type="text/javascript">
 	$(document).ready(function() {
 		$('table.table-sort').filterTable();
@@ -30,21 +28,22 @@
 					<div class="row header">
 						<?php include '_header.php'; ?>
 						<div class="report-wrapper">
-							<div class="h1">PX / DX Codes<div class="print-nav">
+							<div class="h1">PX/DX Procedure Codes<div class="print-nav">
 									<ul>
 										<li>
-											<small>
-												<a href="#" data-toggle="modal"
-													data-target="#print">Print&nbsp;<i
-														class="fas fa-print"></i></a></small>
+											<small><a href="#">Print&nbsp;
+													<i class="fas fa-print"></i></span></a>
+											</small>
+											<ul>
+												<li><a href="#">.PDF</a></li>
+												<li><a href="#">.CSV</a></li>
+												<li><a href="#">.TXT</a></li>
+											</ul>
 										</li>
 									</ul>
 								</div>
 							</div>
 							<hr />
-
-
-
 							<div class="row">
 								<span class="fauxtab active">PX Codes</span>
 								<span class="fauxtab">DX Codes</span>
@@ -58,7 +57,7 @@
 								<div class="col-md-4 right va-b">
 									<button class="gray mr5">Deactivate</button>
 									<button class="white mr5">Import</button>
-									<button class="brand mr15">Add Code</button>
+									<button class="blue mr15">Add Code</button>
 								</div>
 							</div>
 							<div class="col-md-12">
@@ -481,11 +480,6 @@
 								</div>
 							</div>
 
-
-
-
-
-
 						</div>
 					</div>
 				</div>
@@ -495,7 +489,6 @@
 			</div>
 		</div>
 	</main>
-	<?php include '_printbutton.php'; ?>
 	<?php include '_globals-bottom.php'; ?>
 	<script type="text/javascript" src="dist/js/cru-components/jquery.filtertable.min.js"></script>
 	<script type="text/javascript" src="dist/js/cru-components/tablesort.min.js"></script>
@@ -504,6 +497,3 @@
 		$('table.table-sort').tablesort();
 	});
 	</script>
-</body>
-
-</html>

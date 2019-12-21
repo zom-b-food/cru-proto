@@ -117,25 +117,25 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Roboto', sans-serif;
     }
     
-h1, h2 {
+h1, h2, .h1, .h2 {
     margin:10px 10px 10px 0;
-    color: $cru-divider;
+    color: $black;
 }
 
 h3, h4, h5, h6 {
     margin:6px 6px 6px 0;
-    color: $cru-rule;
+    color: $cru-brand;
 }
 
-h1 {
-  font-size: 1.2rem;
+h1, .h1 {
+  font-size: 1.4rem;
 }
 
-h2 {
-  font-size: 1.1rem;
+h2, .h2 {
+  font-size: 1.25rem;
 }
 h3 {
-  font-size: 1rem;
+  font-size: 1.15rem;
 }
 h4 {
   font-size: .95rem;
@@ -177,7 +177,7 @@ hr.short {
     border: 0;
     border-top: 1px dotted $cru-link;
     &.red {
-      border-top: 1px solid $red;
+      border-top: 5px solid $cru-accent;
     }
 }
 
@@ -185,7 +185,7 @@ hr.shortred {
     margin-top: -5px;
     margin-bottom: 7.2rem;
     border: 0;
-    border-top: 1px solid $red;
+    border-top: 1px solid $cru-accent;
 }
 
 hr.cru-rule {
@@ -214,7 +214,7 @@ footer {
   position: absolute;
   bottom: 0;
   margin-left: 18px;
-  border-bottom: 3px solid $red;
+  border-bottom: 5px solid $cru-accent;
   width: 100%;
   height: 70px; /* Set the fixed height of the footer here */
   line-height: 70px; /* Vertically center the text there */
@@ -235,66 +235,57 @@ button {
   padding:4px 8px;
   min-width:88px;
   border-radius: .25rem;
-  &:hover {
-    border:1px solid $cru-rule !important;
+  border:1px solid $cru-link !important;
+  &:hover { 
+    background: $cru-brand !important;
+    color: $white !important;
   }
   &.gray {
-    background:$gray-400;
-    border:1px solid transparent;
+    background:$gray-400;   
   }
    &.white {
     background:$white;
     color:$cru-brand;
-    border:1px solid $cru-brand;
   }
-   &.blue {
+   &.brand {
     background:$cru-brand;
-    color:$white;
-    border:1px solid transparent;
+    color:$white;   
   }
-}
-
-.btn {
-  border-radius: .25rem;
-}
-
-.btn-run {
-  background:$gray-300;
-  color:$black;
-  border:1px solid $black;
-  &:hover {
-    background:$gray-800;
-    color:$white;
-  }
-}
-
-.btn-back {
-  padding:2px 6px;
-  background:$gray-200;
-  border:1px solid $cru-brand;
-  margin-top:-18px;
-  margin-bottom:10px;
-  margin-left:-16px;
-  &:hover {
-    background:$gray-800;
-    color:$white;
-  }
-}
-
-.btn-save {
-  background:$cru-brand;
-  border:1px solid $cru-divider;
-  color:$white;
-  &:hover {
-    color:white;
-    border:1px solid $cru-link;
-  }
-}
-
-.btn-cancel {
-  background:$white;
-  border:1px solid $cru-divider;
+  &.btn-cancel {
+  background:$stripe;
   color:$cru-divider;
+  }
+}
+
+.btn, a.btn {
+  padding:4px 8px;
+  min-width:88px;
+  border-radius: .25rem;
+  border:1px solid $cru-link !important;
+  &.btn-run {
+    background:$gray-600;  
+    color:$white;
+    &:hover {  
+    background: $gray-800 !important;
+    color: $white !important;
+  }  
+  }
+   &.btn-back {
+    background:$gray-400;
+    color:$black;
+    &:hover {  
+     background: $gray-800 !important;
+    color: $white !important;
+  }
+  }
+   &.btn-cancel {
+    background:$white;
+    color:$cru-divider;  
+    &:hover {  
+     background: $gray-300 !important;
+    color: $black !important;
+  }
+  }
 }
 
 [type=search] {
@@ -316,6 +307,15 @@ button {
   &:last-of-type {
     margin-right:50px;
   }
+}
+
+[type=radio].radio-inline {
+ 
+  
+}
+
+label.radio-inline {
+margin-right:20px;
 }
 
 label {
@@ -354,7 +354,7 @@ label {
 
 .redtop {
   padding-right:14px;
-  border-right: 1px solid $red;
+  border-right: 5px solid $cru-accent;
 }
 
 
@@ -377,7 +377,7 @@ nav {
 				  padding: 6px 2px 6px 20px;
 				  display: block;
 				  &:hover {
-					  color:$cru-link;
+					  color:$cru-accent;
 				  }
 			  }
 			.activated {
@@ -389,12 +389,13 @@ nav {
 
 .fauxnav {
   margin-top:9px;
-	height:395vh;
+	height:425vh;
 	width:225px;	
   background: $gray-300;
   padding:0;
-  border-top:3px solid $red;
-  border-left: 3px solid $red;
+  border-top:5px solid $cru-accent;
+  border-right:1px solid $cru-accent;
+  border-left: 5px solid $cru-accent;
     > h6 {   
       background:$cru-brand;
       color:$white !important;   
@@ -407,18 +408,19 @@ nav {
       font-family: 'Roboto', sans-serif;
       &::after {
         content: url("/dist/img/chevron-right.png");
-        margin-left: 8px;
+        margin-left: 9px;
         position: absolute;
-        top: 38px;
+        top: 40px;
       }
     }
   } 
   .blue  {
     margin-top:-6px;
-    height:390vh;
-    width:222px;	
+    height:420vh;
+    width:220px;	
     background: $cru-brand;
     padding:0;
+    border-right:1px solid $cru-accent;
     > h6 {   
       color:$white !important;   
       text-align:right;
@@ -429,21 +431,20 @@ nav {
       font-family: 'Roboto', sans-serif;
       &:nth-of-type(1)::after {
         content: url("/dist/img/chevron-right.png");
-        margin-left: 8px;
+        margin-left: 9px;
         position: absolute;
-        top: 38px;
+        top: 40px;
       }
       &:nth-of-type(2)::after {
         content: url("/dist/img/chevron-right.png");
-        margin-left: 7px;
+        margin-left: 9px;
         position: absolute;
-        top: 81px;
+        top: 83px;
       }
     }
     > h2 {
       color:$white;
       text-align: center;
-      background: $deepsea;
       padding: 8px;
     }
     a {
@@ -656,6 +657,7 @@ table tr td {
 
 td.right, th.right {
   text-align:right;
+  padding-right:5px;
 }
 
 td.center, th.center {
@@ -674,6 +676,7 @@ table.faux tr td {
   padding-right:0;
   vertical-align: middle !important;
   text-align:right;
+  padding-right:5px;
   font-size: 13px;
   line-height: 20px;
 }
@@ -700,10 +703,34 @@ table.faux tr td {
 
 .table-border thead th {   
   border-bottom: 1px solid $cru-divider;
+  border-right:1px solid $gray-400;
   background-color: $moon;
   padding: 2px 10px;
   font-size: .8rem;
   line-height: 16px;
+}
+
+.table-border thead th:last-of-type {   
+  border-right:1px solid transparent;
+}
+
+tr.totals > td.fauxth, tr.totals-first > td.fauxth { 
+  border-top:1px solid $gray-600;
+  border-bottom:1px dashed $gray-400;
+}
+
+tr.totals-second > td.fauxth {
+  border-bottom:1px solid $deepsea;
+}
+
+td.fauxth {
+  background-color: $white !important;
+  color: $black !important;
+  font-weight:700;
+  font-family: 'Roboto', sans-serif;
+  font-size: .8rem;
+  padding-top: 6px;
+  font-weight:700;
 }
 
 .table-cru {
@@ -815,10 +842,10 @@ table#ccd > tbody td:nth-child(3) {
 }
 
 .table > tbody > tr:hover,
-.table-sort > tbody > tr:hover,
 .table-border > tbody > tr:hover,
 .table-border.striped > tbody > tr:hover {
-  background:$stripe-hov !important;
+  background:$deepsea !important;
+  color:$stripe-hov;
 }
 
 .table > tbody tr:nth-child(even), 
@@ -834,8 +861,6 @@ table#ccd > tbody td:nth-child(3) {
   background:$gray-300;
   width:100%;
   padding:0;
-  border-top:1px dotted $red;
-   border-bottom: 1px $gray-800; 
 }
 
 .tab-content {
@@ -904,18 +929,22 @@ table#ccd > tbody td:nth-child(3) {
   float:left;
 }
 
-.left {
-  text-align: left;
+.left, .l {
+  text-align: left !important;
   white-space: nowrap;
 }
 
-.right {
-  text-align: right;
+.right, .r {
+  text-align: right !important;
   white-space: nowrap;
 }
 
 .va-b {
   vertical-align: bottom;
+}
+
+.mt15 {
+  margin-top:15px;
 }
 
 .mt20 {
@@ -983,6 +1012,10 @@ table#ccd > tbody td:nth-child(3) {
 
 .pt10 {
   padding-top:10px;
+}
+
+.pt20 {
+  padding-top:20px;
 }
 
 .pt25 {
@@ -1087,7 +1120,7 @@ table#ccd > tbody td:nth-child(3) {
   right: 30px;
   top:0;
   background-color:transparent;
-  background-image:url("/dist/img/left-slideout-bg.jpg");
+  background-image:url("/dist/img/left-slideout-bg.png");
   background-size:cover;
   height:34px;
   width: 274px !important;

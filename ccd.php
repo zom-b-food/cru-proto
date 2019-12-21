@@ -23,22 +23,17 @@
 					<div class="row header">
 						<?php include '_header.php'; ?>
 						<div class="report-wrapper">
-
-							<h1>Comprehensive Claim Dump<div class="print-nav">
+							<div class="h1">Comprehensive Claim Dump<div class="print-nav">
 									<ul>
 										<li>
-											<small><a href="#">Print&nbsp;
-													<i class="fas fa-print"></i></span></a>
-											</small>
-											<ul>
-												<li><a href="#">.PDF</a></li>
-												<li><a href="#">.CSV</a></li>
-												<li><a href="#">.TXT</a></li>
-											</ul>
+											<small>
+												<a href="#" data-toggle="modal"
+													data-target="#print">Print&nbsp;<i
+														class="fas fa-print"></i></a></small>
 										</li>
 									</ul>
 								</div>
-							</h1>
+							</div>
 							<hr />
 							<div class="col-md-12">
 								<div class="row">
@@ -94,7 +89,7 @@
 									<div class="col-2">&nbsp;</div>
 								</div>
 								<div class="row">
-									<div class="col-2 label">ADDR2:</div>
+									<div class="col-2 label">Addr2:</div>
 									<div class="col-2">&nbsp;</div>
 									<div class="col-2 label">&nbsp;</div>
 									<div class="col-2">&nbsp;</div>
@@ -120,8 +115,7 @@
 								<hr />
 								<div class="row">
 									<div class="col-2 label">Type Service:</div>
-									<div class="col-2"><span class="strong allcaps">outpatient</span>
-									</div>
+									<div class="col-2">OUTPATIENT</div>
 									<div class="col-2 label">Type of Bill:</div>
 									<div class="col-2">&nbsp;</div>
 									<div class="col-2 label">PCN/PAN:</div>
@@ -131,13 +125,13 @@
 									<div class="col-2 label">DOS:</div>
 									<div class="col-2">mm/dd/yyyy</div>
 									<div class="col-2 label">Pay Provider:</div>
-									<div class="col-2"><span class="allcaps">yes</span></div>
+									<div class="col-2">YES</div>
 									<div class="col-2 label">MCCR Review:</div>
-									<div class="col-2"><span class="allcaps">no</span></div>
+									<div class="col-2">NO</div>
 								</div>
 								<div class="row">
 									<div class="col-2 label">POS:</div>
-									<div class="col-2"><span class="allcaps">doctor's office</span></div>
+									<div class="col-2">DOCTOR'S OFFICE</div>
 									<div class="col-2 label">&nbsp;</div>
 									<div class="col-2">&nbsp;</div>
 									<div class="col-2 label">&nbsp;</div>
@@ -145,7 +139,7 @@
 								</div>
 								<div class="row">
 									<div class="col-2 label">OHI Type:</div>
-									<div class="col-2"><span class="allcaps">no ohi</span></div>
+									<div class="col-2">NO OHI</span></div>
 									<div class="col-2 label">OHI Begin:</div>
 									<div class="col-2">1/1/1998</div>
 									<div class="col-2 label">OHI End:</div>
@@ -153,7 +147,7 @@
 								</div>
 								<div class="row">
 									<div class="col-2 label">OHI Name:</div>
-									<div class="col-2"><span class="allcaps">no ohi</span></div>
+									<div class="col-2">NO OHI</div>
 									<div class="col-2 label">OHI Paymt:</div>
 									<div class="col-2">0.00</div>
 									<div class="col-2 label">Bene Paymt:</div>
@@ -178,7 +172,7 @@
 								</div>
 								<div class="row">
 									<div class="col-2 label">Phone:</div>
-									<div class="col-2">xxxxxxxxxx</div>
+									<div class="col-2">nnn-nnn-nnnn</div>
 									<div class="col-2 label">Phone:</div>
 									<div class="col-2">&nbsp;</div>
 									<div class="col-2 label">&nbsp;</div>
@@ -211,18 +205,19 @@
 								<div class="row">
 									<div class="col-2 label">State:</div>
 									<div class="col-2">xx</div>
+									<div class="col-1 label">Zip:</div>
+									<div class="col-1">nnnnn</div>
+									<div class="col-1 label">State:</div>
+									<div class="col-1">xx</div>
 									<div class="col-2 label">Zip:</div>
-									<div class="col-2">xxxxx</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
+									<div class="col-2">nnnnn</div>
 								</div>
 							</div>
-
 							<hr />
 							<table class="table-border striped">
 								<thead>
 									<tr>
-										<th scope="col" style="width:10%;">REV</th>
+										<th scope="col" style="width:10%;">Rev</th>
 										<th scope="col" style="width:20%;">DX/PX/NDC-Mod</th>
 										<th scope="col" style="width:60%;">Description</th>
 										<th scope="col" style="width:10%;">CS/D Waived</th>
@@ -303,7 +298,7 @@
 										<th scope="col">Pr-OHI-PD</th>
 										<th scope="col">Pr-OHI-PR</th>
 										<th scope="col">Addl OHI-PD</th>
-										<th scope="col">OHI PR Bal</th>
+										<th scope="col">OHI-PR Bal</th>
 										<th scope="col">Waived</th>
 									</tr>
 								</thead>
@@ -430,31 +425,31 @@
 										<td></td>
 									</tr>
 									<tr class="totals-first">
-										<th scope="col">&nbsp;</th>
-										<th scope="col">&nbsp;</th>
-										<th scope="col">&nbsp;</th>
-										<th scope="col">&nbsp;</th>
-										<th scope="col">&nbsp;</th>
-										<th scope="col">&nbsp;</th>
-										<th scope="col">&nbsp;</th>
-										<th scope="col">&nbsp;</th>
-										<th scope="col">&nbsp;</th>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">&nbsp;</td>
 									</tr>
 									<tr class="totals-second">
-										<th scope="col"></th>
-										<th scope="col"></th>
-										<th scope="col"></th>
-										<th scope="col"></th>
-										<th scope="col"></th>
-										<th scope="col">288.00</th>
-										<th scope="col">27.18</th>
-										<th scope="col"></th>
-										<th scope="col"></th>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">288.00</td>
+										<td class="fauxth">27.18</td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth">&nbsp;</td>
 									</tr>
 								</tbody>
 							</table>
-
-							<p class="mt20">( 356) - REMINDER - MAIL CLAIMS TO: CHAMPVA, PO Box 469064, DENVER,
+							<p class="mt20">Claim Reasons:<br />( 356) - REMINDER - MAIL CLAIMS TO: CHAMPVA, PO
+								Box 469064, DENVER,
 								CO 80246-90
 								<br />( 371) - WHEN RESUBMITTING CLAIMS YOU MUST ATTACH THE CHAMPVA EOB FOR
 								PROPER PR
@@ -463,7 +458,6 @@
 								<br />( 322) - COST SHARE FOR CLAIM MAY NOT ALWAYS BE PATIENT LIABILITY: OHI /
 								CAT CA
 							</p>
-
 							<p>Line-Item Reasons:<br />
 								(27 ) - NOT A COVERED SERVICE AND/OR BENEFIT FOR DIAGNOSIS LISTED.</p>
 							<p>Paymt Method: OPT</p>
@@ -474,22 +468,19 @@
 								<tbody>
 									<tr>
 										<td class="label setwidth-25">Total Charges Billed:</td>
-										<td class="setwidth-5">288.00</td>
+										<td class="setwidth-5">233.00</td>
 										<td class="setwidth-1 red"></td>
 										<td class="label setwidth-25">CITI Maximum Reimbursement Rate:</td>
 										<td class="setwidth-5">N/A</td>
-										<td class="label setwidth-25">CHAMPVA Beneficiary Deductible 2009:
-										</td>
-										<td class="setwidth-5">50.00</td>
+										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
 										<td class="label setwidth-25">Calculated Allowable Amount:</td>
-										<td class="setwidth-5">27.18</td>
+										<td class="setwidth-5">99.36</td>
 										<td class="setwidth-1 red"></td>
 										<td class="label setwidth-25">MEDICAID Amount:</td>
 										<td class="setwidth-5">N/A</td>
-										<td class="label setwidth-25">CHAMPVA Family Deductible 2009:</td>
-										<td class="setwidth-5">50.00</td>
+										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
 										<td class="label setwidth-25">Amount Applied to Deductible:</td>
@@ -497,24 +488,23 @@
 										<td class="setwidth-1 red"></td>
 										<td class="label setwidth-25">Amount Paid by TPL:</td>
 										<td class="setwidth-5">N/A</td>
-										<td class="label setwidth-26">CHAMPVA Family Catastrophic Cap 2009:
-										</td>
-										<td class="setwidth-5">179.35</td>
+										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
-										<td class="label setwidth-25">Cost Share Credited to Cat. Cap:</td>
-										<td class="setwidth-5">0.00 </td>
-										<td class="setwidth-1 red"> W</td>
+										<td class="label setwidth-25">Cost Share Credited to Cat Cap:</td>
+										<td class="setwidth-1">0.00 </td>
+										<td class="setwidth-1 red left"> W</td>
 										<td class="label setwidth-25">Amount Reversed from Deductible:</td>
 										<td class="setwidth-5">N/A</td>
+										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
-										<td class="label setwidth-25">Amount Paid by Other Health Insurance:
-										</td>
+										<td class="label setwidth-25">Amount Paid by Other Insurance(s):</td>
+										<td class="setwidth-5">N/A </td>
+										<td class="setwidth-1 red"> </td>
+										<td class="label setwidth-25">Amount Reversed from Cat Cap:</td>
 										<td class="setwidth-5">N/A</td>
-										<td class="setwidth-1 red"></td>
-										<td class="label setwidth-25">Amount Reversed from Cat. Cap:</td>
-										<td class="setwidth-5">N/A</td>
+										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
 										<td class="label setwidth-25">Patient Responsibility Amount:</td>
@@ -523,21 +513,29 @@
 										<td class="label setwidth-25">Amount Reduced from Previous Payment:
 										</td>
 										<td class="setwidth-5">N/A</td>
+										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
-										<td class="label setwidth-25">Amount Paid by Beneficiary by Vendor:
+										<td class="label setwidth-25">Amount Paid by Beneficiary to Vendor:
 										</td>
 										<td class="setwidth-5">0.00</td>
 										<td class="setwidth-1 red"></td>
 										<td class="label setwidth-25">Last PDI Payment Difference:</td>
 										<td class="setwidth-5">0.00</td>
+										<td class="setwidth-5">&nbsp;</td>
+									</tr>
+									<tr>
+										<td colspan="6">&nbsp;</td>
+
 									</tr>
 									<tr>
 										<td class="label setwidth-25">Total Amount to be PAID on claim:</td>
-										<td class="setwidth-5">20.38</td>
+										<td class="setwidth-5">99.36</td>
 										<td class="setwidth-1 red"></td>
-										<td class="label setwidth-25"></td>
-										<td class="setwidth-5"></td>
+										<td class="label setwidth-25">Total Payment for Current PDI#
+											201913691113664:</td>
+										<td class="setwidth-5">99.36</td>
+										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
 										<td class="label setwidth-25">Amount PAID to Vendor:</td>
@@ -546,12 +544,33 @@
 									</tr>
 									<tr>
 										<td class="label setwidth-25">Amount PAID to Beneficiary:</td>
-										<td class="setwidth-5">0.00</td>
+										<td class="setwidth-5">99.36</td>
 										<td class="setwidth-1 red"></td>
+									</tr>
+									<tr>
+										<td colspan="6">&nbsp;</td>
+
+									</tr>
+									<tr>
+										<td class="label setwidth-25">CHAMPVA Beneficiary Deductible 2009:
+										</td>
+										<td class="setwidth-5">0.00</td>
+										<td class="setwidth-10">
+										</td>
+									</tr>
+									<tr>
+										<td class="label setwidth-25">CHAMPVA Family Deductible 2009:</td>
+										<td class="setwidth-5">0.00</td>
+									</tr>
+									<tr>
+										<td class="label setwidth-26">CHAMPVA Family Catastrophic Cap 2009:
+										</td>
+										<td class="setwidth-5">0.00</td>
 									</tr>
 								</tbody>
 							</table>
-							<hr />
+							<hr class="cru-rule" />
+
 							<h3>Payment History</h3>
 							<table class="table-border striped">
 								<thead>
@@ -571,7 +590,6 @@
 										<td>20.38</td>
 										<td>(Vendor)</td>
 									</tr>
-
 								</tbody>
 							</table>
 							<hr />
@@ -678,7 +696,6 @@
 									<div class="col-1"></div>
 									<div class="col-2 label r">SSN:</div>
 									<div class="col-2">nnn-nn-nnnn</div>
-
 								</div>
 								<div class="row">
 									<div class="col-2 label r">DOB:</div>
@@ -719,7 +736,6 @@
 									<div class="col-1">nnnnn</div>
 									<div class="col-2 label r"></div>
 									<div class="col-2"></div>
-
 								</div>
 								<hr />
 								<div class="row">
@@ -773,14 +789,13 @@
 								</div>
 								<div class="row">
 									<div class="col-2 label r">State:</div>
-									<div class="col-1">xx</div>
+									<div class="col-2">xx</div>
 									<div class="col-1 label r">Zip:</div>
 									<div class="col-1">nnnnn</div>
 									<div class="col-1 label r">State:</div>
 									<div class="col-1">xx</div>
-									<div class="col-1 label r">Zip:</div>
-									<div class="col-2">xx</div>
-
+									<div class="col-2 label r">Zip:</div>
+									<div class="col-2">nnnnn</div>
 								</div>
 							</div>
 							<hr />
@@ -851,11 +866,11 @@
 										<th scope="col" class="setwidth-10">REV</th>
 										<th scope="col" class="setwidth-12">DX/PX/NDC-Mod</th>
 										<th scope="col" class="setwidth-5">UNT</th>
-										<th scope="col" class="setwidth-10 right">CHG/UNT</th>
-										<th scope="col" class="setwidth-10 right"">A/A UNT</th>
-										<th scope=" col" class="setwidth-10 right">TOTAL CHG</th>
-										<th scope="col" class="setwidth-10 right"">TOTAL A/A</th>
-										<th scope=" col" class="setwidth-13 center">TEST</th>
+										<th scope="col" class="setwidth-10">CHG/UNT</th>
+										<th scope="col" class="setwidth-10">A/A UNT</th>
+										<th scope="col" class="setwidth-10">TOTAL CHG</th>
+										<th scope="col" class="setwidth-10">TOTAL A/A</th>
+										<th scope="col" class="setwidth-13">TEST</th>
 										<th scope="col" class="setwidth-10">RMKS</th>
 										<th scope="col" class="setwidth-10">CS/D Waived</th>
 									</tr>
@@ -866,10 +881,10 @@
 										<td>V70.0</td>
 										<td></td>
 										<td class="right"></td>
+										<td></td>
 										<td class="right"></td>
-										<td class="right"></td>
-										<td class="right"></td>
-										<td class="center"></td>
+										<td></td>
+										<td> </td>
 										<td>und</td>
 										<td></td>
 									</tr>
@@ -878,10 +893,10 @@
 										<td>272.4</td>
 										<td></td>
 										<td class="right"></td>
+										<td></td>
 										<td class="right"></td>
-										<td class="right"></td>
-										<td class="right"></td>
-										<td class="center">und</td>
+										<td></td>
+										<td>und</td>
 										<td></td>
 										<td>Y</td>
 									</tr>
@@ -890,10 +905,10 @@
 										<td>244.9</td>
 										<td></td>
 										<td class="right"></td>
+										<td></td>
 										<td class="right"></td>
-										<td class="right"></td>
-										<td class="right"></td>
-										<td class="center"></td>
+										<td></td>
+										<td></td>
 										<td></td>
 										<td></td>
 									</tr>
@@ -902,10 +917,10 @@
 										<td>733.00</td>
 										<td></td>
 										<td class="right"></td>
+										<td></td>
 										<td class="right"></td>
-										<td class="right"></td>
-										<td class="right"></td>
-										<td class="center">und</td>
+										<td></td>
+										<td>und</td>
 										<td></td>
 										<td></td>
 									</tr>
@@ -914,10 +929,10 @@
 										<td>36415</td>
 										<td>1</td>
 										<td class="right">8.00</td>
-										<td class="right">und</td>
+										<td>und</td>
 										<td class="right">8.00</td>
-										<td class="right">und</td>
-										<td class="center">und</td>
+										<td>und</td>
+										<td>und</td>
 										<td></td>
 										<td></td>
 									</tr>
@@ -926,10 +941,10 @@
 										<td>81000</td>
 										<td>1</td>
 										<td class="right">15.00</td>
-										<td class="right">und</td>
+										<td>und</td>
 										<td class="right">15.00</td>
-										<td class="right">und</td>
-										<td class="center">und</td>
+										<td>und</td>
+										<td>und</td>
 										<td></td>
 										<td></td>
 									</tr>
@@ -938,10 +953,10 @@
 										<td>93000</td>
 										<td>1</td>
 										<td class="right">65.00</td>
-										<td class="right">und</td>
+										<td>und</td>
 										<td class="right">65.00</td>
-										<td class="right">und</td>
-										<td class="center">und</td>
+										<td>und</td>
+										<td>und</td>
 										<td></td>
 										<td>Y</td>
 									</tr>
@@ -950,24 +965,24 @@
 										<td>99396</td>
 										<td>1</td>
 										<td class="right">200.00</td>
-										<td class="right">und</td>
+										<td>und</td>
 										<td class="right">200.00</td>
-										<td class="right">und</td>
-										<td class="center">und</td>
+										<td>und</td>
+										<td>und</td>
 										<td></td>
 										<td></td>
 									</tr>
 									<tr class="totals">
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td style="border-bottom:1px dashed #666666;">&nbsp;</td>
-										<td style="border-top:1px dashed black;" class="right">288.00</td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
+										<td class="fauxth"></td>
+										<td class="fauxth"></td>
+										<td class="fauxth"></td>
+										<td class="fauxth"></td>
+										<td class="fauxth">&nbsp;</td>
+										<td class="fauxth r">288.00</td>
+										<td class="fauxth"></td>
+										<td class="fauxth"></td>
+										<td class="fauxth"></td>
+										<td class="fauxth"></td>
 									</tr>
 								</tbody>
 							</table>
@@ -985,6 +1000,7 @@
 			</div>
 		</div>
 	</main>
+	<?php include '_printbutton.php'; ?>
 	<?php include '_globals-bottom.php'; ?>
 </body>
 
