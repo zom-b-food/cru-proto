@@ -12,14 +12,14 @@
 
 <body>
 	<main role="main">
-		<div class="col-md-12">
+		<div class="col-12">
 			<div class="row">
-				<div class="col-md-3 pt25">
+				<div class="col-3 pt25">
 					<div class="fauxnav">
 						<?php include '_sidebar.php'; ?>
 					</div>
 				</div>
-				<div class="col-md-9">
+				<div class="col-9">
 					<div class="row header">
 						<?php include '_header.php'; ?>
 						<div class="report-wrapper">
@@ -35,7 +35,7 @@
 								</div>
 							</div>
 							<hr />
-							<div class="col-md-12">
+							<div class="col-12">
 								<div class="row">
 									<div class="col-2 label r">PDI-DOC:</div>
 									<div class="col-2">209nnnnnnnnnnn-</div>
@@ -988,18 +988,17 @@
 							</table>
 							<hr />
 							<h3>Bene Comments</h3>
-							<div class="col-md-12">
+							<div class="col-12">
 								<div class="row">und</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<?php include '_footer.php'; ?>
-			</div>
+			<?php include '_footer.php'; ?>
 		</div>
 	</main>
+
 	<?php include '_printbutton.php'; ?>
 	<?php include '_globals-bottom.php'; ?>
 </body>

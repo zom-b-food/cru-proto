@@ -12,14 +12,14 @@
 
 <body>
 	<main role="main">
-		<div class="col-md-12">
+		<div class="col-12">
 			<div class="row">
-				<div class="col-md-3 pt25">
+				<div class="col-3 pt25">
 					<div class="fauxnav">
 						<?php include '_sidebar.php'; ?>
 					</div>
 				</div>
-				<div class="col-md-9">
+				<div class="col-9">
 					<div class="row header">
 						<?php include '_header.php'; ?>
 						<div class="report-wrapper">
@@ -57,8 +57,8 @@
 							</div>
 							<hr class="cru-rule">
 							<div class="row">
-								<div class="col-md-1"><label>Beneficiary Name:</label></div>
-								<div class="col-md-11 pl35">Lastname, First</div>
+								<div class="col-1"><label>Beneficiary Name:</label></div>
+								<div class="col-11 pl35">Lastname, First</div>
 							</div>
 							<div class="row">
 								<table class="table-border striped">
@@ -273,6 +273,19 @@
 											<td></td>
 											<td>N</td>
 										</tr>
+										<tr class="totals-first">
+											<td class="fauxth"></td>
+											<td class="fauxth">&nbsp;</td>
+											<td class="fauxth"></td>
+											<td class="fauxth r">1958.05</td>
+											<td class="fauxth r">1625.72</td>
+											<td class="fauxth r">983.91</td>
+											<td class="fauxth r">140.67</td>
+											<td class="fauxth">&nbsp;</td>
+											<td class="fauxth r">17.21</td>
+											<td class="fauxth"></td>
+											<td class="fauxth">&nbsp;</td>
+										</tr>
 									</tbody>
 								</table>
 							</div>
@@ -280,11 +293,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<?php include '_footer.php'; ?>
-			</div>
+			<?php include '_footer.php'; ?>							
 		</div>
 	</main>
+	
 	<?php include '_printbutton.php'; ?>
 	<?php include '_globals-bottom.php'; ?>
 </body>

@@ -12,14 +12,14 @@
 
 <body>
 	<main role="main">
-		<div class="col-md-12">
+		<div class="col-12">
 			<div class="row">
-				<div class="col-md-3 pt25">
+				<div class="col-3 pt25">
 					<div class="fauxnav">
 						<?php include '_sidebar.php'; ?>
 					</div>
 				</div>
-				<div class="col-md-9">
+				<div class="col-9">
 					<div class="row header">
 						<?php include '_header.php'; ?>
 						<div class="report-wrapper">
@@ -43,11 +43,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<?php include '_footer.php'; ?>
-			</div>
+			<?php include '_footer.php'; ?>
 		</div>
 	</main>
+
 	<?php include '_printbutton.php'; ?>
 	<?php include '_globals-bottom.php'; ?>
 </body>

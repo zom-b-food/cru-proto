@@ -17,18 +17,20 @@
 
 <body>
 	<main role="main">
-		<div class="col-md-12">
+		<div class="col-12">
 			<div class="row">
-				<div class="col-md-3 pt25">
+				<div class="col-3 pt25">
 					<div class="fauxnav">
 						<h6><i class="fas fa-star" style="float:left;"></i>CP&amp;E / CRU Home</h6>
 					</div>
 				</div>
-				<div class="col-md-9">
+				<div class="col-9">
 					<div class="header">
 						<div class="row">
-							<img width="100%" height="208px" alt="Cru Banner"
-								src="/dist/img/cru-banner.jpg">
+							<img width="100%" height="208px"
+	alt="Claims Processing and Eligibility - CHAMPVA Regulatory Updates - CRU - VA|U.S. Department of Veterans Affairs"
+	title="Claims Processing and Eligibility - CHAMPVA Regulatory Updates - CRU - VA|U.S. Department of Veterans Affairs"
+	src="/dist/img/cru-banner.jpg">
 							<nav class="drop-nav">
 								<ul>
 									<li>
@@ -39,7 +41,6 @@
 											<li><a href="#">Home Health Care</a></li>
 											<li><a href="#">Skilled Nursing Facility</a></li>
 											<li><a href="#">Sole Community Hospital</a></li>
-
 										</ul>
 									</li>
 									<li>
@@ -77,205 +78,12 @@
 								<div id="tabsContent" class="tab-content">
 									<br />
 									<div id="ip" class="tab-pane fade active show">
-										<div class="col-md-12">
+										<div class="col-12">
 											<h1>Initial
 												Processing&nbsp;<small>|&nbsp;Please select a report from
 													the dropdown.</small></h1>
 											<hr />
-											<div class="col-md-4">
-												<div class="form-group"><label for="first">Please select a
-														report:</label>
-													<select id="first" class="form-control">
-														<option>Choose Report</option>
-														<option value="claimdump">Claim Dump</option>
-														<option value="ccd">Comprehensive Claim Dump
-														</option>
-														<option value="fcc">Family Cat Cap Accruals
-														</option>
-														<option value="ppr">Post Processing Report
-														</option>
-														<option value="waiver">Waiver Accumulator Report
-														</option>
-													</select>
-												</div>
-											</div>
-											<div class="claimdump card">
-												<div class="col-md-6">
-													<div class="row">
-														<div class="form-group">
-															<label for="cn1">Claim #:</label><input
-																class="form-control" type="text"
-																name="cn1" id="cn1"
-																placeholder="Enter Claim Number">
-														</div>
-													</div>
-													<div class="row">
-														<a href="claimdump.php" role="button"
-															class="btn btn-run mr10" id="claimdump">
-															Run
-														</a>&nbsp;<button type="button"
-															class="btn btn-cancel mr10">Reset</button>
-													</div>
-												</div>
-											</div>
-											<div class="ccd card">
-												<div class="col-md-6">
-													<div class="row">
-														<div class="form-group">
-															<label for="cn2">Claim #:</label><input
-																class="form-control" type="text"
-																name="cn2" id="cn2"
-																placeholder="Enter Claim Number">
-														</div>
-													</div>
-													<div class="row">
-														<a href="ccd.php" role="button"
-															class="btn btn-run mr10"
-															id="ccd">Run</a>&nbsp;<button type="button"
-															class="btn btn-cancel mr10">Reset</button>
-													</div>
-												</div>
-											</div>
-											<div class="ppr card">
-												<div class="col-md-6">
-													<div class="row">
-														<div class="form-group">
-															<label for="cn3">Claim #:</label><input
-																class="form-control" type="text"
-																name="cn3" id="cn3"
-																placeholder="Enter Claim Number">
-														</div>
-													</div>
-													<div class="row">
-														<a href="post-processing-report.php" role="button"
-															class="btn btn-run mr10"
-															id="post-processing-report">Run</a>&nbsp;<button
-															type="button"
-															class="btn btn-cancel mr10">Reset</button>
-													</div>
-												</div>
-											</div>
-											<div class="fcc card">
-												<div class="col-md-12">
-													<div class="row">
-														<div class="form-group">
-															<h2>Beneficiary Lookup:</h2>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-md-5">
-															<div class="form-group">
-																<label for="beneln">Beneficiary Last
-																	Name&nbsp;<span class="required">*
-																		Required if No
-																		SSN</span></label>&nbsp;<input
-																	class="form-control" type="text"
-																	name="beneln" id="beneln"
-																	placeholder="Enter Last Name">
-															</div>
-														</div>
-														<div class="col-md-5">
-															<div class="form-group">
-																<label for="benessn">SSN&nbsp;<span
-																		class="required">*
-																		Required if No
-																		Name</span></label>&nbsp;<input
-																	class="form-control" type="text"
-																	name="benessn" id="benessn"
-																	placeholder="Enter Social Security Number">
-															</div>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-md-5">
-															<div class="form-group">
-																<label for="benefn">Beneficiary First
-																	Name&nbsp;<span class="required">*
-																		Required if No
-																		SSN</span></label>&nbsp;<input
-																	class="form-control" type="text"
-																	name="benefn" id="benefn"
-																	placeholder="Enter First Name">
-															</div>
-														</div>
-														<div class="col-md-5">
-															<div class="form-group">
-																<label for="beneid">ID
-																	Number</label>&nbsp;<input
-																	class="form-control" type="text"
-																	name="beneid" id="beneid"
-																	placeholder="Enter ID Number">
-															</div>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-md-5">
-															<div class="form-group">
-																<label for="benemn">Middle Name or
-																	Initial</label>&nbsp;<input
-																	class="form-control" type="text"
-																	name="benemn" id="benemn"
-																	placeholder="Enter Middle Name or Initial">
-															</div>
-														</div>
-														<div class="col-md-5">
-															<div class="form-group">
-																<label
-																	for="beneyear">Year</label>&nbsp;<input
-																	class="form-control" type="text"
-																	name="beneyear" id="beneyear"
-																	placeholder="Enter Year">
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="col-md-12">
-													<div class="row">
-														<div class="col-md-4">
-															<a href="family-cat-cap-accruals.php"
-																role="button" class="btn btn-run mr10"
-																id="fcca">Run</a>&nbsp;<button
-																type="button"
-																class="btn btn-cancel mr10">Reset</button>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="waiver card">
-												<div class="col-md-6">
-													<div class="row">
-														<div class="form-group">
-															<label for="datefrom">Date Range
-																From:</label>&nbsp;<input type="text"
-																class="daterange" name="datefrom"
-																id="datefrom"
-																placeholder="Date Range From"><br /><br /><label>Date
-																Range
-																To:</label for="dateto">&nbsp;<input
-																type="text" class="daterange"
-																name="dateto" id="dateto"
-																placeholder="Date Range To">
-														</div>
-													</div>
-													<div class="row">
-														<div class="form-group">
-															<label for="ohiinfo">Include OHI Information?
-															</label>&nbsp;<input type="radio"
-																name="ohiinfo" id="ohiinfo"
-																value="y">&nbsp;Yes&nbsp;|&nbsp;
-															<input type="radio" name="ohiinfo"
-																id="ohiinfo" value="n">&nbsp;No
-														</div>
-													</div>
-													<div class="row">
-														<a href="waiver.php" role="button"
-															class="btn btn-run mr10"
-															id="waiver">Run</a>&nbsp;<button
-															type="button"
-															class="btn btn-cancel mr10">Reset</button>
-													</div>
-												</div>
-											</div>
+											<?php include '_report-dropdown.php'; ?>
 										</div>
 										<p>&nbsp;</p>
 										<p>&nbsp;</p>
@@ -288,89 +96,95 @@
 											<h3>Search for Mental Health Beneficiaries&nbsp;|&nbsp;Either
 												first or last name, or SSN are required.</h3>
 											<hr />
-											<div class="col-md-12">
+											<div class="col-12">
 												<div class="row">
 													<div class="form-group">
 														<h2>Beneficiary Lookup:</h2>
 													</div>
 												</div>
-												<div class="row">
-													<div class="col-md-5">
-														<div class="form-group">
-															<label for="beneln">Beneficiary Last
-																Name&nbsp;<span class="required">*
-																	Required if No
-																	SSN</span></label>&nbsp;<input
-																class="form-control" type="text"
-																name="beneln" id="beneln"
-																placeholder="Enter Last Name">
+												<form action="family-cat-cap-accruals.php">
+													<div class="row">
+														<div class="col-5">
+															<div class="form-group">
+																<label for="beneln">Beneficiary Last
+																	Name&nbsp;<span class="required">*
+																		Required
+																		if No
+																		SSN</span></label>&nbsp;<input
+																	class="form-control" type="text"
+																	name="beneln" id="beneln"
+																	placeholder="Enter Last Name">
+															</div>
+														</div>
+														<div class="col-5">
+															<div class="form-group">
+																<label for="benessn">SSN&nbsp;<span
+																		class="required">*
+																		Required if No
+																		Name</span></label>&nbsp;<input
+																	class="form-control" type="text"
+																	name="benessn" id="benessn"
+																	placeholder="Enter Social Security Number">
+															</div>
 														</div>
 													</div>
-													<div class="col-md-5">
-														<div class="form-group">
-															<label for="benessn">SSN&nbsp;<span
-																	class="required">*
-																	Required if No
-																	Name</span></label>&nbsp;<input
-																class="form-control" type="text"
-																name="benessn" id="benessn"
-																placeholder="Enter Social Security Number">
+													<div class="row">
+														<div class="col-5">
+															<div class="form-group">
+																<label for="benefn">Beneficiary First
+																	Name&nbsp;<span class="required">*
+																		Required
+																		if No
+																		SSN</span></label>&nbsp;<input
+																	class="form-control" type="text"
+																	name="benefn" id="benefn"
+																	placeholder="Enter First Name">
+															</div>
+														</div>
+														<div class="col-5">
+															<div class="form-group">
+																<label for="beneid">ID
+																	Number</label>&nbsp;<input
+																	class="form-control" type="text"
+																	name="beneid" id="beneid"
+																	placeholder="Enter ID Number">
+															</div>
 														</div>
 													</div>
-												</div>
-												<div class="row">
-													<div class="col-md-5">
-														<div class="form-group">
-															<label for="benefn">Beneficiary First
-																Name&nbsp;<span class="required">*
-																	Required if No
-																	SSN</span></label>&nbsp;<input
-																class="form-control" type="text"
-																name="benefn" id="benefn"
-																placeholder="Enter First Name">
+													<div class="row">
+														<div class="col-5">
+															<div class="form-group">
+																<label for="benemn">Middle Name or
+																	Initial</label>&nbsp;<input
+																	class="form-control" type="text"
+																	name="benemn" id="benemn"
+																	placeholder="Enter Middle Name or Initial">
+															</div>
+														</div>
+														<div class="col-5">
+															<div class="form-group">
+																<label
+																	for="beneyear">Year</label>&nbsp;<input
+																	class="form-control" type="text"
+																	name="beneyear" id="beneyear"
+																	placeholder="Enter Year">
+															</div>
 														</div>
 													</div>
-													<div class="col-md-5">
-														<div class="form-group">
-															<label for="beneid">ID
-																Number</label>&nbsp;<input
-																class="form-control" type="text"
-																name="beneid" id="beneid"
-																placeholder="Enter ID Number">
+													<div class="row">
+														<div class="col-5">
+															<div class="form-group">
+																<input type="submit" value="Run"
+																	class="btn btn-run mr10">
+
+																&nbsp;<input type="reset" value="Reset"
+																	class="btn btn-cancel mr10">
+															</div>
 														</div>
 													</div>
-												</div>
-												<div class="row">
-													<div class="col-md-5">
-														<div class="form-group">
-															<label for="benemn">Middle Name or
-																Initial</label>&nbsp;<input
-																class="form-control" type="text"
-																name="benemn" id="benemn"
-																placeholder="Enter Middle Name or Initial">
-														</div>
-													</div>
-													<div class="col-md-5">
-														<div class="form-group">
-															<label
-																for="beneyear">Year</label>&nbsp;<input
-																class="form-control" type="text"
-																name="beneyear" id="beneyear"
-																placeholder="Enter Year">
-														</div>
-													</div>
-												</div>
+												</form>
 											</div>
-											<div class="col-md-12">
-												<div class="row">
-													<div class="col-md-4">
-														<a href="family-cat-cap-accruals.php"
-															role="button" class="btn btn-run mr10"
-															id="fcca">Run</a>&nbsp;<button type="button"
-															class="btn btn-cancel mr10">Reset</button>
-													</div>
-												</div>
-											</div>
+
 											<p>&nbsp;</p>
 											<p>&nbsp;</p>
 											<p>&nbsp;</p>
@@ -381,7 +195,7 @@
 											<br>
 											<h1>Future Feature</h1>
 											<br>
-											<div class="col-md-4">
+											<div class="col-4">
 
 											</div>
 											<p>&nbsp;</p>
@@ -393,18 +207,12 @@
 							</div>
 						</div>
 					</div>
-					<br class="clear" />
-					<div class="row">
-
-					</div>
-
 				</div>
 			</div>
-			<div class="row">
-				<?php include '_footer.php'; ?>
-			</div>
+			<?php include '_footer.php'; ?>
 		</div>
 	</main>
+
 	<?php include '_globals-bottom.php'; ?>
 	<script>
 	$(document).ready(function() {
