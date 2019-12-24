@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="cache-control" content="no-cache" />
 	<title>Post Processing Report - cru-prototype</title>
-	<?php include '_globals-top.php'; ?>
+	<?php include '../_globals-top.php'; ?>
 
 </head>
 
@@ -17,15 +17,15 @@
 			<div class="row">
 				<div class="col-3 pt25">
 					<div class="fauxnav">
-						<?php include 'components/_sidebar.php'; ?>
+						<?php include '../components/_sidebar.php'; ?>
 					</div>
 				</div>
 				<div class="col-9">
 					<div class="row header">
-						<?php include 'components/_header.php'; ?>
+						<?php include '../components/_header.php'; ?>
 						<div class="row mt15">
 							<small>
-								<a class="btn btn-back" role="button" href="dcs-landing-page.php"
+								<a class="btn btn-back" role="button" href="/dcs/dcs-landing-page.php"
 									tabindex=1>&nbsp;
 									<i class="fas fa-angle-left"></i>&nbsp;DCS Home
 								</a>
@@ -505,11 +505,11 @@
 					</div>
 				</div>
 			</div>
-			<?php include 'components/_footer.php'; ?>
+			<?php include '../components/_footer.php'; ?>
 		</div>
 	</main>
-	<?php include 'components/_printbutton.php'; ?>
-	<?php include '_globals-bottom.php'; ?>
+	<?php include '../components/_printbutton.php'; ?>
+	<?php include '../_globals-bottom.php'; ?>
 </body>
 
 </html>

@@ -12,7 +12,7 @@
 </div>
 <div class="claimdump card">
 	<div class="col-6">
-		<form action="claimdump.php">
+		<form action="/dcs/claimdump.php">
 			<div class="row">
 				<div class="form-group">
 					<label for="cn1">Claim #:</label><input class="form-control" type="text" name="cn1" id="cn1"
@@ -29,7 +29,7 @@
 </div>
 <div class="ccd card">
 	<div class="col-6">
-		<form action="ccd.php">
+		<form action="/dcs/ccd.php">
 			<div class="row">
 				<div class="form-group">
 					<label for="cn2">Claim #:</label><input class="form-control" type="text" name="cn2" id="cn2"
@@ -46,7 +46,7 @@
 </div>
 <div class="ppr card">
 	<div class="col-6">
-		<form action="post-processing-report.php">
+		<form action="/dcs/post-processing-report.php">
 			<div class="row">
 				<div class="form-group">
 					<label for="cn3">Claim #:</label><input class="form-control" type="text" name="cn3" id="cn3"
@@ -68,7 +68,7 @@
 				<h2>Beneficiary Lookup:</h2>
 			</div>
 		</div>
-		<form action="family-cat-cap-accruals.php">
+		<form action="/dcs/family-cat-cap-accruals.php">
 			<div class="row">
 				<div class="col-5">
 					<div class="form-group">
@@ -134,7 +134,7 @@
 </div>
 <div class="waiver card">
 	<div class="col-6">
-		<form action="waiver.php">
+		<form action="/dcs/waiver.php">
 			<div class="row">
 				<div class="form-group">
 					<label for="datefrom">Date Range

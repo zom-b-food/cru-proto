@@ -6,8 +6,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="cache-control" content="no-cache" />
-	<title>Landing Page - cru-prototype</title>
-	<?php include '_globals-top.php'; ?>
+	<title>Deductible Cost Share</title>
+	<?php include '../_globals-top.php'; ?>
 	<style type="text/css">
 	.card {
 		display: none;
@@ -21,7 +21,7 @@
 			<div class="row">
 				<div class="col-3 pt25">
 					<div class="fauxnav">
-						<?php include 'components/_sidebar.php'; ?>
+						<?php include '../components/_sidebar.php'; ?>
 					</div>
 				</div>
 				<div class="col-9">
@@ -34,17 +34,17 @@
 							<div class="report-wrapper">
 								<h1>Deductible / Cost Share Reporting</h1>
 								<hr />
-								<?php include 'components/_dcs-dropdown.php'; ?>
+								<?php include '../components/_dcs-dropdown.php'; ?>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<?php include 'components/_footer.php'; ?>
+			<?php include '../components/_footer.php'; ?>
 		</div>
 	</main>
 
-	<?php include '_globals-bottom.php'; ?>
+	<?php include '../_globals-bottom.php'; ?>
 	<script>
 	$(document).ready(function() {
 		$("#first").change(function() {

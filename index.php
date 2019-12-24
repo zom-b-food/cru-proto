@@ -37,10 +37,11 @@
 										<a href="#">CRU Reports</a>
 										<ul>
 											<li><a href="#">Critical Access Hospital</a></li>
-											<li><a href="dcs-landing-page.php">Deductible Cost Share</a></li>
+											<li><a href="dcs/dcs-landing-page.php">Deductible Cost Share</a></li>
 											<li><a href="#">Home Health Care</a></li>
 											<li><a href="#">Skilled Nursing Facility</a></li>
-											<li><a href="#">Sole Community Hospital</a></li>
+											<li><a href="sch/sch-landing-page.php">Sole Community Hospital</a>
+											</li>
 										</ul>
 									</li>
 									<li>
@@ -55,10 +56,11 @@
 										<a href="#">CRU BeneCalc Factors</a>
 										<ul>
 											<li><a href="#">Critical Access Hospital</a></li>
-											<li><a href="bc-landing-page.php">Deductible / Cost-Sharing</a>
+											<li><a href="bc/bc-landing-page.php">Deductible / Cost-Sharing</a>
 											</li>
 											<li><a href="#">Skilled Nursing Facilities</a></li>
-											<li><a href="#">Sole Community Hospital</a></li>
+											<li><a href="#">Sole Community Hospital</a>
+											</li>
 										</ul>
 									</li>
 								</ul>
@@ -104,7 +106,7 @@
 														<h2>Beneficiary Lookup:</h2>
 													</div>
 												</div>
-												<form action="family-cat-cap-accruals.php">
+												<form action="dcs/family-cat-cap-accruals.php">
 													<div class="row">
 														<div class="col-5">
 															<div class="form-group">
