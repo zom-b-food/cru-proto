@@ -461,7 +461,7 @@
 										<td class="label setwidth-25">Total Charges Billed:</td>
 										<td class="setwidth-5">288.00</td>
 										<td class="setwidth-1 red"></td>
-										<td class="label setwidth-25">CITI Maximum Reimbursement Rate:</td>
+										<td class="label setwidth-25">CITI Max Rate:</td>
 										<td class="setwidth-5">N/A</td>
 										<td class="setwidth-5">&nbsp;</td>
 									</tr>
@@ -477,7 +477,7 @@
 										<td class="label setwidth-25">Amount Applied to Deductible:</td>
 										<td class="setwidth-5">0.00 </td>
 										<td class="setwidth-1 red"></td>
-										<td class="label setwidth-25">Amount Paid by TPL:</td>
+										<td class="label setwidth-25">Amt Paid by TPL:</td>
 										<td class="setwidth-5">N/A</td>
 										<td class="setwidth-5">&nbsp;</td>
 									</tr>
@@ -485,37 +485,37 @@
 										<td class="label setwidth-25">Cost Share Credited to Cat Cap:</td>
 										<td class="setwidth-1">0.00 </td>
 										<td class="setwidth-1 red left"> W</td>
-										<td class="label setwidth-25">Amount Applied to Cat Cap:</td>
+										<td class="label setwidth-25">Amt Rev Deductible:</td>
 										<td class="setwidth-5">N/A</td>
 										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
-										<td class="label setwidth-25">Amount Paid by Other Insurance(s):</td>
+										<td class="label setwidth-25">Amount Applied to Cat Cap:</td>
 										<td class="setwidth-1">N/A </td>
 										<td class="setwidth-1 red left"></td>
-										<td class="label setwidth-25">Amount Reversed from Deductible:</td>
+										<td class="label setwidth-25">Amt Rev Cat Cap:</td>
 										<td class="setwidth-5">N/A</td>
 										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
-										<td class="label setwidth-25">Patient Responsibility Amount:</td>
+										<td class="label setwidth-25">Amout Paid by Other Insurance:</td>
 										<td class="setwidth-5">N/A</td>
 										<td class="setwidth-1 red"> </td>
-										<td class="label setwidth-25">Amount Reversed from Cat Cap:</td>
+										<td class="label setwidth-25">Amt Red Pre Paymnt:</td>
 										<td class="setwidth-5">N/A</td>
 										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
-										<td class="label setwidth-25">Amount Reduced from Previous Payment:
+										<td class="label setwidth-25">Patient Responsibility Amount:
 										</td>
 										<td class="setwidth-5">N/A</td>
 										<td class="setwidth-1 red"></td>
-										<td class="label setwidth-25">Last PDI Payment Difference:</td>
-										<td class="setwidth-5">0.00</td>
+										<td class="label setwidth-25"></td>
+										<td class="setwidth-5"></td>
 										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
-										<td class="label setwidth-25">Amount Paid by Beneficiary to Vendor:
+										<td class="label setwidth-25">Amt Paid by Beneficiary to Vendor:
 										</td>
 										<td class="setwidth-5">0.00</td>
 										<td class="setwidth-1 red"></td>
@@ -531,9 +531,8 @@
 										<td class="label setwidth-25">Total Amount to be PAID on claim:</td>
 										<td class="setwidth-5">20.38</td>
 										<td class="setwidth-1 red"></td>
-										<td class="label setwidth-25">Total Payment for Current PDI#
-											201913691113664:</td>
-										<td class="setwidth-5">20.38</td>
+										<td class="label setwidth-25"></td>
+										<td class="setwidth-5"></td>
 										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
@@ -553,18 +552,18 @@
 									<tr>
 										<td class="label setwidth-25">CHAMPVA Beneficiary Deductible 2009:
 										</td>
-										<td class="setwidth-5">50.00</td>
+										<td class="setwidth-5">undetermined</td>
 										<td class="setwidth-10">
 										</td>
 									</tr>
 									<tr>
 										<td class="label setwidth-25">CHAMPVA Family Deductible 2009:</td>
-										<td class="setwidth-5">50.00</td>
+										<td class="setwidth-5">undetermined</td>
 									</tr>
 									<tr>
 										<td class="label setwidth-26">CHAMPVA Family Catastrophic Cap 2009:
 										</td>
-										<td class="setwidth-5">179.35</td>
+										<td class="setwidth-5">undetermined</td>
 									</tr>
 								</tbody>
 							</table>

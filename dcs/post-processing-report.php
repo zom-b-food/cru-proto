@@ -447,22 +447,7 @@
 										<td colspan="6">&nbsp;</td>
 
 									</tr>
-									<tr>
-										<td class="label setwidth-25">CHAMPVA Beneficiary Deductible 2009:
-										</td>
-										<td class="setwidth-5">0.00</td>
-										<td class="setwidth-10">
-										</td>
-									</tr>
-									<tr>
-										<td class="label setwidth-25">CHAMPVA Family Deductible 2009:</td>
-										<td class="setwidth-5">0.00</td>
-									</tr>
-									<tr>
-										<td class="label setwidth-26">CHAMPVA Family Catastrophic Cap 2009:
-										</td>
-										<td class="setwidth-5">0.00</td>
-									</tr>
+
 								</tbody>
 							</table>
 							<hr />
