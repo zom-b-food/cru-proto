@@ -23,12 +23,12 @@
 			<div class="row">
 				<div class="col-3 pt25">
 					<div class="fauxnav">
-						<?php include '_sidebar.php'; ?>
+						<?php include 'components/_sidebar.php'; ?>
 					</div>
 				</div>
 				<div class="col-9">
 					<div class="row header">
-						<?php include '_header.php'; ?>
+						<?php include 'components/_header.php'; ?>
 						<div class="row mt15">
 							<small>
 								<a class="btn btn-back" role="button" href="bc-landing-page.php"
@@ -623,11 +623,11 @@
 					</div>
 				</div>
 			</div>
-			<?php include '_footer.php'; ?>
+			<?php include 'components/_footer.php'; ?>
 		</div>
 	</main>
 
-	<?php include '_printbutton.php'; ?>
+	<?php include 'components/_printbutton.php'; ?>
 	<?php include '_globals-bottom.php'; ?>
 	<script type="text/javascript" src="dist/js/cru-components/jquery.filtertable.min.js"></script>
 	<script type="text/javascript" src="dist/js/cru-components/tablesort.min.js"></script>

@@ -21,7 +21,7 @@
 			<div class="row">
 				<div class="col-3 pt25">
 					<div class="fauxnav">
-						<?php include '_sidebar.php'; ?>
+						<?php include 'components/_sidebar.php'; ?>
 					</div>
 				</div>
 				<div class="col-9">
@@ -34,13 +34,13 @@
 							<div class="report-wrapper">
 								<h1>Deductible / Cost Share Reporting</h1>
 								<hr />
-								<?php include '_dcs-dropdown.php'; ?>
+								<?php include 'components/_dcs-dropdown.php'; ?>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<?php include '_footer.php'; ?>
+			<?php include 'components/_footer.php'; ?>
 		</div>
 	</main>
 

@@ -85,7 +85,7 @@
 												Processing&nbsp;<small>|&nbsp;Please select a report from
 													the dropdown.</small></h1>
 											<hr />
-											<?php include '_dcs-dropdown.php'; ?>
+											<?php include 'components/_dcs-dropdown.php'; ?>
 										</div>
 										<p>&nbsp;</p>
 										<p>&nbsp;</p>
@@ -211,7 +211,7 @@
 					</div>
 				</div>
 			</div>
-			<?php include '_footer.php'; ?>
+			<?php include 'components/_footer.php'; ?>
 		</div>
 	</main>
 

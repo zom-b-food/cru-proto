@@ -34,7 +34,7 @@
 			<br />
 		</li>
 	</ul>
-	<ul class="sidenav" id="benecalc-nav">
+	<ul class="sidenav" id="bc-nav">
 		<li>
 			<br />
 			Cru BeneCalc Factors
