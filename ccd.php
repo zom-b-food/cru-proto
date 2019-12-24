@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="cache-control" content="no-cache" />
-	<title>cru-portal-prototype</title>
+	<title>Comprehensive Claim Dump - cru-prototype</title>
 	<?php include '_globals-top.php'; ?>
 </head>
 
@@ -22,6 +22,14 @@
 				<div class="col-9">
 					<div class="row header">
 						<?php include '_header.php'; ?>
+						<div class="row mt15">
+							<small>
+								<a class="btn btn-back" role="button" href="dcs-landing-page.php"
+									tabindex=1>&nbsp;
+									<i class="fas fa-angle-left"></i>&nbsp;DCS Home
+								</a>
+							</small>
+						</div>
 						<div class="report-wrapper">
 							<div class="h1">Comprehensive Claim Dump<div class="print-nav">
 									<ul>
@@ -83,17 +91,9 @@
 								<div class="row">
 									<div class="col-2 label">Addr1:</div>
 									<div class="col-2">nnn xxxxxxxxxx</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
 								</div>
 								<div class="row">
 									<div class="col-2 label">Addr2:</div>
-									<div class="col-2">&nbsp;</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
-									<div class="col-2 label">&nbsp;</div>
 									<div class="col-2">&nbsp;</div>
 								</div>
 								<div class="row">
@@ -109,8 +109,6 @@
 									<div class="col-2">50.00 (Sat)</div>
 									<div class="col-2 label">CAT CAP Paid YTD:</div>
 									<div class="col-2">192.82</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
 								</div>
 								<hr />
 								<div class="row">
@@ -132,10 +130,6 @@
 								<div class="row">
 									<div class="col-2 label">POS:</div>
 									<div class="col-2">DOCTOR'S OFFICE</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
 								</div>
 								<div class="row">
 									<div class="col-2 label">OHI Type:</div>
@@ -167,50 +161,47 @@
 									<div class="col-2">xxxxxxxxxxx MED PA</div>
 									<div class="col-2 label">PL Ven:</div>
 									<div class="col-2">xxxxxxxxxxx MED PA</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
+
 								</div>
 								<div class="row">
 									<div class="col-2 label">Phone:</div>
 									<div class="col-2">nnn-nnn-nnnn</div>
 									<div class="col-2 label">Phone:</div>
 									<div class="col-2">&nbsp;</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
 								</div>
 								<div class="row">
 									<div class="col-2 label">Addr1:</div>
 									<div class="col-2">nnnn xxxxxxx S3NC</div>
 									<div class="col-2 label">Addr1:</div>
 									<div class="col-2">nnnn xxxxxxx S3NC</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
+
 								</div>
 								<div class="row">
 									<div class="col-2 label">Addr2:</div>
 									<div class="col-2">&nbsp;</div>
 									<div class="col-2 label">Addr2:</div>
 									<div class="col-2">@</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
+
 								</div>
 								<div class="row">
 									<div class="col-2 label">City:</div>
 									<div class="col-2">xxxxxxxxxxx</div>
 									<div class="col-2 label">City:</div>
 									<div class="col-2">xxxxxxxxxxx</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
+
 								</div>
 								<div class="row">
 									<div class="col-2 label">State:</div>
 									<div class="col-2">xx</div>
-									<div class="col-1 label">Zip:</div>
-									<div class="col-1">nnnnn</div>
-									<div class="col-1 label">State:</div>
-									<div class="col-1">xx</div>
+									<div class="col-2 label">State:</div>
+									<div class="col-2">xx</div>
+
+								</div>
+								<div class="row">
 									<div class="col-2 label">Zip:</div>
-									<div class="col-2">nnnnn</div>
+									<div class="col-2">xxxxx</div>
+									<div class="col-2 label">Zip:</div>
+									<div class="col-2">xxxxx</div>
 								</div>
 							</div>
 							<hr />
@@ -468,7 +459,7 @@
 								<tbody>
 									<tr>
 										<td class="label setwidth-25">Total Charges Billed:</td>
-										<td class="setwidth-5">233.00</td>
+										<td class="setwidth-5">288.00</td>
 										<td class="setwidth-1 red"></td>
 										<td class="label setwidth-25">CITI Maximum Reimbursement Rate:</td>
 										<td class="setwidth-5">N/A</td>
@@ -476,7 +467,7 @@
 									</tr>
 									<tr>
 										<td class="label setwidth-25">Calculated Allowable Amount:</td>
-										<td class="setwidth-5">99.36</td>
+										<td class="setwidth-5">27.18</td>
 										<td class="setwidth-1 red"></td>
 										<td class="label setwidth-25">MEDICAID Amount:</td>
 										<td class="setwidth-5">N/A</td>
@@ -494,25 +485,33 @@
 										<td class="label setwidth-25">Cost Share Credited to Cat Cap:</td>
 										<td class="setwidth-1">0.00 </td>
 										<td class="setwidth-1 red left"> W</td>
-										<td class="label setwidth-25">Amount Reversed from Deductible:</td>
+										<td class="label setwidth-25">Amount Applied to Cat Cap:</td>
 										<td class="setwidth-5">N/A</td>
 										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
 										<td class="label setwidth-25">Amount Paid by Other Insurance(s):</td>
-										<td class="setwidth-5">N/A </td>
-										<td class="setwidth-1 red"> </td>
-										<td class="label setwidth-25">Amount Reversed from Cat Cap:</td>
+										<td class="setwidth-1">N/A </td>
+										<td class="setwidth-1 red left"></td>
+										<td class="label setwidth-25">Amount Reversed from Deductible:</td>
 										<td class="setwidth-5">N/A</td>
 										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
 										<td class="label setwidth-25">Patient Responsibility Amount:</td>
 										<td class="setwidth-5">N/A</td>
-										<td class="setwidth-1 red"></td>
+										<td class="setwidth-1 red"> </td>
+										<td class="label setwidth-25">Amount Reversed from Cat Cap:</td>
+										<td class="setwidth-5">N/A</td>
+										<td class="setwidth-5">&nbsp;</td>
+									</tr>
+									<tr>
 										<td class="label setwidth-25">Amount Reduced from Previous Payment:
 										</td>
 										<td class="setwidth-5">N/A</td>
+										<td class="setwidth-1 red"></td>
+										<td class="label setwidth-25">Last PDI Payment Difference:</td>
+										<td class="setwidth-5">0.00</td>
 										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
@@ -520,8 +519,8 @@
 										</td>
 										<td class="setwidth-5">0.00</td>
 										<td class="setwidth-1 red"></td>
-										<td class="label setwidth-25">Last PDI Payment Difference:</td>
-										<td class="setwidth-5">0.00</td>
+										<td class="label setwidth-25"></td>
+										<td class="setwidth-5"></td>
 										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
@@ -530,11 +529,11 @@
 									</tr>
 									<tr>
 										<td class="label setwidth-25">Total Amount to be PAID on claim:</td>
-										<td class="setwidth-5">99.36</td>
+										<td class="setwidth-5">20.38</td>
 										<td class="setwidth-1 red"></td>
 										<td class="label setwidth-25">Total Payment for Current PDI#
 											201913691113664:</td>
-										<td class="setwidth-5">99.36</td>
+										<td class="setwidth-5">20.38</td>
 										<td class="setwidth-5">&nbsp;</td>
 									</tr>
 									<tr>
@@ -544,7 +543,7 @@
 									</tr>
 									<tr>
 										<td class="label setwidth-25">Amount PAID to Beneficiary:</td>
-										<td class="setwidth-5">99.36</td>
+										<td class="setwidth-5">0.00</td>
 										<td class="setwidth-1 red"></td>
 									</tr>
 									<tr>
@@ -554,18 +553,18 @@
 									<tr>
 										<td class="label setwidth-25">CHAMPVA Beneficiary Deductible 2009:
 										</td>
-										<td class="setwidth-5">0.00</td>
+										<td class="setwidth-5">50.00</td>
 										<td class="setwidth-10">
 										</td>
 									</tr>
 									<tr>
 										<td class="label setwidth-25">CHAMPVA Family Deductible 2009:</td>
-										<td class="setwidth-5">0.00</td>
+										<td class="setwidth-5">50.00</td>
 									</tr>
 									<tr>
 										<td class="label setwidth-26">CHAMPVA Family Catastrophic Cap 2009:
 										</td>
-										<td class="setwidth-5">0.00</td>
+										<td class="setwidth-5">179.35</td>
 									</tr>
 								</tbody>
 							</table>
@@ -601,7 +600,7 @@
 										<th scope="col" class="setwidth-20">Date/Time</th>
 										<th scope="col" class="setwidth-20">Reason in Queue</th>
 										<th scope="col" class="setwidth-20">Status</th>
-										<th scope="col" class="setwidth-20">User</th>
+										<th scope="col" class="setwidth-10">User</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -884,8 +883,8 @@
 										<td></td>
 										<td class="right"></td>
 										<td></td>
-										<td> </td>
 										<td>und</td>
+										<td></td>
 										<td></td>
 									</tr>
 									<tr>

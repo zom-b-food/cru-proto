@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="cache-control" content="no-cache" />
-	<title>cru-portal-prototype</title>
+	<title>HOME - cru-prototype</title>
 	<?php include '_globals-top.php'; ?>
 	<style type="text/css">
 	.card {
@@ -21,23 +21,23 @@
 			<div class="row">
 				<div class="col-3 pt25">
 					<div class="fauxnav">
-						<h6><i class="fas fa-star" style="float:left;"></i>CP&amp;E / CRU Home</h6>
+						<h6><i class="fas fa-home" style="float:left;"></i>CP&amp;E / CRU Home</h6>
 					</div>
 				</div>
 				<div class="col-9">
 					<div class="header">
 						<div class="row">
 							<img width="100%" height="208px"
-	alt="Claims Processing and Eligibility - CHAMPVA Regulatory Updates - CRU - VA|U.S. Department of Veterans Affairs"
-	title="Claims Processing and Eligibility - CHAMPVA Regulatory Updates - CRU - VA|U.S. Department of Veterans Affairs"
-	src="/dist/img/cru-banner.jpg">
+								alt="Claims Processing and Eligibility - CHAMPVA Regulatory Updates - CRU - VA|U.S. Department of Veterans Affairs"
+								title="Claims Processing and Eligibility - CHAMPVA Regulatory Updates - CRU - VA|U.S. Department of Veterans Affairs"
+								src="/dist/img/cru-banner.jpg">
 							<nav class="drop-nav">
 								<ul>
 									<li>
 										<a href="#">CRU Reports</a>
 										<ul>
 											<li><a href="#">Critical Access Hospital</a></li>
-											<li><a href="landing-page.php">Deductible Cost Share</a></li>
+											<li><a href="dcs-landing-page.php">Deductible Cost Share</a></li>
 											<li><a href="#">Home Health Care</a></li>
 											<li><a href="#">Skilled Nursing Facility</a></li>
 											<li><a href="#">Sole Community Hospital</a></li>
@@ -54,9 +54,11 @@
 									<li>
 										<a href="#">CRU BeneCalc Factors</a>
 										<ul>
-											<li><a href="#">Subnav Item</a></li>
-											<li><a href="#">Subnav Item</a></li>
-											<li><a href="#">Subnav Item</a></li>
+											<li><a href="#">Critical Access Hospital</a></li>
+											<li><a href="bc-landing-page.php">Deductible / Cost-Sharing</a>
+											</li>
+											<li><a href="#">Skilled Nursing Facilities</a></li>
+											<li><a href="#">Sole Community Hospital</a></li>
 										</ul>
 									</li>
 								</ul>
@@ -68,7 +70,7 @@
 									<li class="nav-item"><a href="" data-target="#ip" data-toggle="tab"
 											class="nav-link active">Initial Processing</a>
 									</li>
-									<li class="nav-item"><a href="" data-target="#mental" data-toggle="tab"
+									<li class="nav-item"><a href="" data-target="#mh" data-toggle="tab"
 											class="nav-link">MH Beneficiary</a>
 									</li>
 									<li class="nav-item"><a href="" data-target="#ff" data-toggle="tab"
@@ -83,14 +85,14 @@
 												Processing&nbsp;<small>|&nbsp;Please select a report from
 													the dropdown.</small></h1>
 											<hr />
-											<?php include '_report-dropdown.php'; ?>
+											<?php include '_dcs-dropdown.php'; ?>
 										</div>
 										<p>&nbsp;</p>
 										<p>&nbsp;</p>
 										<p>&nbsp;</p>
 
 									</div>
-									<div id="mental" class="tab-pane fade">
+									<div id="mh" class="tab-pane fade">
 										<div class="">
 											<h1>CHAMPVA Mental Health Beneficiary Lookup</h1>
 											<h3>Search for Mental Health Beneficiaries&nbsp;|&nbsp;Either

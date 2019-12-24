@@ -261,11 +261,11 @@ button {
   border-radius: .25rem;
   border:1px solid $cru-link !important;
   &.btn-run {
-    background:$gray-600;  
+    background:$gray-800;  
     color:$white;
     &:hover {  
-    background: $gray-800 !important;
-    color: $white !important;
+    background: $gray-400 !important;
+    color: $black !important;
   }  
   }
    &.btn-back {
@@ -280,10 +280,15 @@ button {
     background:$white;
     color:$cru-divider;  
     &:hover {  
-     background: $gray-300 !important;
+     background: $gray-400 !important;
     color: $black !important;
   }
   }
+}
+
+button.close, .close {
+  background-color:$cru-divider !important;
+  text-shadow: none !important;
 }
 
 [type=search] {
@@ -310,6 +315,16 @@ button {
 [type=radio].radio-inline {
  
   
+}
+
+[type=checkbox].checkbox {
+position: relative;
+display: block;
+min-height: 1.5rem;
+padding-left: 1.5rem;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    vertical-align: middle;
 }
 
 label.radio-inline {
@@ -426,20 +441,21 @@ nav {
       text-align:right;
       width: 100%;
       margin-left: 0;
-      padding:10px;
+      padding:7px 10px;
       font-size:.85rem;
       font-family: 'Roboto', sans-serif;
       &:nth-of-type(1)::after {
         content: url("/dist/img/chevron-right.png");
         margin-left: 9px;
         position: absolute;
-        top: 40px;
+        top: 39px;
       }
-      &:nth-of-type(2)::after {
-        content: url("/dist/img/chevron-right.png");
-        margin-left: 9px;
-        position: absolute;
-        top: 83px;
+     
+      > i {
+        color:$cru-accent;
+        &.fa-home {
+          color:$white !important;
+        }
       }
     }
     > h2 {

@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="cache-control" content="no-cache" />
-	<title>cru-portal-prototype</title>
+	<title>Waiver Accrual Report - cru-prototype</title>
 	<?php include '_globals-top.php'; ?>
 </head>
 
@@ -22,6 +22,14 @@
 				<div class="col-9">
 					<div class="row header">
 						<?php include '_header.php'; ?>
+						<div class="row mt15">
+							<small>
+								<a class="btn btn-back" role="button" href="dcs-landing-page.php"
+									tabindex=1>&nbsp;
+									<i class="fas fa-angle-left"></i>&nbsp;DCS Home
+								</a>
+							</small>
+						</div>
 						<div class="report-wrapper">
 							<div class="h1">Waiver Accumulator Report<div class="print-nav">
 									<ul>

@@ -29,6 +29,14 @@
 				<div class="col-9">
 					<div class="row header">
 						<?php include '_header.php'; ?>
+						<div class="row mt15">
+							<small>
+								<a class="btn btn-back" role="button" href="bc-landing-page.php"
+									tabindex=1>&nbsp;
+									<i class="fas fa-angle-left"></i>&nbsp;BeneCalc Home
+								</a>
+							</small>
+						</div>
 						<div class="report-wrapper">
 							<div class="h1">PX / DX Codes<div class="print-nav">
 									<ul>
@@ -73,8 +81,7 @@
 										</div>
 										<div class="custom-control custom-checkbox">
 											<input type="checkbox" class="custom-control-input" id="pending">
-											<label class="custom-control-label"
-												for="inactive">Pending</label>
+											<label class="custom-control-label" for="pending">Pending</label>
 										</div>
 										<input type="text" class="daterange"
 											placeholder="Date Range From"><input type="text"
@@ -87,7 +94,9 @@
 								<table class="table-sort">
 									<thead>
 										<tr>
-											<th class="setwidth-checkbox" scope="col"></th>
+											<th scope="col"><input type="checkbox" id="checkall"
+													class="checkbox">
+											</th>
 											<th class="table-sort" scope="col">PX Code</th>
 											<th class="table-sort" scope="col">Description</th>
 											<th class="table-sort" scope="col">Status</th>
@@ -99,7 +108,8 @@
 									</thead>
 									<tbody>
 										<tr>
-											<td><input type="checkbox"></td>
+											<td><input type="checkbox" name="pxcode" id="zero"
+													class="checkbox"></td>
 											<td>002457Z</td>
 											<td class="allcaps">BYPASS CEREBRAL VENT NASOPHARYNX AUTO TISS
 												OPEN</td>
@@ -131,7 +141,8 @@
 											</td>
 										</tr>
 										<tr>
-											<td><input type="checkbox"></td>
+											<td><input type="checkbox" name="pxcode" id="one"
+													class="checkbox"></td>
 											<td>5400124</td>
 											<td class="allcaps">CHANGE MONITOR ELECTRODE PROD CONCEPT NAT/ART
 												OP</td>
@@ -163,14 +174,15 @@
 											</td>
 										</tr>
 										<tr>
-											<td><input type="checkbox"></td>
+											<td><input type="checkbox" name="pxcode" id="two"
+													class="checkbox"></td>
 											<td>0025486</td>
 											<td class="allcaps">CHANGE TRACTION APPARATUS HEAD</td>
 
-											<td>&nbsp;</td>
+											<td>Pending</td>
 
 											<td>&nbsp;</td>
-											<td>Pending</td>
+											<td></td>
 											<td>
 												<div class="dropleft" style="float:right;">
 													<a class="dropleftbtn"><img
@@ -195,7 +207,8 @@
 											</td>
 										</tr>
 										<tr>
-											<td><input type="checkbox"></td>
+											<td><input type="checkbox" name="pxcode" id="three"
+													class="checkbox"></td>
 											<td>845510Z</td>
 											<td class="allcaps">TRANSFUSION EMBRYONIC STEM CELLS PERIPH VEIN
 												OP</td>
@@ -228,7 +241,8 @@
 											</td>
 										</tr>
 										<tr>
-											<td><input type="checkbox"></td>
+											<td><input type="checkbox" name="pxcode" id="four"
+													class="checkbox"></td>
 											<td>6060224</td>
 											<td class="allcaps">MEASUREMENT CENTRAL VERVOUS CONDUCTIVITY OPEN
 											</td>
@@ -261,7 +275,8 @@
 											</td>
 										</tr>
 										<tr>
-											<td><input type="checkbox"></td>
+											<td><input type="checkbox" name="pxcode" id="five"
+													class="checkbox"></td>
 											<td>9000548</td>
 											<td class="allcaps">MAESUREMENT VENOUS FLOW CENTRAL OPEN</td>
 
@@ -293,14 +308,15 @@
 											</td>
 										</tr>
 										<tr>
-											<td><input type="checkbox"></td>
+											<td><input type="checkbox" name="pxcode" id="six"
+													class="checkbox"></td>
 											<td>5W8541Z</td>
 											<td class="allcaps">MEASUREMENT VENOUS FLOW PERIPHERAL OPEN</td>
 
-											<td>&nbsp;</td>
+											<td>Pending</td>
 											<td>&nbsp;</td>
 
-											<td>Pending</td>
+											<td></td>
 											<td>
 												<div class="dropleft" style="float:right;">
 													<a class="dropleftbtn"><img
@@ -325,7 +341,8 @@
 											</td>
 										</tr>
 										<tr>
-											<td><input type="checkbox"></td>
+											<td><input type="checkbox" name="pxcode" id="seven"
+													class="checkbox"></td>
 											<td>8740W4Z</td>
 											<td class="allcaps">OSTEOPATHIC TX HEAD ARTCULATORY RAISING FORCE
 											</td>
@@ -358,7 +375,8 @@
 											</td>
 										</tr>
 										<tr>
-											<td><input type="checkbox"></td>
+											<td><input type="checkbox" name="pxcode" id="eight"
+													class="checkbox"></td>
 											<td>0155554</td>
 											<td class="allcaps">OSTEOPATHIC TX THORACIC REGION FASCIAL
 												RELEASE</td>
@@ -391,7 +409,8 @@
 											</td>
 										</tr>
 										<tr>
-											<td><input type="checkbox"></td>
+											<td><input type="checkbox" name="pxcode" id="nine"
+													class="checkbox"></td>
 											<td>2W55021</td>
 											<td class="allcaps">CHIROPRACTIC MANIPULATION HEAD INDIRECT
 												VISCERAL</td>
@@ -436,16 +455,106 @@
 									<div class="modal-dialog modal-lg">
 										<div class="modal-content">
 											<!-- Modal Header -->
+											<!-- Modal Header -->
 											<div class="modal-header">
-												<h4 class="modal-title">View History nnnnnn</h4>
+												<h4 class="modal-title">PX Code 99396 Change History</h4>
 												<button type="button" class="close"
 													data-dismiss="modal">&times;</button>
 											</div>
+
 											<!-- Modal body -->
 											<div class="modal-body">
-												View History goes here...
-												<h3 style="text-align:center;">View page from left
-													navigation pane.</h3>
+												<div class="row">
+													<div class="col-3">
+														<label class="pl60">Change Made</label>
+													</div>
+													<div class="col-2">
+														<label>User DUZ-INIT</label>
+													</div>
+													<div class="col-2">
+														<label>Activation</label>
+													</div>
+													<div class="col-2">
+														<label>Effective Date</label>
+													</div>
+													<div class="col-3">
+														<label>Inactive Date</label>
+													</div>
+												</div>
+												<hr class="short" />
+												<div class="row">
+													<div class="col-3">
+														JAN 1, 2018 @ 12:00
+													</div>
+													<div class="col-2">
+														123456-ABC
+													</div>
+													<div class="col-2">
+														Activate
+													</div>
+													<div class="col-2">
+														01/01/2018
+													</div>
+													<div class="col-3">
+
+													</div>
+												</div>
+												<hr />
+												<div class="row">
+													<div class="col-3">
+														OCT 10, 2018 @ 12:45
+													</div>
+													<div class="col-2">
+														767676-BBC
+													</div>
+													<div class="col-2">
+														Inactivate
+													</div>
+													<div class="col-2">
+														01/01/2018
+													</div>
+													<div class="col-3">
+														12/31/2018
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-12 pl30 pt8">
+														Code set to inactive due to new regulatory
+														compliance.
+														This service is
+														no longer considered preventative. Claim not
+														exempt from Deductible or Cost
+														Share waivers until
+														further notice
+														from the Centers for Medicare and Medicaide.
+													</div>
+												</div>
+												<hr />
+												<div class="row">
+													<div class="col-3">
+														JUN 1, 2019 @ 2:32
+													</div>
+													<div class="col-2">
+														998989-XYZ
+													</div>
+													<div class="col-2">
+														Activate
+													</div>
+													<div class="col-2">
+														07/01/2019
+													</div>
+													<div class="col-3">
+
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-12 pl30 pt8">
+														Congressional mandate OXK-3210-7 declares this
+														code as
+														preventative for at least the next five years
+														(2024). Code reactivated.
+													</div>
+												</div>
 											</div>
 
 										</div>
@@ -460,16 +569,48 @@
 												<button type="button" class="close"
 													data-dismiss="modal">&times;</button>
 											</div>
+
 											<!-- Modal body -->
 											<div class="modal-body">
-												Edit PX Code goes here...
-												<h4>View page from left navigation page.</h4>
+												<form>
+													<div class="row">
+														<div class="col">
+															<label for="ed">Effective Date <span
+																	class="red">*</span></label>
+															<input type="text" class="form-control"
+																id="ed" placeholder="01/01/2019"
+																name="ed">
+														</div>
+														<div class="col">
+															<label for="ind">Inctive Date </label>
+															<input type="text" class="form-control"
+																id="ind" placeholder="Enter Date"
+																name="ind">
+														</div>
+													</div>
+													<div class="row">
+														<div class="col">
+															<label for "comment"
+																style="margin-top:.5rem;">Comment <span
+																	class="red">*</span></label>
+															<textarea rows="4" cols="30"
+																class="form-control" id="comment"
+																placeholder="Enter Comment"
+																name="comment"></textarea>
+
+														</div>
+													</div>
+												</form>
 											</div>
+
 											<!-- Modal footer -->
 											<div class="modal-footer-left">
 												<button type="button"
 													class="btn btn-save mr10">Save</button>&nbsp;<button
-													type="button" class="btn btn-cancel"
+													type="button"
+													class="btn btn-success mr10">Approve</button><button
+													type="button" class="btn btn-cancel mr10"
+													style="float:right;"
 													data-dismiss="modal">Cancel</button>
 											</div>
 
@@ -485,7 +626,7 @@
 			<?php include '_footer.php'; ?>
 		</div>
 	</main>
-	
+
 	<?php include '_printbutton.php'; ?>
 	<?php include '_globals-bottom.php'; ?>
 	<script type="text/javascript" src="dist/js/cru-components/jquery.filtertable.min.js"></script>
@@ -493,6 +634,31 @@
 	<script type="text/javascript">
 	$(function() {
 		$('table.table-sort').tablesort();
+
+		// Check or Uncheck All checkboxes
+		$("#checkall").change(function() {
+			var checked = $(this).is(':checked');
+			if (checked) {
+				$(".checkbox").each(function() {
+					$(this).prop("checked", true);
+				});
+			} else {
+				$(".checkbox").each(function() {
+					$(this).prop("checked", false);
+				});
+			}
+		});
+
+		// Changing state of CheckAll checkbox 
+		$(".checkbox").click(function() {
+
+			if ($(".checkbox").length == $(".checkbox:checked").length) {
+				$("#checkall").prop("checked", true);
+			} else {
+				$("#checkall").removeAttr("checked");
+			}
+
+		});
 	});
 	</script>
 </body>

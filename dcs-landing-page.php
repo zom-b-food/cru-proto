@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="cache-control" content="no-cache" />
-	<title>cru-portal-prototype</title>
+	<title>Landing Page - cru-prototype</title>
 	<?php include '_globals-top.php'; ?>
 	<style type="text/css">
 	.card {
@@ -34,7 +34,7 @@
 							<div class="report-wrapper">
 								<h1>Deductible / Cost Share Reporting</h1>
 								<hr />
-								<?php include '_report-dropdown.php'; ?>
+								<?php include '_dcs-dropdown.php'; ?>
 							</div>
 						</div>
 					</div>
