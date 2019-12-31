@@ -40,7 +40,7 @@
 	<ul class="sidenav" id="sch-list">
 		<li>
 			<br />
-			Sole Community Hospital
+			Post Processing Report
 		</li>
 
 		<br />
@@ -49,7 +49,7 @@
 	<ul class="sidenav" id="bc-list">
 		<li>
 			<br />
-			Cru BeneCalc Factors
+			PX / DX Codes
 		</li>
 
 		<br />

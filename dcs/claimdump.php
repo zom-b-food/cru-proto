@@ -45,379 +45,6617 @@
 							<hr />
 							<div class="col-12">
 								<div class="row">
-									<div class="col-2 label r">PDI-DOC:</div>
-									<div class="col-2">209nnnnnnnnnnn-</div>
-									<div class="col-2 label r">Claim:</div>
-									<div class="col-2">YH4nnnn</div>
-									<div class="col-2 label r">Status:</div>
-									<div class="col-2">Complete</div>
+									<div class="col-1 label">EIN:</div>
+									<div class="col-3">260059737</div>
 								</div>
 								<div class="row">
-									<div class="col-2 label r">SUB #:</div>
-									<div class="col-2">&nbsp;</div>
-									<div class="col-2 label r">HAC Batch:</div>
-									<div class="col-2">&nbsp;</div>
-									<div class="col-2 label r">Program:</div>
-									<div class="col-2">CHAMPVA-EDI</div>
+									<div class="col-1 label">Claim Number:</div>
+									<div class="col-3">WCG2B07</div>
 								</div>
 								<div class="row">
-									<div class="col-2 label r">EDI Partner:</div>
-									<div class="col-2">OCR</div>
-									<div class="col-2 label r">EDI Batch:</div>
-									<div class="col-2">&nbsp;</div>
-									<div class="col-2 label r">CL Completed:</div>
-									<div class="col-2">mm/dd/yyyy</div>
+									<div class="col-1 label">Claim Status:</div>
+									<div class="col-3">Payment Requested</div>
+								</div>
+								<div class="row">
+									<div class="col-1 label">Vendor ID</div>
+									<div class="col-3">Choice Medical Healthcare</div>
 								</div>
 							</div>
-							<hr class="cru-rule" />
-							<div class="card">
-								<div class="row">
-									<div class="col-2 label">Patient:</div>
-									<div class="col-2">xxxxx, kkkkkkk b</div>
-									<div class="col-2 label">Sex:</div>
-									<div class="col-2">x</div>
-									<div class="col-2 label">SSN:</div>
-									<div class="col-2">nnn-nn-nnnn</div>
-								</div>
-								<div class="row">
-									<div class="col-2 label">DOB:</div>
-									<div class="col-2">mm/dd/yyyy</div>
-									<div class="col-2 label">Age:</div>
-									<div class="col-2">nn</div>
-									<div class="col-2 label">Relationship:</div>
-									<div class="col-2">Spouse</div>
-								</div>
-								<div class="row">
-									<div class="col-2 label">Addr1:</div>
-									<div class="col-2">nnn xxxxxxxxxx</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
-								</div>
-								<div class="row">
-									<div class="col-2 label">ADDR2:</div>
-									<div class="col-2">&nbsp;</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
-								</div>
-								<div class="row">
-									<div class="col-2 label">City:</div>
-									<div class="col-2">XXXXXXXXX</div>
-									<div class="col-2 label">State:</div>
-									<div class="col-2">XX</div>
-									<div class="col-2 label">Zip:</div>
-									<div class="col-2">nnnnn</div>
-								</div>
-								<div class="row">
-									<div class="col-2 label">Deductible Paid YTD:</div>
-									<div class="col-2">50.00 (Sat)</div>
-									<div class="col-2 label">CAT CAP Paid YTD:</div>
-									<div class="col-2">192.82</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
-								</div>
-								<hr />
-								<div class="row">
-									<div class="col-2 label">Type Service:</div>
-									<div class="col-2"><span class="strong allcaps">outpatient</span></div>
-									<div class="col-2 label">Type of Bill:</div>
-									<div class="col-2">&nbsp;</div>
-									<div class="col-2 label">PCN/PAN:</div>
-									<div class="col-2">606-15</div>
-								</div>
-								<div class="row">
-									<div class="col-2 label">DOS:</div>
-									<div class="col-2">mm/dd/yyyy</div>
-									<div class="col-2 label">Pay Provider:</div>
-									<div class="col-2"><span class="allcaps">yes</span></div>
-									<div class="col-2 label">MCCR Review:</div>
-									<div class="col-2"><span class="allcaps">no</span></div>
-								</div>
-								<div class="row">
-									<div class="col-2 label">POS:</div>
-									<div class="col-2"><span class="allcaps">doctor's office</span></div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
-								</div>
-								<div class="row">
-									<div class="col-2 label">OHI Type:</div>
-									<div class="col-2"><span class="allcaps">no ohi</span></div>
-									<div class="col-2 label">OHI Begin:</div>
-									<div class="col-2">1/1/1998</div>
-									<div class="col-2 label">OHI End:</div>
-									<div class="col-2">9/30/2014</div>
-								</div>
-								<div class="row">
-									<div class="col-2 label">OHI Name:</div>
-									<div class="col-2"><span class="allcaps">no ohi</span></div>
-									<div class="col-2 label">OHI Paymt:</div>
-									<div class="col-2">0.00</div>
-									<div class="col-2 label">Bene Paymt:</div>
-									<div class="col-2">0.00</div>
-								</div>
-								<hr />
-								<div class="row">
-									<div class="col-2 label">Tax ID:</div>
-									<div class="col-2">nnnnnnnnn-</div>
-									<div class="col-2 label">Ven POA Exmpt:</div>
-									<div class="col-2">N</div>
-									<div class="col-2 label">CMAC:</div>
-									<div class="col-2">1</div>
-								</div>
-								<div class="row">
-									<div class="col-2 label">RT Ven:</div>
-									<div class="col-2">xxxxxxxxxxx MED PA</div>
-									<div class="col-2 label">PL Ven:</div>
-									<div class="col-2">xxxxxxxxxxx MED PA</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
-								</div>
-								<div class="row">
-									<div class="col-2 label">Phone:</div>
-									<div class="col-2">xxxxxxxxxx</div>
-									<div class="col-2 label">Phone:</div>
-									<div class="col-2">&nbsp;</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
-								</div>
-								<div class="row">
-									<div class="col-2 label">Addr1:</div>
-									<div class="col-2">nnnn xxxxxxx S3NC</div>
-									<div class="col-2 label">Addr1:</div>
-									<div class="col-2">nnnn xxxxxxx S3NC</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
-								</div>
-								<div class="row">
-									<div class="col-2 label">Addr2:</div>
-									<div class="col-2">&nbsp;</div>
-									<div class="col-2 label">Addr2:</div>
-									<div class="col-2">@</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
-								</div>
-								<div class="row">
-									<div class="col-2 label">City:</div>
-									<div class="col-2">xxxxxxxxxxx</div>
-									<div class="col-2 label">City:</div>
-									<div class="col-2">xxxxxxxxxxx</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
-								</div>
-								<div class="row">
-									<div class="col-2 label">State:</div>
-									<div class="col-2">xx</div>
-									<div class="col-2 label">Zip:</div>
-									<div class="col-2">xxxxx</div>
-									<div class="col-2 label">&nbsp;</div>
-									<div class="col-2">&nbsp;</div>
+							<hr class="cru-rule">
+							<div class="col-12">
+								<div class="claimdump">
+									<div class="row">
+										<div class="col-3">Vendorization Pointer</div>
+										<div class="col-3">201913691113664*1*1</div>
+										<div class="col-3">Vendor POA Exempt:</div>
+										<div class="col-3">N</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											Assignment of Benefits:
+										</div>
+										<div class="col-9">
+											Yes
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											Type of Claim:
+										</div>
+										<div class="col-9">
+											Outpatient
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											Date of Service/Stmt From Date:
+										</div>
+										<div class="col-9">
+											APR 29, 2019
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											Date Initially Received:
+										</div>
+										<div class="col-9">
+											Oct 21, 2019@15:18:16
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											Date Determined Complete:
+										</div>
+										<div class="col-9">
+											Oct 22, 2019@07:47:48
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											Claim Processing Status:
+										</div>
+										<div class="col-9">
+											No Bene Portion
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											Capp Processing Status:
+										</div>
+										<div class="col-9">
+											Sub Capp
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											Sponsor:
+										</div>
+										<div class="col-9">
+											Abercrombie, William D
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											Beneficiary Name:
+										</div>
+										<div class="col-9">
+											Abercrombie, Linda G
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											Claim Creation Date:
+										</div>
+										<div class="col-9">
+											Oct 21, 2019@15:18:26
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											Type of Processing Flag:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											Amount to be paid on claim:
+										</div>
+										<div class="col-9">
+											77.32
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											Capps/Calm batch date/time:
+										</div>
+										<div class="col-9">
+											Oct 22, 2019@13:36:57
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											Amt applied to deductible:
+										</div>
+										<div class="col-9">
+											0.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											Cost share amount:
+										</div>
+										<div class="col-9">
+											0.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											Amount paid by other insurance:
+										</div>
+										<div class="col-9">
+											887.68
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											tot amt charged for allow days:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt paid by ohi for allow days:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											oth ins amt pd for facility:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											mental health allowable days:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											Alcohol allowable days:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt paid to vendor:
+										</div>
+										<div class="col-9">
+											77.32
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt paid to bene:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt applied to cat cap:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patent responibility:
+										</div>
+										<div class="col-9">
+											77.32
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											rejection reason:
+										</div>
+										<div class="col-9">
+											356
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											rejection reason:
+										</div>
+										<div class="col-9">
+											371
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											rejection reason:
+										</div>
+										<div class="col-9">
+											319
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											rejection reason:
+										</div>
+										<div class="col-9">
+											322
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											vendor fms doc id + ln num:
+										</div>
+										<div class="col-9">
+											74100748655*1
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											patient control Number:
+										</div>
+										<div class="col-9">
+											i477307s122477
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr bal:
+										</div>
+										<div class="col-9">
+											77.32
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											Claim form sent:
+										</div>
+										<div class="col-9">
+											yes
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											duplicate claim check:
+										</div>
+										<div class="col-9">
+											yes
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											work related acc/ill:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											auto accident:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											other accident:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											employed:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											release of infor limit flag:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											other health insuranace flag:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claim signature flag:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											group health flag:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											medicaid flag:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											private/non-group flag:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											champva suppletment flag:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											workers compensation flag:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											none checked flag:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											medicare flag:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											non-occupational injury flag:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											multi casual accident flag:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											addit. accident comments flag:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											wc details flag:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											indications of injury/accident:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											indications of other insurance:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											mccr review warranted:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											circumstances flag:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi eob:
+										</div>
+										<div class="col-9">
+											yes
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											workmans comp amount:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											total charges billed:
+										</div>
+										<div class="col-9">
+											965.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											place of service:
+										</div>
+										<div class="col-9">
+											ph
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											payments:
+										</div>
+										<div class="col-9">
+											0.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											calc allowable amt:
+										</div>
+										<div class="col-9">
+											386.64
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											calculation method used:
+										</div>
+										<div class="col-9">
+											outpatient
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											year:
+										</div>
+										<div class="col-9">
+											2018
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											individual deductible:
+										</div>
+										<div class="col-9">
+											50
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											family deductible:
+										</div>
+										<div class="col-9">
+											50
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cat capp accrual:
+										</div>
+										<div class="col-9">
+											54.37
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											eob date:
+										</div>
+										<div class="col-9">
+											oct 23, 2019
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											year:
+										</div>
+										<div class="col-9">
+											2017
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-3">
+											individual deductible:
+										</div>
+										<div class="col-9">
+											28.02
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-3">
+											family deductible:
+										</div>
+										<div class="col-9">
+											28.02
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-3">
+											cat capp accrual:
+										</div>
+										<div class="col-9">
+											28.02
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-3">
+											eob date:
+										</div>
+										<div class="col-9">
+											oct 23, 2019
+										</div>
+									</div>
+									<br class="spacer" />
+									<hr class="short" />
+									<div class="row">
+										<div class="col-3">
+											outpatient diagnosis:
+										</div>
+										<div class="col-9">
+											obstructive sleep apnea adult pediatric
+										</div>
+									</div>
+									<hr class="short" />
+
+									<br class="spacer" />
+									<!-- 1------------------------------------------ -->
+									<div class="row">
+										<div class="col-3">
+											outpatient service:
+										</div>
+										<div class="col-9">
+											a4604
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service:
+										</div>
+										<div class="col-9">
+											70.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outpatient allowable amount:
+										</div>
+										<div class="col-9">
+											54.8
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck result:
+										</div>
+										<div class="col-9">
+											non-c-n
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											completed claimcheck:
+										</div>
+										<div class="col-9">
+											yes
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck sex conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck cosmetic/unlisted:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck age conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck experimental proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck obsolete proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660544
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck line origination:
+										</div>
+										<div class="col-9">
+											org-c
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											59.04
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost/unit:
+										</div>
+										<div class="col-9">
+											70.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											# allowed units:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											calculated allowed amt:
+										</div>
+										<div class="col-9">
+											54.8
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											deductible amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost share amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											payment amount:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											patient paid amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cat cap applied amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to provider:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to bene:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+
+
+
+
+
+
+
+
+									<!-- 2------------------------------------------ -->
+
+									<br class="spacer" />
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service:
+										</div>
+										<div class="col-9">
+											a7038
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outpatient allowable amount:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck result:
+										</div>
+										<div class="col-9">
+											non-c-n
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											completed claimcheck:
+										</div>
+										<div class="col-9">
+											yes
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck sex conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck cosmetic/unlisted:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck age conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck experimental proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck obsolete proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660547
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck line origination:
+										</div>
+										<div class="col-9">
+											org-c
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											24.24
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost/unit:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											# allowed units:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											calculated allowed amt:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											deductible amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost share amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											payment amount:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											patient paid amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cat cap applied amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to provider:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to bene:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+
+
+									<!-- 3------------------------------------------ -->
+
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service:
+										</div>
+										<div class="col-9">
+											a7038
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service:
+										</div>
+										<div class="col-9">
+											70.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outpatient allowable amount:
+										</div>
+										<div class="col-9">
+											54.8
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck result:
+										</div>
+										<div class="col-9">
+											non-c-n
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											completed claimcheck:
+										</div>
+										<div class="col-9">
+											yes
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck sex conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck cosmetic/unlisted:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck age conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck experimental proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck obsolete proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660544
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck line origination:
+										</div>
+										<div class="col-9">
+											org-c
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											59.04
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost/unit:
+										</div>
+										<div class="col-9">
+											70.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											# allowed units:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											calculated allowed amt:
+										</div>
+										<div class="col-9">
+											54.8
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											deductible amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost share amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											payment amount:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											patient paid amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cat cap applied amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to provider:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to bene:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+
+
+
+									<!-- 4------------------------------------------ -->
+
+
+									<br class="spacer" />
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service:
+										</div>
+										<div class="col-9">
+											a7038
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outpatient allowable amount:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck result:
+										</div>
+										<div class="col-9">
+											non-c-n
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											completed claimcheck:
+										</div>
+										<div class="col-9">
+											yes
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck sex conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck cosmetic/unlisted:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck age conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck experimental proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck obsolete proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660547
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck line origination:
+										</div>
+										<div class="col-9">
+											org-c
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											24.24
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost/unit:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											# allowed units:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											calculated allowed amt:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											deductible amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost share amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											payment amount:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											patient paid amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cat cap applied amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to provider:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to bene:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+
+
+
+
+									<!-- 5------------------------------------------ -->
+
+
+									<br class="spacer" />
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service:
+										</div>
+										<div class="col-9">
+											a7038
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outpatient allowable amount:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck result:
+										</div>
+										<div class="col-9">
+											non-c-n
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											completed claimcheck:
+										</div>
+										<div class="col-9">
+											yes
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck sex conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck cosmetic/unlisted:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck age conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck experimental proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck obsolete proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660547
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck line origination:
+										</div>
+										<div class="col-9">
+											org-c
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											24.24
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost/unit:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											# allowed units:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											calculated allowed amt:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											deductible amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost share amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											payment amount:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											patient paid amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cat cap applied amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to provider:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to bene:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+
+
+
+
+									<!-- 6------------------------------------------ -->
+
+
+									<br class="spacer" />
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service:
+										</div>
+										<div class="col-9">
+											a7038
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outpatient allowable amount:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck result:
+										</div>
+										<div class="col-9">
+											non-c-n
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											completed claimcheck:
+										</div>
+										<div class="col-9">
+											yes
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck sex conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck cosmetic/unlisted:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck age conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck experimental proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck obsolete proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660547
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck line origination:
+										</div>
+										<div class="col-9">
+											org-c
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											24.24
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost/unit:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											# allowed units:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											calculated allowed amt:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											deductible amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost share amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											payment amount:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											patient paid amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cat cap applied amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to provider:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to bene:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+
+
+									<!-- 7------------------------------------------ -->
+
+
+									<br class="spacer" />
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service:
+										</div>
+										<div class="col-9">
+											a7038
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outpatient allowable amount:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck result:
+										</div>
+										<div class="col-9">
+											non-c-n
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											completed claimcheck:
+										</div>
+										<div class="col-9">
+											yes
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck sex conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck cosmetic/unlisted:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck age conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck experimental proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck obsolete proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660547
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck line origination:
+										</div>
+										<div class="col-9">
+											org-c
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											24.24
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost/unit:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											# allowed units:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											calculated allowed amt:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											deductible amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost share amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											payment amount:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											patient paid amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cat cap applied amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to provider:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to bene:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+
+
+
+									<!-- 8------------------------------------------ -->
+
+
+									<br class="spacer" />
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service:
+										</div>
+										<div class="col-9">
+											a7039
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outpatient allowable amount:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck result:
+										</div>
+										<div class="col-9">
+											non-c-n
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											completed claimcheck:
+										</div>
+										<div class="col-9">
+											yes
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck sex conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck cosmetic/unlisted:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck age conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck experimental proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck obsolete proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660547
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck line origination:
+										</div>
+										<div class="col-9">
+											org-c
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											24.24
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost/unit:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											# allowed units:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											calculated allowed amt:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											deductible amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost share amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											payment amount:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											patient paid amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cat cap applied amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to provider:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to bene:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+
+
+
+
+
+									<!-- 9------------------------------------------ -->
+
+
+									<br class="spacer" />
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service:
+										</div>
+										<div class="col-9">
+											a7032
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outpatient allowable amount:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck result:
+										</div>
+										<div class="col-9">
+											non-c-n
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											completed claimcheck:
+										</div>
+										<div class="col-9">
+											yes
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck sex conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck cosmetic/unlisted:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck age conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck experimental proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck obsolete proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660547
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck line origination:
+										</div>
+										<div class="col-9">
+											org-c
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											24.24
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost/unit:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											# allowed units:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											calculated allowed amt:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											deductible amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost share amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											payment amount:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											patient paid amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cat cap applied amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to provider:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to bene:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+
+
+
+
+									<!-- 10------------------------------------------ -->
+
+
+									<br class="spacer" />
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service:
+										</div>
+										<div class="col-9">
+											a7032
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outpatient allowable amount:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck result:
+										</div>
+										<div class="col-9">
+											non-c-n
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											completed claimcheck:
+										</div>
+										<div class="col-9">
+											yes
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck sex conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck cosmetic/unlisted:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck age conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck experimental proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck obsolete proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660547
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck line origination:
+										</div>
+										<div class="col-9">
+											org-c
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											24.24
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost/unit:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											# allowed units:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											calculated allowed amt:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											deductible amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost share amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											payment amount:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											patient paid amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cat cap applied amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to provider:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to bene:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+
+
+
+
+
+									<!-- 11------------------------------------------ -->
+
+
+									<br class="spacer" />
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service:
+										</div>
+										<div class="col-9">
+											a7032
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outpatient allowable amount:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck result:
+										</div>
+										<div class="col-9">
+											non-c-n
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											completed claimcheck:
+										</div>
+										<div class="col-9">
+											yes
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck sex conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck cosmetic/unlisted:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck age conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck experimental proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck obsolete proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660547
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck line origination:
+										</div>
+										<div class="col-9">
+											org-c
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											24.24
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost/unit:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											# allowed units:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											calculated allowed amt:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											deductible amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost share amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											payment amount:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											patient paid amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cat cap applied amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to provider:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to bene:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+
+
+
+
+									<!-- 12------------------------------------------ -->
+
+
+									<br class="spacer" />
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service:
+										</div>
+										<div class="col-9">
+											a7032
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outpatient allowable amount:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck result:
+										</div>
+										<div class="col-9">
+											non-c-n
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											completed claimcheck:
+										</div>
+										<div class="col-9">
+											yes
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck sex conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck cosmetic/unlisted:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck age conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck experimental proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck obsolete proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660547
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck line origination:
+										</div>
+										<div class="col-9">
+											org-c
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											24.24
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost/unit:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											# allowed units:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											calculated allowed amt:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											deductible amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost share amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											payment amount:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											patient paid amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cat cap applied amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to provider:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to bene:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+
+
+
+
+									<!-- 13------------------------------------------ -->
+
+
+									<br class="spacer" />
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service:
+										</div>
+										<div class="col-9">
+											a7032
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outpatient allowable amount:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck result:
+										</div>
+										<div class="col-9">
+											non-c-n
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											completed claimcheck:
+										</div>
+										<div class="col-9">
+											yes
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck sex conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck cosmetic/unlisted:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck age conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck experimental proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck obsolete proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660547
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck line origination:
+										</div>
+										<div class="col-9">
+											org-c
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											24.24
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost/unit:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											# allowed units:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											calculated allowed amt:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											deductible amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost share amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											payment amount:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											patient paid amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cat cap applied amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to provider:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to bene:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+
+
+									<!-- 14------------------------------------------ -->
+
+
+									<br class="spacer" />
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service:
+										</div>
+										<div class="col-9">
+											a7032
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outpatient allowable amount:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck result:
+										</div>
+										<div class="col-9">
+											non-c-n
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											completed claimcheck:
+										</div>
+										<div class="col-9">
+											yes
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck sex conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck cosmetic/unlisted:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck age conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck experimental proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck obsolete proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660547
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck line origination:
+										</div>
+										<div class="col-9">
+											org-c
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											24.24
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost/unit:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											# allowed units:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											calculated allowed amt:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											deductible amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost share amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											payment amount:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											patient paid amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cat cap applied amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to provider:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to bene:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+
+
+
+									<!-- 15------------------------------------------ -->
+
+
+									<br class="spacer" />
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service:
+										</div>
+										<div class="col-9">
+											a7035
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outpatient allowable amount:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck result:
+										</div>
+										<div class="col-9">
+											non-c-n
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											completed claimcheck:
+										</div>
+										<div class="col-9">
+											yes
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck sex conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck cosmetic/unlisted:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck age conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck experimental proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck obsolete proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660547
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck line origination:
+										</div>
+										<div class="col-9">
+											org-c
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											24.24
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost/unit:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											# allowed units:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											calculated allowed amt:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											deductible amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost share amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											payment amount:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											patient paid amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cat cap applied amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to provider:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to bene:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+
+
+
+
+
+									<!-- 16------------------------------------------ -->
+
+
+									<br class="spacer" />
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service:
+										</div>
+										<div class="col-9">
+											a7034
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outpatient allowable amount:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck result:
+										</div>
+										<div class="col-9">
+											non-c-n
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											completed claimcheck:
+										</div>
+										<div class="col-9">
+											yes
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck sex conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck cosmetic/unlisted:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck age conflict:
+										</div>
+										<div class="col-9">
+											00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck experimental proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck obsolete proc:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660547
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claimcheck line origination:
+										</div>
+										<div class="col-9">
+											org-c
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											24.24
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost/unit:
+										</div>
+										<div class="col-9">
+											25.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											# allowed units:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											calculated allowed amt:
+										</div>
+										<div class="col-9">
+											3.82
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											deductible amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cost share amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											payment amount:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											patient paid amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cat cap applied amt:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to provider:
+										</div>
+										<div class="col-9">
+											.76
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											amt pd to bene:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<hr class="cru-rule" />
+
+									<!--   -------------------- end of 16 for eaches---------- -->
+									<br class="spacer" />
+
+									<div class="row">
+										<div class="col-3">
+											coverage code (dx):
+										</div>
+										<div class="col-9">
+											accept
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											file used:
+										</div>
+										<div class="col-9">
+											jrules
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last test:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last rule:
+										</div>
+										<div class="col-9">
+											ohi rule
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last element:
+										</div>
+										<div class="col-9">
+											-2
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outcome:
+										</div>
+										<div class="col-9">
+											quit
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											coverage code (proc, dme):
+										</div>
+										<div class="col-9">
+											accept
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											file used:
+										</div>
+										<div class="col-9">
+											jrules
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last test:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last rule:
+										</div>
+										<div class="col-9">
+											ohi rule
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last element:
+										</div>
+										<div class="col-9">
+											-2
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outcome:
+										</div>
+										<div class="col-9">
+											quit
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											coverage code (proc, dme):
+										</div>
+										<div class="col-9">
+											accept
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											file used:
+										</div>
+										<div class="col-9">
+											jrules
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last test:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last rule:
+										</div>
+										<div class="col-9">
+											ohi rule
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last element:
+										</div>
+										<div class="col-9">
+											-2
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outcome:
+										</div>
+										<div class="col-9">
+											quit
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											coverage code (proc, dme):
+										</div>
+										<div class="col-9">
+											accept
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											file used:
+										</div>
+										<div class="col-9">
+											jrules
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last test:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last rule:
+										</div>
+										<div class="col-9">
+											ohi rule
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last element:
+										</div>
+										<div class="col-9">
+											-2
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outcome:
+										</div>
+										<div class="col-9">
+											quit
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											coverage code (proc, dme):
+										</div>
+										<div class="col-9">
+											accept
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											file used:
+										</div>
+										<div class="col-9">
+											jrules
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last test:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last rule:
+										</div>
+										<div class="col-9">
+											ohi rule
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last element:
+										</div>
+										<div class="col-9">
+											-2
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outcome:
+										</div>
+										<div class="col-9">
+											quit
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											coverage code (proc, dme):
+										</div>
+										<div class="col-9">
+											accept
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											file used:
+										</div>
+										<div class="col-9">
+											jrules
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last test:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last rule:
+										</div>
+										<div class="col-9">
+											ohi rule
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last element:
+										</div>
+										<div class="col-9">
+											-2
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outcome:
+										</div>
+										<div class="col-9">
+											quit
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											coverage code (proc, dme):
+										</div>
+										<div class="col-9">
+											accept
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											file used:
+										</div>
+										<div class="col-9">
+											jrules
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last test:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last rule:
+										</div>
+										<div class="col-9">
+											ohi rule
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last element:
+										</div>
+										<div class="col-9">
+											-2
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outcome:
+										</div>
+										<div class="col-9">
+											quit
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											coverage code (proc, dme):
+										</div>
+										<div class="col-9">
+											accept
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											file used:
+										</div>
+										<div class="col-9">
+											jrules
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last test:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last rule:
+										</div>
+										<div class="col-9">
+											ohi rule
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last element:
+										</div>
+										<div class="col-9">
+											-2
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outcome:
+										</div>
+										<div class="col-9">
+											quit
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											coverage code (proc, dme):
+										</div>
+										<div class="col-9">
+											accept
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											file used:
+										</div>
+										<div class="col-9">
+											jrules
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last test:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last rule:
+										</div>
+										<div class="col-9">
+											ohi rule
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last element:
+										</div>
+										<div class="col-9">
+											-2
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outcome:
+										</div>
+										<div class="col-9">
+											quit
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											coverage code (proc, dme):
+										</div>
+										<div class="col-9">
+											accept
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											file used:
+										</div>
+										<div class="col-9">
+											jrules
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last test:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last rule:
+										</div>
+										<div class="col-9">
+											ohi rule
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last element:
+										</div>
+										<div class="col-9">
+											-2
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outcome:
+										</div>
+										<div class="col-9">
+											quit
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											coverage code (proc, dme):
+										</div>
+										<div class="col-9">
+											accept
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											file used:
+										</div>
+										<div class="col-9">
+											jrules
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last test:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last rule:
+										</div>
+										<div class="col-9">
+											ohi rule
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last element:
+										</div>
+										<div class="col-9">
+											-2
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outcome:
+										</div>
+										<div class="col-9">
+											quit
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											coverage code (proc, dme):
+										</div>
+										<div class="col-9">
+											accept
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											file used:
+										</div>
+										<div class="col-9">
+											jrules
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last test:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last rule:
+										</div>
+										<div class="col-9">
+											ohi rule
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last element:
+										</div>
+										<div class="col-9">
+											-2
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outcome:
+										</div>
+										<div class="col-9">
+											quit
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											coverage code (proc, dme):
+										</div>
+										<div class="col-9">
+											accept
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											file used:
+										</div>
+										<div class="col-9">
+											jrules
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last test:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last rule:
+										</div>
+										<div class="col-9">
+											ohi rule
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last element:
+										</div>
+										<div class="col-9">
+											-2
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outcome:
+										</div>
+										<div class="col-9">
+											quit
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											coverage code (proc, dme):
+										</div>
+										<div class="col-9">
+											accept
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											file used:
+										</div>
+										<div class="col-9">
+											jrules
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last test:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last rule:
+										</div>
+										<div class="col-9">
+											ohi rule
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last element:
+										</div>
+										<div class="col-9">
+											-2
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outcome:
+										</div>
+										<div class="col-9">
+											quit
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											coverage code (proc, dme):
+										</div>
+										<div class="col-9">
+											accept
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											file used:
+										</div>
+										<div class="col-9">
+											jrules
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last test:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last rule:
+										</div>
+										<div class="col-9">
+											ohi rule
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last element:
+										</div>
+										<div class="col-9">
+											-2
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outcome:
+										</div>
+										<div class="col-9">
+											quit
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											coverage code (proc, dme):
+										</div>
+										<div class="col-9">
+											accept
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											file used:
+										</div>
+										<div class="col-9">
+											jrules
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last test:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last rule:
+										</div>
+										<div class="col-9">
+											ohi rule
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last element:
+										</div>
+										<div class="col-9">
+											-2
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outcome:
+										</div>
+										<div class="col-9">
+											quit
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											coverage code (proc, dme):
+										</div>
+										<div class="col-9">
+											accept
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											file used:
+										</div>
+										<div class="col-9">
+											jrules
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last test:
+										</div>
+										<div class="col-9">
+											1
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last rule:
+										</div>
+										<div class="col-9">
+											ohi rule
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											last element:
+										</div>
+										<div class="col-9">
+											-2
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											outcome:
+										</div>
+										<div class="col-9">
+											quit
+										</div>
+									</div>
+									<hr class="cru-rule" />
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											remit-to name:
+										</div>
+										<div class="col-9">
+											choice medical healthcare
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											tax id #:
+										</div>
+										<div class="col-9">
+											260059374
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											Provider address ln 1:
+										</div>
+										<div class="col-9">
+											268 s state st ste 100
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											provider city:
+										</div>
+										<div class="col-9">
+											salt lake city
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											provider state:
+										</div>
+										<div class="col-9">
+											utah
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											provider zip:
+										</div>
+										<div class="col-9">
+											84107
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											vendor facility type:
+										</div>
+										<div class="col-9">
+											dme
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											vendor specialty:
+										</div>
+										<div class="col-9">
+											durable medical supply
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											provider address ln 3:
+										</div>
+										<div class="col-9">
+											84111
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											cmac class code:
+										</div>
+										<div class="col-9">
+											all others
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											pl zip:
+										</div>
+										<div class="col-9">
+											84111
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-12">
+											claim history:
+										</div>
+
+									</div>
+									<hr class="cru-rule" />
+									<div class="row">
+										<div class="col-3">
+											ein:
+										</div>
+										<div class="col-9">
+											260059374
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claim number:
+										</div>
+										<div class="col-9">
+											wcg2807
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											claim number history:
+										</div>
+										<div class="col-9">
+											wcg2807
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claim status history:
+										</div>
+										<div class="col-9">
+											in process
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											vendor id hist:
+										</div>
+										<div class="col-9">
+											choice medical healthcare
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											vendorization pointer history:
+										</div>
+										<div class="col-9">
+											201913691113664*1*1
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											assign of benefits hist:
+										</div>
+										<div class="col-9">
+											yes
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											type of claim hist:
+										</div>
+										<div class="col-9">
+											outpatient
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											date of serv/admission hist:
+										</div>
+										<div class="col-9">
+											apr 29, 2019
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											date initially received hist:
+										</div>
+										<div class="col-9">
+											oct 21, 2019@15:18:16
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											sponsor hist:
+										</div>
+										<div class="col-9">
+											abercrombie, william D
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											beneficiary name:
+										</div>
+										<div class="col-9">
+											abercrombie, linda g
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi payment hist:
+										</div>
+										<div class="col-9">
+											887.68
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											77.32
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											work related acc/ill hist:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											auto accident hist:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											other accident hist:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											employed hist:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											rel of info limit hist:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											other health insur hist:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claim form signiture hist:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											group health hist:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											medicaid hist:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											private/non-group hist:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											champva supplement hist:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											workers comp hist:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											none checked hist:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											medicare hist:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											non-occupational injury hist:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											multi causal accident hist:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											addit. accident comments hist:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											wc details hist:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											indicators of injury/acc hist:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											mccr review warr hist:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											circumstances hist:
+										</div>
+										<div class="col-9">
+											no
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											last setting duz history:
+										</div>
+										<div class="col-9">
+											zzhottman, john e
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											total charges billed history:
+										</div>
+										<div class="col-9">
+											965
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											place of service history:
+										</div>
+										<div class="col-9">
+											ph
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											payments history:
+										</div>
+										<div class="col-9">
+											0
+										</div>
+									</div>
+									<br class="spacer" />
+									<hr class="short" />
+									<div class="row">
+										<div class="col-3">
+											outpatient diagnosis hist:
+										</div>
+										<div class="col-9">
+											obstructive sleep apnea adult pediatric
+										</div>
+									</div>
+									<hr class="short" />
+
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											outpatient service hist:
+										</div>
+										<div class="col-9">
+											a4604
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service hist:
+										</div>
+										<div class="col-9">
+											70.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660544
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											59.04
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service hist:
+										</div>
+										<div class="col-9">
+											a4604
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service hist:
+										</div>
+										<div class="col-9">
+											70.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660544
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											59.04
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service hist:
+										</div>
+										<div class="col-9">
+											a4604
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service hist:
+										</div>
+										<div class="col-9">
+											70.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660544
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											59.04
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service hist:
+										</div>
+										<div class="col-9">
+											a4604
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service hist:
+										</div>
+										<div class="col-9">
+											70.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660544
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											59.04
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service hist:
+										</div>
+										<div class="col-9">
+											a4604
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service hist:
+										</div>
+										<div class="col-9">
+											70.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660544
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											59.04
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service hist:
+										</div>
+										<div class="col-9">
+											a4604
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service hist:
+										</div>
+										<div class="col-9">
+											70.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660544
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											59.04
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service hist:
+										</div>
+										<div class="col-9">
+											a4604
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service hist:
+										</div>
+										<div class="col-9">
+											70.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660544
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											59.04
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service hist:
+										</div>
+										<div class="col-9">
+											a4604
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service hist:
+										</div>
+										<div class="col-9">
+											70.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660544
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											59.04
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service hist:
+										</div>
+										<div class="col-9">
+											a4604
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service hist:
+										</div>
+										<div class="col-9">
+											70.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660544
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											59.04
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service hist:
+										</div>
+										<div class="col-9">
+											a4604
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service hist:
+										</div>
+										<div class="col-9">
+											70.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660544
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											59.04
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service hist:
+										</div>
+										<div class="col-9">
+											a4604
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service hist:
+										</div>
+										<div class="col-9">
+											70.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660544
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											59.04
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service hist:
+										</div>
+										<div class="col-9">
+											a4604
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service hist:
+										</div>
+										<div class="col-9">
+											70.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660544
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											59.04
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service hist:
+										</div>
+										<div class="col-9">
+											a4604
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service hist:
+										</div>
+										<div class="col-9">
+											70.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660544
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											59.04
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service hist:
+										</div>
+										<div class="col-9">
+											a4604
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service hist:
+										</div>
+										<div class="col-9">
+											70.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660544
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											59.04
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service hist:
+										</div>
+										<div class="col-9">
+											a4604
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service hist:
+										</div>
+										<div class="col-9">
+											70.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660544
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											59.04
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-3">
+											outpatient service hist:
+										</div>
+										<div class="col-9">
+											a4604
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											charge for service hist:
+										</div>
+										<div class="col-9">
+											70.00
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											1st cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											nu
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											edi line identifier:
+										</div>
+										<div class="col-9">
+											1660544
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											2nd cpt-4 modifier:
+										</div>
+										<div class="col-9">
+											kx
+										</div>
+									</div>
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											ohi paid amt:
+										</div>
+										<div class="col-9">
+											59.04
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi patient responsibility:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											ohi pr balance:
+										</div>
+										<div class="col-9">
+											10.96
+										</div>
+									</div>
+									<br class="spacer" />
+									<hr class="cru-rule" />
+									<br class="spacer" />
+									<div class="row">
+										<div class="col-3">
+											claim workflow
+										</div>
+										<div class="col-9">
+
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-3">
+											claim number
+										</div>
+										<div class="col-9">
+											WCG2807
+										</div>
+									</div>
+
+
+
+
+
+
+
+
+
 								</div>
 							</div>
-
-							<hr class="cru-divider" />
-							<table class="table-border striped ccd">
-								<thead>
-									<tr>
-										<th scope="col" style="width:10%;">Rev</th>
-										<th scope="col" style="width:20%;">DX/PX/NDC-Mod</th>
-										<th scope="col" style="width:60%;">Description</th>
-										<th scope="col" style="width:10%;">CS/D Waived</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td></td>
-										<td>V70.0</td>
-										<td>Routine Medical Exam</td>
-										<td>&nbsp;</td>
-									</tr>
-									<tr>
-										<td></td>
-										<td>272.4</td>
-										<td>Hyperlipidemia nec/nos</td>
-										<td>Y</td>
-									</tr>
-									<tr>
-										<td></td>
-										<td>244.9</td>
-										<td>Hypothyroidism NOS</td>
-										<td></td>
-									</tr>
-									<tr>
-										<td></td>
-										<td>733.00</td>
-										<td>Osteoperosis NOS</td>
-										<td></td>
-									</tr>
-									<tr>
-										<td></td>
-										<td>36415</td>
-										<td>Routine Venipuncture</td>
-										<td></td>
-									</tr>
-									<tr>
-										<td></td>
-										<td>81000</td>
-										<td>Urinalysis Nonauto w/scope</td>
-										<td></td>
-									</tr>
-									<tr>
-										<td></td>
-										<td>93000</td>
-										<td>Electrocardiogram complete</td>
-										<td>Y</td>
-									</tr>
-									<tr>
-										<td></td>
-										<td>99396</td>
-										<td>Prev Visit Est Age 40-64</td>
-										<td></td>
-									</tr>
-								</tbody>
-							</table>
-							<p>&nbsp;</p>
-							<table class="table-cru tight">
-								<thead class="thead-cru">
-									<tr class="first">
-										<th scope="col" style="width:10%;">REV</th>
-										<th scope="col" style="width:11%;">DX/PX/NDC-MOD</th>
-										<th scope="col" style="width:10%;">UNT</th>
-										<th scope="col" style="width:10%;">CHG/UNT</th>
-										<th scope="col" style="width:10%;">A/A UNT</th>
-										<th scope="col" style="width:15%;">TOTAL CHG</th>
-										<th scope="col" style="width:10%; white-space:nowrap;">TOTAL A/A</th>
-										<th scope="col" style="width:14%; white-space:nowrap;">TEST RMKS</th>
-										<th scope="col" style="width:10%; padding-right:10px;">CS/D</th>
-									</tr>
-									<tr class="second">
-										<th scope="col"></th>
-										<th scope="col"></th>
-										<th scope="col"></th>
-										<th scope="col">MCAID</th>
-										<th scope="col">Pr-OHI-PD</th>
-										<th scope="col">Pr-OHI-PR</th>
-										<th scope="col">Addl OHI-PD</th>
-										<th scope="col">OHI PR Bal</th>
-										<th scope="col">Waived</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td></td>
-										<td>272.4</td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td>Acc</td>
-										<td>Y</td>
-									</tr>
-									<tr>
-										<td></td>
-										<td>244.9</td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td>Acc</td>
-										<td></td>
-									</tr>
-									<tr>
-										<td></td>
-										<td>733.00</td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td>Acc</td>
-										<td></td>
-									</tr>
-									<tr>
-										<td>0</td>
-										<td>36415</td>
-										<td>1</td>
-										<td></td>
-										<td></td>
-										<td>8.00</td>
-										<td>3.00</td>
-										<td>Acc</td>
-										<td></td>
-									</tr>
-									<tr>
-										<td>0</td>
-										<td>81000</td>
-										<td>1</td>
-										<td></td>
-										<td></td>
-										<td>15.00</td>
-										<td>4.68</td>
-										<td>Acc</td>
-										<td></td>
-									</tr>
-									<tr>
-										<td>0</td>
-										<td>93000</td>
-										<td>1</td>
-										<td></td>
-										<td></td>
-										<td>65.00</td>
-										<td>19.50</td>
-										<td>Acc</td>
-										<td>Y</td>
-									</tr>
-									<tr>
-										<td>0</td>
-										<td>99393</td>
-										<td>1</td>
-										<td></td>
-										<td></td>
-										<td>200.00</td>
-										<td>0.00</td>
-										<td>RE&nbsp;&nbsp;27</td>
-										<td></td>
-									</tr>
-
-									<tr class="totals-first">
-										<th scope="col">&nbsp;</th>
-										<th scope="col">&nbsp;</th>
-										<th scope="col">&nbsp;</th>
-										<th scope="col">&nbsp;</th>
-										<th scope="col">&nbsp;</th>
-										<th scope="col">&nbsp;</th>
-										<th scope="col">&nbsp;</th>
-										<th scope="col">&nbsp;</th>
-										<th scope="col">&nbsp;</th>
-									</tr>
-									<tr class="totals-second">
-										<th scope="col"></th>
-										<th scope="col"></th>
-										<th scope="col"></th>
-										<th scope="col"></th>
-										<th scope="col"></th>
-										<th scope="col">288.00</th>
-										<th scope="col">27.18</th>
-										<th scope="col"></th>
-										<th scope="col"></th>
-									</tr>
-								</tbody>
-							</table>
-							<!-- <hr class="cru-rule"> -->
 						</div>
+						<hr class="cru-divider" />
 					</div>
 				</div>
 			</div>
 			<?php include '../components/_footer.php'; ?>
 		</div>
 	</main>
-
 	<?php include '../components/_printbutton.php'; ?>
 	<?php include '../_globals-bottom.php'; ?>
 </body>

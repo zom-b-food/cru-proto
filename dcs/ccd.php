@@ -161,7 +161,6 @@
 									<div class="col-2">xxxxxxxxxxx MED PA</div>
 									<div class="col-2 label">PL Ven:</div>
 									<div class="col-2">xxxxxxxxxxx MED PA</div>
-
 								</div>
 								<div class="row">
 									<div class="col-2 label">Phone:</div>
@@ -174,28 +173,24 @@
 									<div class="col-2">nnnn xxxxxxx S3NC</div>
 									<div class="col-2 label">Addr1:</div>
 									<div class="col-2">nnnn xxxxxxx S3NC</div>
-
 								</div>
 								<div class="row">
 									<div class="col-2 label">Addr2:</div>
 									<div class="col-2">&nbsp;</div>
 									<div class="col-2 label">Addr2:</div>
 									<div class="col-2">@</div>
-
 								</div>
 								<div class="row">
 									<div class="col-2 label">City:</div>
 									<div class="col-2">xxxxxxxxxxx</div>
 									<div class="col-2 label">City:</div>
 									<div class="col-2">xxxxxxxxxxx</div>
-
 								</div>
 								<div class="row">
 									<div class="col-2 label">State:</div>
 									<div class="col-2">xx</div>
 									<div class="col-2 label">State:</div>
 									<div class="col-2">xx</div>
-
 								</div>
 								<div class="row">
 									<div class="col-2 label">Zip:</div>
@@ -491,7 +486,7 @@
 									</tr>
 									<tr>
 										<td class="label setwidth-25">Amount Applied to Cat Cap:</td>
-										<td class="setwidth-1">N/A </td>
+										<td class="setwidth-1">0.00 </td>
 										<td class="setwidth-1 red left"></td>
 										<td class="label setwidth-25">Amt Rev Cat Cap:</td>
 										<td class="setwidth-5">N/A</td>
@@ -525,7 +520,6 @@
 									</tr>
 									<tr>
 										<td colspan="6">&nbsp;</td>
-
 									</tr>
 									<tr>
 										<td class="label setwidth-25">Total Amount to be PAID on claim:</td>
@@ -547,28 +541,26 @@
 									</tr>
 									<tr>
 										<td colspan="6">&nbsp;</td>
-
 									</tr>
 									<tr>
 										<td class="label setwidth-25">CHAMPVA Beneficiary Deductible 2009:
 										</td>
-										<td class="setwidth-5">undetermined</td>
-										<td class="setwidth-10">
+										<td class="setwidth-5">50.00</td>
+										<td class="setwidth-5">(satisfied)
 										</td>
 									</tr>
 									<tr>
 										<td class="label setwidth-25">CHAMPVA Family Deductible 2009:</td>
-										<td class="setwidth-5">undetermined</td>
+										<td class="setwidth-5">50.00</td>
 									</tr>
 									<tr>
 										<td class="label setwidth-26">CHAMPVA Family Catastrophic Cap 2009:
 										</td>
-										<td class="setwidth-5">undetermined</td>
+										<td class="setwidth-5">179.35</td>
 									</tr>
 								</tbody>
 							</table>
 							<hr class="cru-rule" />
-
 							<h3>Payment History</h3>
 							<table class="table-border striped">
 								<thead>
@@ -1002,7 +994,6 @@
 			<?php include '../components/_footer.php'; ?>
 		</div>
 	</main>
-
 	<?php include '../components/_printbutton.php'; ?>
 	<?php include '../_globals-bottom.php'; ?>
 </body>

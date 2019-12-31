@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +13,6 @@
 	}
 	</style>
 </head>
-
 <body>
 	<main role="main">
 		<div class="col-12">
@@ -92,7 +90,6 @@
 										<p>&nbsp;</p>
 										<p>&nbsp;</p>
 										<p>&nbsp;</p>
-
 									</div>
 									<div id="mh" class="tab-pane fade">
 										<div class="">
@@ -180,7 +177,6 @@
 															<div class="form-group">
 																<input type="submit" value="Run"
 																	class="btn btn-run mr10">
-
 																&nbsp;<input type="reset" value="Reset"
 																	class="btn btn-cancel mr10">
 															</div>
@@ -188,7 +184,6 @@
 													</div>
 												</form>
 											</div>
-
 											<p>&nbsp;</p>
 											<p>&nbsp;</p>
 											<p>&nbsp;</p>
@@ -200,7 +195,6 @@
 											<h1>Future Feature</h1>
 											<br>
 											<div class="col-4">
-
 											</div>
 											<p>&nbsp;</p>
 											<p>&nbsp;</p>
@@ -216,7 +210,6 @@
 			<?php include 'components/_footer.php'; ?>
 		</div>
 	</main>
-
 	<?php include '_globals-bottom.php'; ?>
 	<script>
 	$(document).ready(function() {
@@ -245,5 +238,4 @@
 	});
 	</script>
 </body>
-
 </html>

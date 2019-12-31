@@ -43,7 +43,6 @@
 			<?php include '../components/_footer.php'; ?>
 		</div>
 	</main>
-
 	<?php include '../_globals-bottom.php'; ?>
 	<script>
 	$(document).ready(function() {
@@ -71,7 +70,6 @@
 		}).change();
 	});
 	</script>
-
 </body>
 
 </html>

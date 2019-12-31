@@ -8,7 +8,6 @@
 	<meta http-equiv="cache-control" content="no-cache" />
 	<title>Post Processing Report - cru-prototype</title>
 	<?php include '../_globals-top.php'; ?>
-
 </head>
 
 <body>
@@ -50,17 +49,14 @@
 								<div class="row">
 									<div class="col-1 label">DUZ:</div>
 									<div class="col-3">123456</div>
-
 								</div>
 								<div class="row">
 									<div class="col-1 label">Date:</div>
 									<div class="col-3">01/20/2019</div>
-
 								</div>
 								<div class="row">
 									<div class="col-1 label">Time:</div>
 									<div class="col-3">1200 PST</div>
-
 								</div>
 							</div>
 							<hr class="cru-rule">
@@ -150,7 +146,6 @@
 										<th scope="col" style="width:9%;">Payments</th>
 										<th scope="col" style="width:3%;">AI</th>
 										<th scope="col" style="width:28%;">Reason</th>
-
 									</tr>
 									<tr class="second">
 										<th scope="col"></th>
@@ -167,7 +162,6 @@
 										<th scope="col"></th>
 										<th scope="col"></th>
 										<th scope="col"></th>
-
 									</tr>
 								</thead>
 								<tbody>
@@ -329,7 +323,6 @@
 										<td>AC</td>
 										<td></td>
 									</tr>
-
 									<tr class="totals-first">
 										<td class="fauxth">Totals:</td>
 										<td class="fauxth">&nbsp;</td>
@@ -360,7 +353,6 @@
 									</tr>
 								</tbody>
 							</table>
-
 							<hr class="cru-rule">
 							<h3>Post Processing Report Information</h3>
 							<hr />
@@ -445,9 +437,7 @@
 									</tr>
 									<tr>
 										<td colspan="6">&nbsp;</td>
-
 									</tr>
-
 								</tbody>
 							</table>
 							<hr />

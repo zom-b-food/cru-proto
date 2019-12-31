@@ -1,7 +1,7 @@
 <div class="col-4">
 	<div class="form-group"><label for="first">Please select a report:</label>
 		<select id="first" class="form-control" tabindex=1>
-			<option>Choose Report</option>
+			<option value="" selected>Choose Report</option>
 			<option value="claimdump">Claim Dump</option>
 			<option value="ccd">Comprehensive Claim Dump</option>
 			<option value="fcc">Family Cat Cap Accruals</option>

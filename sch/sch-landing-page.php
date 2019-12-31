@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +13,6 @@
 	}
 	</style>
 </head>
-
 <body>
 	<main role="main">
 		<div class="col-12">
@@ -43,12 +41,32 @@
 			<?php include '../components/_footer.php'; ?>
 		</div>
 	</main>
-
 	<?php include '../_globals-bottom.php'; ?>
 	<script>
-	
+	$(document).ready(function() {
+		$("#first").change(function() {
+			$(this).find("option:selected").each(function() {
+				if ($(this).attr("value") == "claimdump") {
+					$(".card").not(".claimdump").hide();
+					$(".claimdump").show();
+				} else if ($(this).attr("value") == "ccd") {
+					$(".card").not(".ccd").hide();
+					$(".ccd").show();
+				} else if ($(this).attr("value") == "ppr") {
+					$(".card").not(".ppr").hide();
+					$(".ppr").show();
+				} else if ($(this).attr("value") == "fcc") {
+					$(".card").not(".fcc").hide();
+					$(".fcc").show();
+				} else if ($(this).attr("value") == "waiver") {
+					$(".card").not(".waiver").hide();
+					$(".waiver").show();
+				} else {
+					$(".card").hide();
+				}
+			});
+		}).change();
+	});
 	</script>
-
 </body>
-
 </html>

@@ -929,11 +929,16 @@ table#ccd > tbody td:nth-child(3) {
 
 /*    UTILITY CLASSES     */
 
+br.spacer {
+    margin-top: 0;
+    margin-bottom: .15rem;
+}
+
 .nowrap {
   white-space: nowrap;
 }
 
-.strong {
+.bold, .strong {
   font-weight:700;
 }
 
@@ -1252,4 +1257,8 @@ span.fauxtab {
   transform: rotate(-145deg);
 }
 
+div.claimdump {
+  text-transform: uppercase;
+ 
+}
 

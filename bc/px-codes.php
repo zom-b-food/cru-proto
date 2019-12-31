@@ -8,8 +8,6 @@
 	<meta http-equiv="cache-control" content="no-cache" />
 	<title>cru-portal-prototype</title>
 	<?php include '../_globals-top.php'; ?>
-
-
 	<script type="text/javascript">
 	$(document).ready(function() {
 		$('table.table-sort').filterTable();
@@ -89,7 +87,6 @@
 										<a class="label pt8 mr25" href="javascript:void()">Clear All <i
 												class="fas fa-eraser"></i></a>
 									</div>
-
 								</form>
 								<table class="table-sort">
 									<thead>
@@ -102,7 +99,6 @@
 											<th class="table-sort" scope="col">Status</th>
 											<th class="table-sort" scope="col">Effective Date</th>
 											<th class="table-sort" scope="col">Inactive Date</th>
-
 											<th class="setwidth-1" scope="col"></th>
 										</tr>
 									</thead>
@@ -116,7 +112,6 @@
 											<td>Active</td>
 											<td>10/01/2020</td>
 											<td>&nbsp;</td>
-
 											<td>
 												<div class="dropleft" style="float:right;">
 													<a class="dropleftbtn"><img
@@ -149,7 +144,6 @@
 											<td>Pending</td>
 											<td>01/01/2019</td>
 											<td>&nbsp;</td>
-
 											<td>
 												<div class="dropleft" style="float:right;">
 													<a class="dropleftbtn"><img
@@ -178,9 +172,7 @@
 													class="checkbox"></td>
 											<td>0025486</td>
 											<td class="allcaps">CHANGE TRACTION APPARATUS HEAD</td>
-
 											<td>Pending</td>
-
 											<td>&nbsp;</td>
 											<td></td>
 											<td>
@@ -212,11 +204,9 @@
 											<td>845510Z</td>
 											<td class="allcaps">TRANSFUSION EMBRYONIC STEM CELLS PERIPH VEIN
 												OP</td>
-
 											<td>Inactive</td>
 											<td>10/2102017</td>
 											<td>10/21/2018</td>
-
 											<td>
 												<div class="dropleft" style="float:right;">
 													<a class="dropleftbtn"><img
@@ -246,11 +236,9 @@
 											<td>6060224</td>
 											<td class="allcaps">MEASUREMENT CENTRAL VERVOUS CONDUCTIVITY OPEN
 											</td>
-
 											<td>Active</td>
 											<td>03/21/2018</td>
 											<td>&nbsp;</td>
-
 											<td>
 												<div class="dropleft" style="float:right;">
 													<a class="dropleftbtn"><img
@@ -279,11 +267,9 @@
 													class="checkbox"></td>
 											<td>9000548</td>
 											<td class="allcaps">MAESUREMENT VENOUS FLOW CENTRAL OPEN</td>
-
 											<td>Active</td>
 											<td>10/01/2020</td>
 											<td>&nbsp;</td>
-
 											<td>
 												<div class="dropleft" style="float:right;">
 													<a class="dropleftbtn"><img
@@ -312,10 +298,8 @@
 													class="checkbox"></td>
 											<td>5W8541Z</td>
 											<td class="allcaps">MEASUREMENT VENOUS FLOW PERIPHERAL OPEN</td>
-
 											<td>Pending</td>
 											<td>&nbsp;</td>
-
 											<td></td>
 											<td>
 												<div class="dropleft" style="float:right;">
@@ -346,11 +330,9 @@
 											<td>8740W4Z</td>
 											<td class="allcaps">OSTEOPATHIC TX HEAD ARTCULATORY RAISING FORCE
 											</td>
-
 											<td>Inactive</td>
 											<td>11/13/2018</td>
 											<td>01/01/2019</td>
-
 											<td>
 												<div class="dropleft" style="float:right;">
 													<a class="dropleftbtn"><img
@@ -380,11 +362,9 @@
 											<td>0155554</td>
 											<td class="allcaps">OSTEOPATHIC TX THORACIC REGION FASCIAL
 												RELEASE</td>
-
 											<td>Inactive</td>
 											<td>10/21/2015</td>
 											<td>05/01/2017</td>
-
 											<td>
 												<div class="dropleft" style="float:right;">
 													<a class="dropleftbtn"><img
@@ -414,11 +394,9 @@
 											<td>2W55021</td>
 											<td class="allcaps">CHIROPRACTIC MANIPULATION HEAD INDIRECT
 												VISCERAL</td>
-
 											<td>Active</td>
 											<td>09/01/2020</td>
 											<td>&nbsp;</td>
-
 											<td>
 												<div class="dropleft" style="float:right;">
 													<a class="dropleftbtn"><img
@@ -461,7 +439,6 @@
 												<button type="button" class="close"
 													data-dismiss="modal">&times;</button>
 											</div>
-
 											<!-- Modal body -->
 											<div class="modal-body">
 												<div class="row">
@@ -496,7 +473,6 @@
 														01/01/2018
 													</div>
 													<div class="col-3">
-
 													</div>
 												</div>
 												<hr />
@@ -544,7 +520,6 @@
 														07/01/2019
 													</div>
 													<div class="col-3">
-
 													</div>
 												</div>
 												<div class="row">
@@ -556,7 +531,6 @@
 													</div>
 												</div>
 											</div>
-
 										</div>
 									</div>
 								</div>
@@ -569,7 +543,6 @@
 												<button type="button" class="close"
 													data-dismiss="modal">&times;</button>
 											</div>
-
 											<!-- Modal body -->
 											<div class="modal-body">
 												<form>
@@ -597,12 +570,10 @@
 																class="form-control" id="comment"
 																placeholder="Enter Comment"
 																name="comment"></textarea>
-
 														</div>
 													</div>
 												</form>
 											</div>
-
 											<!-- Modal footer -->
 											<div class="modal-footer-left">
 												<button type="button"
@@ -613,12 +584,10 @@
 													style="float:right;"
 													data-dismiss="modal">Cancel</button>
 											</div>
-
 										</div>
 									</div>
 								</div>
 							</div>
-
 						</div>
 					</div>
 				</div>
@@ -626,7 +595,6 @@
 			<?php include '../components/_footer.php'; ?>
 		</div>
 	</main>
-
 	<?php include '../components/_printbutton.php'; ?>
 	<?php include '../_globals-bottom.php'; ?>
 	<script type="text/javascript" src="/dist/js/cru-components/jquery.filtertable.min.js"></script>
@@ -634,7 +602,6 @@
 	<script type="text/javascript">
 	$(function() {
 		$('table.table-sort').tablesort();
-
 		// Check or Uncheck All checkboxes
 		$("#checkall").change(function() {
 			var checked = $(this).is(':checked');
@@ -648,16 +615,13 @@
 				});
 			}
 		});
-
 		// Changing state of CheckAll checkbox 
 		$(".checkbox").click(function() {
-
 			if ($(".checkbox").length == $(".checkbox:checked").length) {
 				$("#checkall").prop("checked", true);
 			} else {
 				$("#checkall").removeAttr("checked");
 			}
-
 		});
 	});
 	</script>

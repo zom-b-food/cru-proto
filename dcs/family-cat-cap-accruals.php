@@ -47,12 +47,10 @@
 								<div class="row">
 									<div class="col-1 label">DUZ:</div>
 									<div class="col-1">239553</div>
-
 								</div>
 								<div class="row">
 									<div class="col-1 label">Date:</div>
 									<div class="col-1">1/9/2019</div>
-
 								</div>
 								<div class="row">
 									<div class="col-1 label">Time:</div>
@@ -301,10 +299,9 @@
 					</div>
 				</div>
 			</div>
-			<?php include '../components/_footer.php'; ?>							
+			<?php include '../components/_footer.php'; ?>
 		</div>
 	</main>
-	
 	<?php include '../components/_printbutton.php'; ?>
 	<?php include '../_globals-bottom.php'; ?>
 </body>
