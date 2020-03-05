@@ -31,7 +31,7 @@
 							</small>
 						</div>
 						<div class="report-wrapper">
-							<div class="h1">Family Cap Accruals<div class="print-nav">
+							<div class="h1">Family Cat Cap Accruals<div class="print-nav">
 									<ul>
 										<li>
 											<small>
@@ -42,32 +42,31 @@
 									</ul>
 								</div>
 							</div>
-							<hr />
-							<div class="col-12">
-								<div class="row">
-									<div class="col-1 label">DUZ:</div>
-									<div class="col-1">239553</div>
-								</div>
-								<div class="row">
-									<div class="col-1 label">Date:</div>
-									<div class="col-1">1/9/2019</div>
-								</div>
-								<div class="row">
-									<div class="col-1 label">Time:</div>
-									<div class="col-1">13:32 PST</div>
-									<div class="col-1 label"></div>
-									<div class="col-8">BENEFICIARIES of Example, Beneficiary FOR CALENDAR YEAR
-										2018</div>
-									<div class="col-1">&nbsp;</div>
-								</div>
+
+							<hr class="cru" />
+							<div class="row">
+								<div class="col-1 label">DUZ:</div>
+								<div class="col-1">239553</div>
 							</div>
-							<hr class="cru-rule">
+							<div class="row">
+								<div class="col-1 label">Date:</div>
+								<div class="col-1">1/9/2019</div>
+							</div>
+							<div class="row">
+								<div class="col-1 label">Time:</div>
+								<div class="col-1">13:32 PST</div>
+								<div class="col-1 label"></div>
+								<div class="col-8">BENEFICIARIES of Example 1, Beneficiary FOR CALENDAR YEAR
+									2018</div>
+								<div class="col-1">&nbsp;</div>
+							</div>
+							<br class="spacer" />
 							<div class="row">
 								<div class="col-1"><label>Beneficiary Name:</label></div>
-								<div class="col-11 pl35">Lastname, First</div>
+								<div class="col-11 pl60">Beneficiary 1</div>
 							</div>
 							<div class="row">
-								<table class="table-border striped">
+								<table>
 									<thead>
 										<tr>
 											<th scope="col" class="setwidth-5">Claim #</th>
@@ -85,201 +84,20 @@
 									</thead>
 									<tbody>
 										<tr>
-											<td>SED5421</td>
+											<td>SKE7320</td>
 											<td>01/20/18</td>
 											<td></td>
-											<td class="r">47.45</td>
-											<td class="r">47.45</td>
-											<td class="r">47.45</td>
-											<td class="r">0.00</td>
+											<td class="r">79.00</td>
+											<td class="r">42.24</td>
+											<td class="r">25.86</td>
+											<td class="r">7.76</td>
 											<td></td>
-											<td class="r">0.00</td>
-											<td></td>
-											<td></td>
-										</tr>
-										<tr>
-											<td>SHL5541</td>
-											<td>01/31/18</td>
-											<td></td>
-											<td class="r">9.00</td>
-											<td class="r">9.00</td>
-											<td class="r">9.00</td>
-											<td class="r">0.00</td>
-											<td></td>
-											<td class="r">0.00</td>
+											<td class="r">8.62</td>
 											<td></td>
 											<td>N</td>
 										</tr>
-										<tr>
-											<td>SGS9567</td>
-											<td>02/14/18</td>
-											<td></td>
-											<td class="r">0.90</td>
-											<td class="r">0.90</td>
-											<td class="r">0.90</td>
-											<td class="r">0.00</td>
-											<td></td>
-											<td class="r">0.00</td>
-											<td></td>
-											<td></td>
-										</tr>
-										<tr>
-											<td>SVV4100</td>
-											<td>02/22/18</td>
-											<td></td>
-											<td class="r">10.64</td>
-											<td class="r">10.64</td>
-											<td class="r">10.64</td>
-											<td class="r">0.00</td>
-											<td></td>
-											<td class="r">0.00</td>
-											<td></td>
-											<td>N</td>
-										</tr>
-										<tr>
-											<td>SHV5002</td>
-											<td>05/12/18</td>
-											<td></td>
-											<td class="r">91.88</td>
-											<td class="r">91.88</td>
-											<td class="r">0.00</td>
-											<td class="r">91.88</td>
-											<td></td>
-											<td class="r">0.00</td>
-											<td></td>
-											<td></td>
-										</tr>
-										<tr>
-											<td>SHW7974</td>
-											<td>06/30/18</td>
-											<td></td>
-											<td class="r">123.00</td>
-											<td class="r">123.00</td>
-											<td class="r">0.00</td>
-											<td class="r">0.00</td>
-											<td>WAIVED</td>
-											<td class="r">0.00</td>
-											<td></td>
-											<td></td>
-										</tr>
-										<tr>
-											<td>SWA5400</td>
-											<td>07/05/18</td>
-											<td></td>
-											<td class="r">64.48</td>
-											<td class="r">64.48</td>
-											<td class="r">50.00</td>
-											<td class="r">14.48</td>
-											<td></td>
-											<td class="r">0.00</td>
-											<td></td>
-											<td></td>
-										</tr>
-										<tr>
-											<td>SGT2030</td>
-											<td>11/25/18</td>
-											<td></td>
-											<td class="r">14.20</td>
-											<td class="r">14.20</td>
-											<td class="r">14.20</td>
-											<td class="r">0.00</td>
-											<td></td>
-											<td class="r">0.00</td>
-											<td></td>
-											<td></td>
-										</tr>
-										<tr>
-											<td>SXF1288</td>
-											<td>12/01/18</td>
-											<td></td>
-											<td class="r">1,093.13</td>
-											<td class="r">834.59</td>
-											<td class="r">697.24</td>
-											<td class="r">17.31</td>
-											<td></td>
-											<td class="r">0.00</td>
-											<td></td>
-											<td></td>
-										</tr>
-										<tr>
-											<td>SBA2659</td>
-											<td>11/13/18</td>
-											<td></td>
-											<td class="r">145.00</td>
-											<td class="r">71.21</td>
-											<td class="r">53.15</td>
-											<td class="r">0.00</td>
-											<td></td>
-											<td class="r">17.21</td>
-											<td></td>
-											<td>N</td>
-										</tr>
-										<tr>
-											<td>SCC5004</td>
-											<td>12/05/18</td>
-											<td></td>
-											<td class="r">10.00</td>
-											<td class="r">10.00</td>
-											<td class="r">0.00</td>
-											<td class="r">10.00</td>
-											<td></td>
-											<td class="r">0.00</td>
-											<td></td>
-											<td></td>
-										</tr>
-										<tr>
-											<td>SXC2004</td>
-											<td>12/15/18</td>
-											<td></td>
-											<td class="r">145.04</td>
-											<td class="r">145.04</td>
-											<td class="r">0.00</td>
-											<td class="r">0.00</td>
-											<td>WAIVED</td>
-											<td class="r">0.00</td>
-											<td></td>
-											<td></td>
-										</tr>
-										<tr>
-											<td>SAC9204</td>
-											<td>12/19/18</td>
-											<td></td>
-											<td class="r">3.60</td>
-											<td class="r">3.60</td>
-											<td class="r">1.00</td>
-											<td class="r">0.00</td>
-											<td>WAIVED</td>
-											<td class="r">0.00</td>
-											<td>WAIVED</td>
-											<td>N</td>
-										</tr>
-										<tr>
-											<td>SAS6841</td>
-											<td>01/15/19</td>
-											<td></td>
-											<td class="r">92.40</td>
-											<td class="r">92.40</td>
-											<td class="r">0.00</td>
-											<td class="r">0.00</td>
-											<td>WAIVED</td>
-											<td class="r">0.00</td>
-											<td></td>
-											<td>N</td>
-										</tr>
-										<tr>
-											<td>SYS4451</td>
-											<td>01/25/19</td>
-											<td></td>
-											<td class="r">107.33</td>
-											<td class="r">107.33</td>
-											<td class="r">100.33</td>
-											<td class="r">7.00</td>
-											<td></td>
-											<td class="r">0.00</td>
-											<td></td>
-											<td>N</td>
-										</tr>
-										<tr class="totals-first">
+										<!--
+										<tr class="totals">
 											<td class="fauxth"></td>
 											<td class="fauxth">&nbsp;</td>
 											<td class="fauxth"></td>
@@ -292,9 +110,465 @@
 											<td class="fauxth"></td>
 											<td class="fauxth">&nbsp;</td>
 										</tr>
+										 -->
 									</tbody>
 								</table>
 							</div>
+							<br class="spacer" />
+							<hr /><br class="spacer" />
+							<div class="row">
+								<div class="col-1 label">DUZ:</div>
+								<div class="col-1">239553</div>
+							</div>
+							<div class="row">
+								<div class="col-1 label">Date:</div>
+								<div class="col-1">1/2/2020</div>
+							</div>
+							<div class="row">
+								<div class="col-1 label">Time:</div>
+								<div class="col-1">08:53 PST</div>
+								<div class="col-1 label"></div>
+								<div class="col-8">BENEFICIARIES of Example 2, Beneficiary FOR CALENDAR YEAR
+									2018</div>
+								<div class="col-1">&nbsp;</div>
+							</div>
+
+							<br class="spacer" />
+							<div class="row">
+								<div class="col-1"><label>Beneficiary Name:</label></div>
+								<div class="col-11 pl60">Beneficiary 2</div>
+							</div>
+							<div class="row">
+								<table>
+									<thead>
+										<tr>
+											<th scope="col" class="setwidth-5">Claim #</th>
+											<th scope="col" class="setwidth-5">DOS</th>
+											<th scope="col" class="setwidth-5">Discharge Date</th>
+											<th scope="col" class="setwidth-5">Amount Billed</th>
+											<th scope="col" class="setwidth-5">Amount Allowed</th>
+											<th scope="col" class="setwidth-5">CHAMPVA Payment</th>
+											<th scope="col" class="setwidth-5">Deduct Amount</th>
+											<th scope="col" class="setwidth-5">Prev. Service</th>
+											<th scope="col" class="setwidth-5">Cost Share</th>
+											<th scope="col" class="setwidth-5">Prev. Service</th>
+											<th scope="col" class="setwidth-5">CK Ret</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>SJI4485</td>
+											<td>01/17/18</td>
+											<td></td>
+											<td class="r">128.00</td>
+											<td class="r">65.23</td>
+											<td class="r">11.42</td>
+											<td class="r">0.00</td>
+											<td>Waived</td>
+											<td class="r">0.00</td>
+											<td>Waived</td>
+											<td>N</td>
+										</tr>
+										<tr>
+											<td>SLO4656</td>
+											<td>02/20/18</td>
+											<td></td>
+											<td class="r">19.19</td>
+											<td class="r">19.19</td>
+											<td class="r">14.39</td>
+											<td class="r">0.00</td>
+											<td></td>
+											<td class="r">4.80</td>
+											<td></td>
+											<td>N</td>
+										</tr>
+										<tr>
+											<td>SQM9292</td>
+											<td>02/20/18</td>
+											<td></td>
+											<td class="r">145.00</td>
+											<td class="r">72.38</td>
+											<td class="r">54.28</td>
+											<td class="r">0.00</td>
+											<td></td>
+											<td class="r">18.10</td>
+											<td></td>
+											<td>N</td>
+										</tr>
+										<tr>
+											<td>STA7540</td>
+											<td>01/17/18</td>
+											<td></td>
+											<td class="r">35.00</td>
+											<td class="r">17.84</td>
+											<td class="r">13.38</td>
+											<td class="r">0.00</td>
+											<td></td>
+											<td class="r">4.46</td>
+											<td></td>
+											<td>N</td>
+										</tr>
+										<tr>
+											<td>SXD7767</td>
+											<td>04/17/18</td>
+											<td></td>
+											<td class="r">61.86</td>
+											<td class="r">61.86</td>
+											<td class="r">46.39</td>
+											<td class="r">0.00</td>
+											<td></td>
+											<td class="r">15.47</td>
+											<td></td>
+											<td>N</td>
+										</tr>
+										<tr>
+											<td>SXD7768</td>
+											<td>04/17/18</td>
+											<td></td>
+											<td class="r">27.15</td>
+											<td class="r">27.15</td>
+											<td class="r">20.36</td>
+											<td class="r">0.00</td>
+											<td></td>
+											<td class="r">6.79</td>
+											<td></td>
+											<td>N</td>
+										</tr>
+										<tr>
+											<td>SXD7769</td>
+											<td>04/17/18</td>
+											<td></td>
+											<td class="r">2.19</td>
+											<td class="r">2.19</td>
+											<td class="r">1.64</td>
+											<td class="r">0.00</td>
+											<td></td>
+											<td class="r">0.55</td>
+											<td></td>
+											<td>N</td>
+										</tr>
+										<tr>
+											<td>SXD7770</td>
+											<td>04/17/18</td>
+											<td></td>
+											<td class="r">12.96</td>
+											<td class="r">12.96</td>
+											<td class="r">9.72</td>
+											<td class="r">0.00</td>
+											<td></td>
+											<td class="r">3.24</td>
+											<td></td>
+											<td>N</td>
+										</tr>
+										<tr>
+											<td>SXD7771</td>
+											<td>04/17/18</td>
+											<td></td>
+											<td class="r">10.47</td>
+											<td class="r">10.47</td>
+											<td class="r">7.85</td>
+											<td class="r">0.00</td>
+											<td></td>
+											<td class="r">2.62</td>
+											<td></td>
+											<td>N</td>
+										</tr>
+										<tr>
+											<td>TBD3478</td>
+											<td>04/17/18</td>
+											<td></td>
+											<td class="r">209.00</td>
+											<td class="r">105.49</td>
+											<td class="r">79.12</td>
+											<td class="r">0.00</td>
+											<td></td>
+											<td class="r">26.37</td>
+											<td></td>
+											<td>N</td>
+										</tr>
+										<tr>
+											<td>TCR0130</td>
+											<td>04/17/18</td>
+											<td></td>
+											<td class="r">87.00</td>
+											<td class="r">18.52</td>
+											<td class="r">13.89</td>
+											<td class="r">0.00</td>
+											<td></td>
+											<td class="r">4.63</td>
+											<td></td>
+											<td>N</td>
+										</tr>
+										<tr>
+											<td>TCR0172</td>
+											<td>04/17/18</td>
+											<td></td>
+											<td class="r">48.00</td>
+											<td class="r">10.91</td>
+											<td class="r">8.18</td>
+											<td class="r">0.00</td>
+											<td></td>
+											<td class="r">2.73</td>
+											<td></td>
+											<td>N</td>
+										</tr>
+										<tr>
+											<td>UOD7059</td>
+											<td>11/04/18</td>
+											<td></td>
+											<td class="r">394.00</td>
+											<td class="r">394.00</td>
+											<td class="r">295.50</td>
+											<td class="r">0.00</td>
+											<td></td>
+											<td class="r">98.50</td>
+											<td></td>
+											<td>N</td>
+										</tr>
+										<tr>
+											<td>UPZ2230</td>
+											<td>11/04/18</td>
+											<td></td>
+											<td class="r">468.66</td>
+											<td class="r">61.47</td>
+											<td class="r">46.10</td>
+											<td class="r">0.00</td>
+											<td></td>
+											<td class="r">15.37</td>
+											<td></td>
+											<td>N</td>
+										</tr>
+
+										<!--
+										<tr class="totals">
+											<td class="fauxth"></td>
+											<td class="fauxth">&nbsp;</td>
+											<td class="fauxth"></td>
+											<td class="fauxth r">1958.05</td>
+											<td class="fauxth r">1625.72</td>
+											<td class="fauxth r">983.91</td>
+											<td class="fauxth r">140.67</td>
+											<td class="fauxth">&nbsp;</td>
+											<td class="fauxth r">17.21</td>
+											<td class="fauxth"></td>
+											<td class="fauxth">&nbsp;</td>
+										</tr>
+										-->
+									</tbody>
+								</table>
+							</div>
+							<br class="spacer" />
+							<hr /><br class="spacer" />
+							<div class="row">
+								<div class="col-1 label">DUZ:</div>
+								<div class="col-1">239553</div>
+							</div>
+							<div class="row">
+								<div class="col-1 label">Date:</div>
+								<div class="col-1">1/9/2019</div>
+							</div>
+							<div class="row">
+								<div class="col-1 label">Time:</div>
+								<div class="col-1">13:32 PST</div>
+								<div class="col-1 label"></div>
+								<div class="col-8">BENEFICIARIES of Example 3, Beneficiary FOR CALENDAR YEAR
+									2018</div>
+								<div class="col-1">&nbsp;</div>
+							</div>
+							<br class="spacer" />
+							<div class="row">
+								<div class="col-1"><label>Beneficiary Name:</label></div>
+								<div class="col-11 pl60">Beneficiary 3</div>
+							</div>
+							<div class="row">
+								<table>
+									<thead>
+										<tr>
+											<th scope="col" class="setwidth-5">Claim #</th>
+											<th scope="col" class="setwidth-5">DOS</th>
+											<th scope="col" class="setwidth-5">Discharge Date</th>
+											<th scope="col" class="setwidth-5">Amount Billed</th>
+											<th scope="col" class="setwidth-5">Amount Allowed</th>
+											<th scope="col" class="setwidth-5">CHAMPVA Payment</th>
+											<th scope="col" class="setwidth-5">Deduct Amount</th>
+											<th scope="col" class="setwidth-5">Prev. Service</th>
+											<th scope="col" class="setwidth-5">Cost Share</th>
+											<th scope="col" class="setwidth-5">Prev. Service</th>
+											<th scope="col" class="setwidth-5">CK Ret</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>SJI4497</td>
+											<td>01/17/18</td>
+											<td></td>
+											<td class="r">79.00</td>
+											<td class="r">42.24</td>
+											<td class="r">0.00</td>
+											<td class="r">0.00</td>
+											<td>Waived</td>
+											<td class="r">0.00</td>
+											<td></td>
+											<td>N</td>
+										</tr>
+										<tr>
+											<td>UMY7997</td>
+											<td>11/06/18</td>
+											<td></td>
+											<td class="r">3.14</td>
+											<td class="r">3.14</td>
+											<td class="r">2.35</td>
+											<td class="r">0.00</td>
+											<td></td>
+											<td class="r">0.79</td>
+											<td></td>
+											<td>N</td>
+										</tr>
+										<tr>
+											<td>UMY7998</td>
+											<td>11/06/18</td>
+											<td></td>
+											<td class="r">5.99</td>
+											<td class="r">5.99</td>
+											<td class="r">4.49</td>
+											<td class="r">0.00</td>
+											<td></td>
+											<td class="r">1.50</td>
+											<td></td>
+											<td>N</td>
+										</tr>
+										<tr>
+											<td>UMY7999</td>
+											<td>11/06/18</td>
+											<td></td>
+											<td class="r">94.58</td>
+											<td class="r">94.58</td>
+											<td class="r">70.93</td>
+											<td class="r">0.00</td>
+											<td></td>
+											<td class="r">23.65</td>
+											<td></td>
+											<td>N</td>
+										</tr>
+										<tr>
+											<td>UNJ9546</td>
+											<td>11/18/18</td>
+											<td></td>
+											<td class="r">6.94</td>
+											<td class="r">6.94</td>
+											<td class="r">5.20</td>
+											<td class="r">0.00</td>
+											<td></td>
+											<td class="r">1.74</td>
+											<td></td>
+											<td>N</td>
+										</tr>
+										<!--
+										<tr class="totals">
+											<td class="fauxth"></td>
+											<td class="fauxth">&nbsp;</td>
+											<td class="fauxth"></td>
+											<td class="fauxth r">1958.05</td>
+											<td class="fauxth r">1625.72</td>
+											<td class="fauxth r">983.91</td>
+											<td class="fauxth r">140.67</td>
+											<td class="fauxth">&nbsp;</td>
+											<td class="fauxth r">17.21</td>
+											<td class="fauxth"></td>
+											<td class="fauxth">&nbsp;</td>
+										</tr>
+										-->
+									</tbody>
+								</table>
+							</div>
+							<br class="spacer" />
+							<hr /><br class="spacer" />
+							<div class="row">
+								<div class="col-1 label">DUZ:</div>
+								<div class="col-1">239553</div>
+							</div>
+							<div class="row">
+								<div class="col-1 label">Date:</div>
+								<div class="col-1">1/9/2019</div>
+							</div>
+							<div class="row">
+								<div class="col-1 label">Time:</div>
+								<div class="col-1">13:32 PST</div>
+								<div class="col-1 label"></div>
+								<div class="col-8">BENEFICIARIES of Example 4, Beneficiary FOR CALENDAR YEAR
+									2018</div>
+								<div class="col-1">&nbsp;</div>
+							</div>
+							<br class="spacer" />
+							<div class="row">
+								<div class="col-1"><label>Beneficiary Name:</label></div>
+								<div class="col-11 pl60">Beneficiary 4</div>
+							</div>
+							<div class="row">
+								<table>
+									<thead>
+										<tr>
+											<th scope="col" class="setwidth-5">Claim #</th>
+											<th scope="col" class="setwidth-5">DOS</th>
+											<th scope="col" class="setwidth-5">Discharge Date</th>
+											<th scope="col" class="setwidth-5">Amount Billed</th>
+											<th scope="col" class="setwidth-5">Amount Allowed</th>
+											<th scope="col" class="setwidth-5">CHAMPVA Payment</th>
+											<th scope="col" class="setwidth-5">Deduct Amount</th>
+											<th scope="col" class="setwidth-5">Prev. Service</th>
+											<th scope="col" class="setwidth-5">Cost Share</th>
+											<th scope="col" class="setwidth-5">Prev. Service</th>
+											<th scope="col" class="setwidth-5">CK Ret</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>SMC4976</td>
+											<td>01/20/18</td>
+											<td></td>
+											<td class="r">79.00</td>
+											<td class="r">42.24</td>
+											<td class="r">31.68</td>
+											<td class="r">0.00</td>
+											<td></td>
+											<td class="r">0.00</td>
+											<td>Waived</td>
+											<td>N</td>
+										</tr>
+										<tr>
+											<td>THW7302</td>
+											<td>05/21/18</td>
+											<td></td>
+											<td class="r">377.00</td>
+											<td class="r">272.97</td>
+											<td class="r">204.72</td>
+											<td class="r">0.00</td>
+											<td></td>
+											<td class="r">68.25</td>
+											<td></td>
+											<td>N</td>
+										</tr>
+										<tr>
+											<td colspan="11">&nbsp;<br class="spacer"/>&nbsp;</td>
+										</tr>
+										<tr class="totals">
+											<td class="fauxth"></td>
+											<td class="fauxth">&nbsp;</td>
+											<td class="fauxth"></td>
+											<td class="fauxth r">2373.13</td>
+											<td class="fauxth r">1390.00</td>
+											<td class="fauxth r">967.45</td>
+											<td class="fauxth r">100.00</td>
+											<td class="fauxth">&nbsp;</td>
+											<td class="fauxth r">322.55</td>
+											<td class="fauxth"></td>
+											<td class="fauxth">&nbsp;</td>
+										</tr>
+
+									</tbody>
+								</table>
+							</div>
+							<br class="spacer" /><br class="spacer" />
 						</div>
 					</div>
 				</div>

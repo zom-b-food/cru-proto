@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,13 +14,18 @@
 	}
 	</style>
 </head>
+
 <body>
 	<main role="main">
 		<div class="col-12">
 			<div class="row">
 				<div class="col-3 pt25">
 					<div class="fauxnav">
-						<h6><i class="fas fa-home" style="float:left;"></i>CP&amp;E / CRU Home</h6>
+						<h6 id="home-link"><i class="fas fa-home" style="float:left;padding-left:3px;"></i>
+							<a href="/index.php">CP&amp;E /
+								CRU
+								Home</a>
+						</h6>
 					</div>
 				</div>
 				<div class="col-9">
@@ -35,10 +41,12 @@
 										<a href="#">CRU Reports</a>
 										<ul>
 											<li><a href="#">Critical Access Hospital</a></li>
-											<li><a href="dcs/dcs-landing-page.php">Deductible Cost Share</a></li>
+											<li><a href="dcs/dcs-landing-page.php">Deductible Cost Share</a>
+											</li>
 											<li><a href="#">Home Health Care</a></li>
 											<li><a href="#">Skilled Nursing Facility</a></li>
-											<li><a href="sch/sch-landing-page.php">Sole Community Hospital</a>
+											<li><a href="sch/sch-landing-page.php">Sole Community
+													Hospital</a>
 											</li>
 										</ul>
 									</li>
@@ -54,7 +62,8 @@
 										<a href="#">CRU BeneCalc Factors</a>
 										<ul>
 											<li><a href="#">Critical Access Hospital</a></li>
-											<li><a href="bc/bc-landing-page.php">Deductible / Cost-Sharing</a>
+											<li><a href="bc/bc-landing-page.php">Deductible /
+													Cost-Sharing</a>
 											</li>
 											<li><a href="#">Skilled Nursing Facilities</a></li>
 											<li><a href="#">Sole Community Hospital</a>
@@ -238,4 +247,5 @@
 	});
 	</script>
 </body>
+
 </html>

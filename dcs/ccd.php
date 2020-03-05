@@ -42,7 +42,7 @@
 									</ul>
 								</div>
 							</div>
-							<hr />
+							<hr class="cru" />
 							<div class="col-12">
 								<div class="row">
 									<div class="col-2 label r">PDI-DOC:</div>
@@ -69,9 +69,9 @@
 									<div class="col-2">mm/dd/yyyy</div>
 								</div>
 							</div>
-							<hr class="cru-rule" />
+							<br class="spacer" />
 							<h3>Current Claim Data</h3>
-							<div class="card">
+							<div class="col-12">
 								<div class="row">
 									<div class="col-2 label">Patient:</div>
 									<div class="col-2">xxxxx, kkkkkkk b</div>
@@ -110,7 +110,7 @@
 									<div class="col-2 label">CAT CAP Paid YTD:</div>
 									<div class="col-2">192.82</div>
 								</div>
-								<hr />
+								<br class="spacer" />
 								<div class="row">
 									<div class="col-2 label">Type Service:</div>
 									<div class="col-2">OUTPATIENT</div>
@@ -147,7 +147,7 @@
 									<div class="col-2 label">Bene Paymt:</div>
 									<div class="col-2">0.00</div>
 								</div>
-								<hr />
+								<br class="spacer" />
 								<div class="row">
 									<div class="col-2 label">Tax ID:</div>
 									<div class="col-2">nnnnnnnnn-</div>
@@ -199,64 +199,74 @@
 									<div class="col-2">xxxxx</div>
 								</div>
 							</div>
-							<hr />
-							<table class="table-border striped">
+							<br class="spacer" />
+							<br class="spacer" />
+							<table>
 								<thead>
 									<tr>
-										<th scope="col" style="width:10%;">Rev</th>
-										<th scope="col" style="width:20%;">DX/PX/NDC-Mod</th>
-										<th scope="col" style="width:60%;">Description</th>
-										<th scope="col" style="width:10%;">CS/D Waived</th>
+										<th scope="col" class="setwidth-10">Rev</th>
+										<th scope="col" class="setwidth-14" >DX/PX/NDC-Mod</th>
+										<th scope="col" class="setwidth-5" >&nbsp;</th>
+										<th scope="col" class="setwidth-71" >Description</th>
+										
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
 										<td></td>
 										<td>V70.0</td>
-										<td>Routine Medical Exam</td>
 										<td>&nbsp;</td>
+										<td>Routine Medical Exam</td>
+										
 									</tr>
 									<tr>
 										<td></td>
 										<td>272.4</td>
-										<td>Hyperlipidemia nec/nos</td>
 										<td>Y</td>
+										<td>Hyperlipidemia nec/nos</td>
+										
 									</tr>
 									<tr>
 										<td></td>
 										<td>244.9</td>
-										<td>Hypothyroidism NOS</td>
 										<td></td>
+										<td>Hypothyroidism NOS</td>
+										
 									</tr>
 									<tr>
 										<td></td>
 										<td>733.00</td>
-										<td>Osteoperosis NOS</td>
 										<td></td>
+										<td>Osteoperosis NOS</td>
+										
 									</tr>
 									<tr>
 										<td></td>
 										<td>36415</td>
-										<td>Routine Venipuncture</td>
 										<td></td>
+										<td>Routine Venipuncture</td>
+										
 									</tr>
 									<tr>
 										<td></td>
 										<td>81000</td>
-										<td>Urinalysis Nonauto w/scope</td>
 										<td></td>
+										<td>Urinalysis Nonauto w/scope</td>
+										
 									</tr>
 									<tr>
 										<td></td>
 										<td>93000</td>
-										<td>Electrocardiogram complete</td>
 										<td>Y</td>
+										<td>Electrocardiogram complete</td>
+										
 									</tr>
 									<tr>
 										<td></td>
 										<td>99396</td>
-										<td>Prev Visit Est Age 40-64</td>
 										<td></td>
+										<td>Prev Visit Est Age 40-64</td>
+										
 									</tr>
 								</tbody>
 							</table>
@@ -264,20 +274,24 @@
 							<table class="table-cru tight">
 								<thead class="thead-cru">
 									<tr class="first">
-										<th scope="col" style="width:10%;">REV</th>
-										<th scope="col" style="width:11%;">DX/PX/NDC-MOD</th>
-										<th scope="col" style="width:10%;">UNT</th>
-										<th scope="col" style="width:10%;">CHG/UNT</th>
-										<th scope="col" style="width:10%;">A/A UNT</th>
-										<th scope="col" style="width:15%;">TOTAL CHG</th>
-										<th scope="col" style="width:10%; white-space:nowrap;">TOTAL A/A
+										<th scope="col" class="setwidth-10" style="border-bottom:none;">REV</th>
+										<th scope="col" class="setwidth-10" style="border-bottom:none;">DX/PX/NDC-MOD</th>
+										<th scope="col" class="setwidth-10" style="border-bottom:none;">&nbsp;</th>
+										<th scope="col" class="setwidth-10" style="border-bottom:none;">UNT</th>
+										<th scope="col" class="setwidth-10" style="border-bottom:none;">CHG/UNT</th>
+										<th scope="col" class="setwidth-10" style="border-bottom:none;">A/A UNT</th>
+										<th scope="col" class="setwidth-15" style="border-bottom:none;">TOTAL CHG</th>
+										<th scope="col" class="setwidth-10" style="border-bottom:none; white-space:nowrap;">TOTAL
+											A/A
 										</th>
-										<th scope="col" style="width:14%; white-space:nowrap;">TEST RMKS
+										<th scope="col"class="setwidth-15" style="border-bottom:none; white-space:nowrap;">TEST
+											RMKS
 										</th>
-										<th scope="col" style="width:10%; padding-right:10px;">CS/D</th>
+										
 									</tr>
 									<tr class="second">
 										<th scope="col"></th>
+										<th scope="col">&nbsp;</th>
 										<th scope="col"></th>
 										<th scope="col"></th>
 										<th scope="col">MCAID</th>
@@ -285,20 +299,42 @@
 										<th scope="col">Pr-OHI-PR</th>
 										<th scope="col">Addl OHI-PD</th>
 										<th scope="col">OHI-PR Bal</th>
-										<th scope="col">Waived</th>
+									
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
 										<td></td>
-										<td>272.4</td>
+										<td>V70.0</td>
 										<td></td>
 										<td></td>
 										<td></td>
 										<td></td>
 										<td></td>
 										<td>Acc</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td>Acc</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td></td>
+										<td>272.4</td>
 										<td>Y</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td>Acc</td>
+										<td></td>
 									</tr>
 									<tr>
 										<td></td>
@@ -325,8 +361,8 @@
 									<tr>
 										<td>0</td>
 										<td>36415</td>
-										<td>1</td>
 										<td></td>
+										<td>1</td>
 										<td></td>
 										<td>8.00</td>
 										<td>3.00</td>
@@ -347,8 +383,8 @@
 									<tr>
 										<td>0</td>
 										<td>81000</td>
-										<td>1</td>
 										<td></td>
+										<td>1</td>
 										<td></td>
 										<td>15.00</td>
 										<td>4.68</td>
@@ -369,13 +405,13 @@
 									<tr>
 										<td>0</td>
 										<td>93000</td>
+										<td>Y</td>
 										<td>1</td>
-										<td></td>
 										<td></td>
 										<td>65.00</td>
 										<td>19.50</td>
 										<td>Acc</td>
-										<td>Y</td>
+										<td></td>
 									</tr>
 									<tr>
 										<td>&nbsp;</td>
@@ -391,8 +427,8 @@
 									<tr>
 										<td>0</td>
 										<td>99393</td>
-										<td>1</td>
 										<td></td>
+										<td>1</td>
 										<td></td>
 										<td>200.00</td>
 										<td>0.00</td>
@@ -447,9 +483,9 @@
 							<p>Line-Item Reasons:<br />
 								(27 ) - NOT A COVERED SERVICE AND/OR BENEFIT FOR DIAGNOSIS LISTED.</p>
 							<p>Paymt Method: OPT</p>
-							<hr class="cru-rule">
+							<br class="spacer" />
 							<h3>Post Processing Report Information</h3>
-							<hr />
+							<br class="spacer" />
 							<table class="faux tight">
 								<tbody>
 									<tr>
@@ -471,7 +507,7 @@
 									<tr>
 										<td class="label setwidth-25">Amount Applied to Deductible:</td>
 										<td class="setwidth-5">0.00 </td>
-										<td class="setwidth-1 red"></td>
+										<td class="setwidth-1 red left"> W</td>
 										<td class="label setwidth-25">Amt Paid by TPL:</td>
 										<td class="setwidth-5">N/A</td>
 										<td class="setwidth-5">&nbsp;</td>
@@ -487,7 +523,7 @@
 									<tr>
 										<td class="label setwidth-25">Amount Applied to Cat Cap:</td>
 										<td class="setwidth-1">0.00 </td>
-										<td class="setwidth-1 red left"></td>
+										<td class="setwidth-1 red left"> W</td>
 										<td class="label setwidth-25">Amt Rev Cat Cap:</td>
 										<td class="setwidth-5">N/A</td>
 										<td class="setwidth-5">&nbsp;</td>
@@ -560,9 +596,9 @@
 									</tr>
 								</tbody>
 							</table>
-							<hr class="cru-rule" />
+							<br class="spacer" />
 							<h3>Payment History</h3>
-							<table class="table-border striped">
+							<table>
 								<thead>
 									<tr>
 										<th scope="col" class="setwidth-20">FMS DOC ID</th>
@@ -582,9 +618,9 @@
 									</tr>
 								</tbody>
 							</table>
-							<hr />
+							<br class="spacer" />
 							<h3>Action Line(s)</h3>
-							<table class="table-border striped">
+							<table>
 								<thead>
 									<tr>
 										<th scope="col" class="setwidth-20">Queue Name</th>
@@ -618,9 +654,9 @@
 									</tr>
 								</tbody>
 							</table>
-							<hr />
+							<br class="spacer" />
 							<h3>Initial Input</h3>
-							<div class="card">
+							<div class="col-12">
 								<div class="row">
 									<div class="col-2 label r">Date:</div>
 									<div class="col-2">mm/dd/yy @ hh:mm:ss</div>
@@ -727,7 +763,7 @@
 									<div class="col-2 label r"></div>
 									<div class="col-2"></div>
 								</div>
-								<hr />
+								<br class="spacer" />
 								<div class="row">
 									<div class="col-2 label r">Tax ID:</div>
 									<div class="col-2">209nnnnnnnnnn-</div>
@@ -794,81 +830,93 @@
 									<div class="col-2"></div>
 								</div>
 							</div>
-							<hr />
-							<table class="table-border striped">
+							<br class="spacer" />
+							<br class="spacer" />
+							<table>
 								<thead>
 									<tr>
 										<th scope="col" class="setwidth-10">Rev</th>
-										<th scope="col" class="setwidth-20">DX/PX - Mod</th>
-										<th scope="col" class="setwidth-50">Description</th>
-										<th scope="col" class="setwidth-20">CS/D Waived</th>
+										<th scope="col" class="setwidth-12">DX/PX - Mod</th>
+										<th scope="col" class="setwidth-5">&nbsp;</th>
+										<th scope="col" class="setwidth-75">Description</th>
+									
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
 										<td></td>
 										<td>V70.0</td>
+											<td></td>
 										<td>Routine Medical Exam</td>
-										<td></td>
+									
 									</tr>
 									<tr>
 										<td></td>
 										<td>272.4</td>
-										<td>Hyperlipidemia NEC/NOS</td>
 										<td>Y</td>
+										<td>Hyperlipidemia NEC/NOS</td>
+										
 									</tr>
 									<tr>
 										<td></td>
 										<td>244.9</td>
-										<td>Hypothyroidism NOS</td>
 										<td></td>
+										<td>Hypothyroidism NOS</td>
+									
 									</tr>
 									<tr>
 										<td></td>
 										<td>733.00</td>
-										<td>Osteoporosis NOS</td>
 										<td></td>
+										<td>Osteoporosis NOS</td>
+										
 									</tr>
 									<tr>
 										<td></td>
 										<td>36415</td>
-										<td>Routine Venipuncture</td>
 										<td></td>
+										<td>Routine Venipuncture</td>
+									
 									</tr>
 									<tr>
 										<td></td>
 										<td>81000</td>
-										<td>Urinalysis Nonauto w/scope</td>
 										<td></td>
+										<td>Urinalysis Nonauto w/scope</td>
+									
 									</tr>
 									<tr>
 										<td></td>
 										<td>93000</td>
-										<td>Electrocardiogram Complete</td>
 										<td>Y</td>
+										<td>Electrocardiogram Complete</td>
+									
 									</tr>
 									<tr>
 										<td></td>
 										<td>99396</td>
-										<td>Prev Visit Est Age 40-64</td>
 										<td></td>
+										<td>Prev Visit Est Age 40-64</td>
+										
 									</tr>
 								</tbody>
 							</table>
-							<hr />
-							<table class="table-border striped">
+							<br class="spacer" />
+							<br class="spacer" />
+							<table>
 								<thead>
 									<tr>
 										<th scope="col" class="setwidth-10">REV</th>
 										<th scope="col" class="setwidth-12">DX/PX/NDC-Mod</th>
+										<th scope="col" class="setwidth-5">&nbsp;</th>
 										<th scope="col" class="setwidth-5">UNT</th>
 										<th scope="col" class="setwidth-10">CHG/UNT</th>
 										<th scope="col" class="setwidth-10">A/A UNT</th>
 										<th scope="col" class="setwidth-10">TOTAL CHG</th>
 										<th scope="col" class="setwidth-10">TOTAL A/A</th>
 										<th scope="col" class="setwidth-13">TEST</th>
-										<th scope="col" class="setwidth-10">RMKS</th>
-										<th scope="col" class="setwidth-10">CS/D Waived</th>
+										<th scope="col" class="setwidth-23">RMKS</th>
+										
 									</tr>
 								</thead>
 								<tbody>
@@ -887,14 +935,14 @@
 									<tr>
 										<td></td>
 										<td>272.4</td>
-										<td></td>
+										<td>Y</td>
 										<td class="right"></td>
 										<td></td>
 										<td class="right"></td>
 										<td></td>
 										<td>und</td>
 										<td></td>
-										<td>Y</td>
+										<td></td>
 									</tr>
 									<tr>
 										<td></td>
@@ -923,6 +971,7 @@
 									<tr>
 										<td></td>
 										<td>36415</td>
+										<td></td>
 										<td>1</td>
 										<td class="right">8.00</td>
 										<td>und</td>
@@ -930,11 +979,12 @@
 										<td>und</td>
 										<td>und</td>
 										<td></td>
-										<td></td>
+										
 									</tr>
 									<tr>
 										<td></td>
 										<td>81000</td>
+										<td></td>
 										<td>1</td>
 										<td class="right">15.00</td>
 										<td>und</td>
@@ -942,11 +992,12 @@
 										<td>und</td>
 										<td>und</td>
 										<td></td>
-										<td></td>
+										
 									</tr>
 									<tr>
 										<td></td>
 										<td>93000</td>
+										<td>Y</td>
 										<td>1</td>
 										<td class="right">65.00</td>
 										<td>und</td>
@@ -954,11 +1005,12 @@
 										<td>und</td>
 										<td>und</td>
 										<td></td>
-										<td>Y</td>
+										
 									</tr>
 									<tr>
 										<td></td>
 										<td>99396</td>
+										<td></td>
 										<td>1</td>
 										<td class="right">200.00</td>
 										<td>und</td>
@@ -966,9 +1018,10 @@
 										<td>und</td>
 										<td>und</td>
 										<td></td>
-										<td></td>
+									
 									</tr>
 									<tr class="totals">
+										<td class="fauxth"></td>
 										<td class="fauxth"></td>
 										<td class="fauxth"></td>
 										<td class="fauxth"></td>
@@ -978,11 +1031,11 @@
 										<td class="fauxth"></td>
 										<td class="fauxth"></td>
 										<td class="fauxth"></td>
-										<td class="fauxth"></td>
+									
 									</tr>
 								</tbody>
 							</table>
-							<hr />
+							<br class="spacer" />
 							<h3>Bene Comments</h3>
 							<div class="col-12">
 								<div class="row">und</div>

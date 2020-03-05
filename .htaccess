@@ -9,7 +9,7 @@ Header set Connection keep-alive
 </FilesMatch>
 <FilesMatch "\.(ttf|otf|eot|woff|woff2)$">
     <IfModule mod_headers.c>
-        Header set Access-Control-Allow-Origin "http://www.milkandbourbon.com"
+        Header set Access-Control-Allow-Origin "http://www.ui-design-engineering.com"
     </IfModule>
 </FilesMatch>
 
@@ -76,7 +76,7 @@ Header set Connection keep-alive
 </FilesMatch>
 <FilesMatch "\.(ttf|otf|eot|woff|woff2)$">
     <IfModule mod_headers.c>
-        Header set Access-Control-Allow-Origin "http://www.milkandbourbon.com"
+        Header set Access-Control-Allow-Origin "http://www.ui-design-engineering.com"
     </IfModule>
 </FilesMatch>
 
@@ -130,5 +130,5 @@ Options -Indexes
 
 # SEO URL Settings
 
-ErrorDocument 404 /~house272/milkandbourbon.com/404.html
-ErrorDocument 500 /~house272/milkandbourbon.com/500.html
+ErrorDocument 404 /~house272/cru/404.html
+ErrorDocument 500 /~house272/cru/500.html

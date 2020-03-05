@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +14,7 @@
 	}
 	</style>
 </head>
+
 <body>
 	<main role="main">
 		<div class="col-12">
@@ -30,7 +32,7 @@
 								title="Claims Processing and Eligibility - CHAMPVA Regulatory Updates - CRU - VA|U.S. Department of Veterans Affairs"
 								src="/dist/img/cru-banner.jpg">
 							<div class="report-wrapper">
-								<h1>Sole Community Hospital Reporting</h1>
+								<h1>Sole Community Hospital Reports</h1>
 								<hr />
 								<?php include '../components/_sch-dropdown.php'; ?>
 							</div>
@@ -69,4 +71,5 @@
 	});
 	</script>
 </body>
+
 </html>

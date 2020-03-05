@@ -47,19 +47,22 @@
 									</ul>
 								</div>
 							</div>
-							<hr />
+							<hr class="cru" />
 							<div class="row">
 								<span class="fauxtab active">PX Codes</span>
 								<span class="fauxtab">DX Codes</span>
 							</div>
 							<div class="row">
-								<div class="col-8">
+								
 									<h1>Deductible/Cost-Sharing Waved Procedure codes | <small>Review and
 											modify DCS PX Codes
 											below.</small></h1>
-								</div>
-								<div class="col-4 right va-b">
-									<button class="gray mr5">Deactivate</button>
+								
+							</div>
+							<div class="row">
+								<div class="col-12 right mb15">
+									<button class="white mr5">Approve</button>
+									<button class="white mr5">Disapprove</button>
 									<button class="white mr5">Import</button>
 									<button class="brand mr15">Add Code</button>
 								</div>
