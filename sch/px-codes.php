@@ -109,253 +109,252 @@
 													class="fas fa-eraser"></i></a>
 										</div>
 									</form> -->
-                                    <div class="scrolling-wrapper-flexbox">
-                                        <table class="table-sort">
-                                            <thead>
-                                                <tr>
-                                                    <th scope="col"><input type="checkbox" id="checkall"
-                                                            class="checkbox">
-                                                    </th>
-                                                    <th class="table-sort" scope="col">Provider ID</th>
-                                                    <th class="table-sort" scope="col">Tax ID</th>
-                                                    <th class="table-sort" scope="col">Zip Code</th>
-                                                    <th class="table-sort" scope="col">SCH Name</th>
-                                                    <th class="table-sort" scope="col">CY 2019</th>
-                                                    <th class="table-sort" scope="col">CY 2020</th>
-                                                    <th class="table-sort" scope="col">CY 2021</th>
-                                                    <th class="table-sort" scope="col">CY 2022</th>
-                                                    <th class="table-sort" scope="col">CY 2023</th>
-                                                    <th class="" scope="col"></th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td><input type="checkbox" name="pxcode" id="zero" class="checkbox">
-                                                    </td>
-                                                    <td>002457Z</td>
-                                                    <td>1234567890</td>
-                                                    <td>123456</td>
-                                                    <td class="allcaps">Southwestern...</td>
-                                                    <td>0.999</td>
-                                                    <td>0.888</td>
-                                                    <td>0.777</td>
-                                                    <td>0.666</td>
-                                                    <td>0.555</td>
-                                                    <td>
-                                                        <div class="dropleft" style="float:right;">
-                                                            <a class="dropleftbtn"><img
-                                                                    src="/dist/img/left-slideout-btn.png" /></a>
-                                                            <div class="dropleft-content-short">
-                                                                <ul class="nobullet">
 
-                                                                    <li><a class="history" href="#" data-toggle="modal"
-                                                                            data-target="#medHistModal">Deactivate&nbsp;<i
-                                                                                class="fas fa-history"></i></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><input type="checkbox" name="pxcode" id="one" class="checkbox">
-                                                    </td>
-                                                    <td>002457Z</td>
-                                                    <td>1234567890</td>
-                                                    <td>123456</td>
-                                                    <td class="allcaps">Northwestern...</td>
-                                                    <td>0.999</td>
-                                                    <td>0.888</td>
-                                                    <td>0.777</td>
-                                                    <td>0.666</td>
-                                                    <td>0.555</td>
-                                                    <td>
-                                                        <div class="dropleft" style="float:right;">
-                                                            <a class="dropleftbtn"><img
-                                                                    src="/dist/img/left-slideout-btn.png" /></a>
-                                                            <div class="dropleft-content-short">
-                                                                <ul class="nobullet">
+                                    <table class="table-sort">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col"><input type="checkbox" id="checkall" class="checkbox">
+                                                </th>
+                                                <th class="table-sort" scope="col">Provider ID</th>
+                                                <th class="table-sort" scope="col">Tax ID</th>
+                                                <th class="table-sort" scope="col">Zip Code</th>
+                                                <th class="table-sort setwidth-25" scope="col">SCH Name</th>
+                                                <th class="table-sort" scope="col">CY 2019</th>
+                                                <th class="table-sort" scope="col">CY 2020</th>
+                                                <th class="table-sort" scope="col">CY 2021</th>
+                                                <th class="table-sort" scope="col">CY 2022</th>
+                                                <th class="table-sort" scope="col">CY 2023</th>
+                                                <th class="setwidth-3" scope="col"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><input type="checkbox" name="pxcode" id="zero" class="checkbox">
+                                                </td>
+                                                <td>002457Z</td>
+                                                <td>1234567890</td>
+                                                <td>123456</td>
+                                                <td class="allcaps">Southwestern...</td>
+                                                <td>0.999</td>
+                                                <td>0.888</td>
+                                                <td>0.777</td>
+                                                <td>0.666</td>
+                                                <td>0.555</td>
+                                                <td>
+                                                    <div class="dropleft" style="float:right;">
+                                                        <a class="dropleftbtn"><img
+                                                                src="/dist/img/left-slideout-btn.png" /></a>
+                                                        <div class="dropleft-content-short">
+                                                            <ul class="nobullet">
 
-                                                                    <li><a class="history" href="#" data-toggle="modal"
-                                                                            data-target="#medHistModal">Deactivate&nbsp;<i
-                                                                                class="fas fa-history"></i></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
+                                                                <li><a class="history" href="#" data-toggle="modal"
+                                                                        data-target="#medHistModal">Deactivate&nbsp;<i
+                                                                            class="fas fa-history"></i></a>
+                                                                </li>
+                                                            </ul>
                                                         </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><input type="checkbox" name="pxcode" id="zero" class="checkbox">
-                                                    </td>
-                                                    <td>002457Z</td>
-                                                    <td>1234567890</td>
-                                                    <td>123456</td>
-                                                    <td class="allcaps">Southwestern...</td>
-                                                    <td>0.999</td>
-                                                    <td>0.888</td>
-                                                    <td>0.777</td>
-                                                    <td>0.666</td>
-                                                    <td>0.555</td>
-                                                    <td>
-                                                        <div class="dropleft" style="float:right;">
-                                                            <a class="dropleftbtn"><img
-                                                                    src="/dist/img/left-slideout-btn.png" /></a>
-                                                            <div class="dropleft-content-short">
-                                                                <ul class="nobullet">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="checkbox" name="pxcode" id="one" class="checkbox">
+                                                </td>
+                                                <td>002457Z</td>
+                                                <td>1234567890</td>
+                                                <td>123456</td>
+                                                <td class="allcaps">Northwestern...</td>
+                                                <td>0.999</td>
+                                                <td>0.888</td>
+                                                <td>0.777</td>
+                                                <td>0.666</td>
+                                                <td>0.555</td>
+                                                <td>
+                                                    <div class="dropleft" style="float:right;">
+                                                        <a class="dropleftbtn"><img
+                                                                src="/dist/img/left-slideout-btn.png" /></a>
+                                                        <div class="dropleft-content-short">
+                                                            <ul class="nobullet">
 
-                                                                    <li><a class="history" href="#" data-toggle="modal"
-                                                                            data-target="#medHistModal">Deactivate&nbsp;<i
-                                                                                class="fas fa-history"></i></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
+                                                                <li><a class="history" href="#" data-toggle="modal"
+                                                                        data-target="#medHistModal">Deactivate&nbsp;<i
+                                                                            class="fas fa-history"></i></a>
+                                                                </li>
+                                                            </ul>
                                                         </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><input type="checkbox" name="pxcode" id="one" class="checkbox">
-                                                    </td>
-                                                    <td>002457Z</td>
-                                                    <td>1234567890</td>
-                                                    <td>123456</td>
-                                                    <td class="allcaps">Northwestern...</td>
-                                                    <td>0.999</td>
-                                                    <td>0.888</td>
-                                                    <td>0.777</td>
-                                                    <td>0.666</td>
-                                                    <td>0.555</td>
-                                                    <td>
-                                                        <div class="dropleft" style="float:right;">
-                                                            <a class="dropleftbtn"><img
-                                                                    src="/dist/img/left-slideout-btn.png" /></a>
-                                                            <div class="dropleft-content-short">
-                                                                <ul class="nobullet">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="checkbox" name="pxcode" id="zero" class="checkbox">
+                                                </td>
+                                                <td>002457Z</td>
+                                                <td>1234567890</td>
+                                                <td>123456</td>
+                                                <td class="allcaps">Southwestern...</td>
+                                                <td>0.999</td>
+                                                <td>0.888</td>
+                                                <td>0.777</td>
+                                                <td>0.666</td>
+                                                <td>0.555</td>
+                                                <td>
+                                                    <div class="dropleft" style="float:right;">
+                                                        <a class="dropleftbtn"><img
+                                                                src="/dist/img/left-slideout-btn.png" /></a>
+                                                        <div class="dropleft-content-short">
+                                                            <ul class="nobullet">
 
-                                                                    <li><a class="history" href="#" data-toggle="modal"
-                                                                            data-target="#medHistModal">Deactivate&nbsp;<i
-                                                                                class="fas fa-history"></i></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
+                                                                <li><a class="history" href="#" data-toggle="modal"
+                                                                        data-target="#medHistModal">Deactivate&nbsp;<i
+                                                                            class="fas fa-history"></i></a>
+                                                                </li>
+                                                            </ul>
                                                         </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><input type="checkbox" name="pxcode" id="zero" class="checkbox">
-                                                    </td>
-                                                    <td>002457Z</td>
-                                                    <td>1234567890</td>
-                                                    <td>123456</td>
-                                                    <td class="allcaps">Southwestern...</td>
-                                                    <td>0.999</td>
-                                                    <td>0.888</td>
-                                                    <td>0.777</td>
-                                                    <td>0.666</td>
-                                                    <td>0.555</td>
-                                                    <td>
-                                                        <div class="dropleft" style="float:right;">
-                                                            <a class="dropleftbtn"><img
-                                                                    src="/dist/img/left-slideout-btn.png" /></a>
-                                                            <div class="dropleft-content-short">
-                                                                <ul class="nobullet">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="checkbox" name="pxcode" id="one" class="checkbox">
+                                                </td>
+                                                <td>002457Z</td>
+                                                <td>1234567890</td>
+                                                <td>123456</td>
+                                                <td class="allcaps">Northwestern...</td>
+                                                <td>0.999</td>
+                                                <td>0.888</td>
+                                                <td>0.777</td>
+                                                <td>0.666</td>
+                                                <td>0.555</td>
+                                                <td>
+                                                    <div class="dropleft" style="float:right;">
+                                                        <a class="dropleftbtn"><img
+                                                                src="/dist/img/left-slideout-btn.png" /></a>
+                                                        <div class="dropleft-content-short">
+                                                            <ul class="nobullet">
 
-                                                                    <li><a class="history" href="#" data-toggle="modal"
-                                                                            data-target="#medHistModal">Deactivate&nbsp;<i
-                                                                                class="fas fa-history"></i></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
+                                                                <li><a class="history" href="#" data-toggle="modal"
+                                                                        data-target="#medHistModal">Deactivate&nbsp;<i
+                                                                            class="fas fa-history"></i></a>
+                                                                </li>
+                                                            </ul>
                                                         </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><input type="checkbox" name="pxcode" id="one" class="checkbox">
-                                                    </td>
-                                                    <td>002457Z</td>
-                                                    <td>1234567890</td>
-                                                    <td>123456</td>
-                                                    <td class="allcaps">Northwestern...</td>
-                                                    <td>0.999</td>
-                                                    <td>0.888</td>
-                                                    <td>0.777</td>
-                                                    <td>0.666</td>
-                                                    <td>0.555</td>
-                                                    <td>
-                                                        <div class="dropleft" style="float:right;">
-                                                            <a class="dropleftbtn"><img
-                                                                    src="/dist/img/left-slideout-btn.png" /></a>
-                                                            <div class="dropleft-content-short">
-                                                                <ul class="nobullet">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="checkbox" name="pxcode" id="zero" class="checkbox">
+                                                </td>
+                                                <td>002457Z</td>
+                                                <td>1234567890</td>
+                                                <td>123456</td>
+                                                <td class="allcaps">Southwestern...</td>
+                                                <td>0.999</td>
+                                                <td>0.888</td>
+                                                <td>0.777</td>
+                                                <td>0.666</td>
+                                                <td>0.555</td>
+                                                <td>
+                                                    <div class="dropleft" style="float:right;">
+                                                        <a class="dropleftbtn"><img
+                                                                src="/dist/img/left-slideout-btn.png" /></a>
+                                                        <div class="dropleft-content-short">
+                                                            <ul class="nobullet">
 
-                                                                    <li><a class="history" href="#" data-toggle="modal"
-                                                                            data-target="#medHistModal">Deactivate&nbsp;<i
-                                                                                class="fas fa-history"></i></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
+                                                                <li><a class="history" href="#" data-toggle="modal"
+                                                                        data-target="#medHistModal">Deactivate&nbsp;<i
+                                                                            class="fas fa-history"></i></a>
+                                                                </li>
+                                                            </ul>
                                                         </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><input type="checkbox" name="pxcode" id="zero" class="checkbox">
-                                                    </td>
-                                                    <td>002457Z</td>
-                                                    <td>1234567890</td>
-                                                    <td>123456</td>
-                                                    <td class="allcaps">Southwestern...</td>
-                                                    <td>0.999</td>
-                                                    <td>0.888</td>
-                                                    <td>0.777</td>
-                                                    <td>0.666</td>
-                                                    <td>0.555</td>
-                                                    <td>
-                                                        <div class="dropleft" style="float:right;">
-                                                            <a class="dropleftbtn"><img
-                                                                    src="/dist/img/left-slideout-btn.png" /></a>
-                                                            <div class="dropleft-content-short">
-                                                                <ul class="nobullet">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="checkbox" name="pxcode" id="one" class="checkbox">
+                                                </td>
+                                                <td>002457Z</td>
+                                                <td>1234567890</td>
+                                                <td>123456</td>
+                                                <td class="allcaps">Northwestern...</td>
+                                                <td>0.999</td>
+                                                <td>0.888</td>
+                                                <td>0.777</td>
+                                                <td>0.666</td>
+                                                <td>0.555</td>
+                                                <td>
+                                                    <div class="dropleft" style="float:right;">
+                                                        <a class="dropleftbtn"><img
+                                                                src="/dist/img/left-slideout-btn.png" /></a>
+                                                        <div class="dropleft-content-short">
+                                                            <ul class="nobullet">
 
-                                                                    <li><a class="history" href="#" data-toggle="modal"
-                                                                            data-target="#medHistModal">Deactivate&nbsp;<i
-                                                                                class="fas fa-history"></i></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
+                                                                <li><a class="history" href="#" data-toggle="modal"
+                                                                        data-target="#medHistModal">Deactivate&nbsp;<i
+                                                                            class="fas fa-history"></i></a>
+                                                                </li>
+                                                            </ul>
                                                         </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><input type="checkbox" name="pxcode" id="one" class="checkbox">
-                                                    </td>
-                                                    <td>002457Z</td>
-                                                    <td>1234567890</td>
-                                                    <td>123456</td>
-                                                    <td class="allcaps">Northwestern...</td>
-                                                    <td>0.999</td>
-                                                    <td>0.888</td>
-                                                    <td>0.777</td>
-                                                    <td>0.666</td>
-                                                    <td>0.555</td>
-                                                    <td>
-                                                        <div class="dropleft" style="float:right;">
-                                                            <a class="dropleftbtn"><img
-                                                                    src="/dist/img/left-slideout-btn.png" /></a>
-                                                            <div class="dropleft-content-short">
-                                                                <ul class="nobullet">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="checkbox" name="pxcode" id="zero" class="checkbox">
+                                                </td>
+                                                <td>002457Z</td>
+                                                <td>1234567890</td>
+                                                <td>123456</td>
+                                                <td class="allcaps">Southwestern...</td>
+                                                <td>0.999</td>
+                                                <td>0.888</td>
+                                                <td>0.777</td>
+                                                <td>0.666</td>
+                                                <td>0.555</td>
+                                                <td>
+                                                    <div class="dropleft" style="float:right;">
+                                                        <a class="dropleftbtn"><img
+                                                                src="/dist/img/left-slideout-btn.png" /></a>
+                                                        <div class="dropleft-content-short">
+                                                            <ul class="nobullet">
 
-                                                                    <li><a class="history" href="#" data-toggle="modal"
-                                                                            data-target="#medHistModal">Deactivate&nbsp;<i
-                                                                                class="fas fa-history"></i></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
+                                                                <li><a class="history" href="#" data-toggle="modal"
+                                                                        data-target="#medHistModal">Deactivate&nbsp;<i
+                                                                            class="fas fa-history"></i></a>
+                                                                </li>
+                                                            </ul>
                                                         </div>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="checkbox" name="pxcode" id="one" class="checkbox">
+                                                </td>
+                                                <td>002457Z</td>
+                                                <td>1234567890</td>
+                                                <td>123456</td>
+                                                <td class="allcaps">Northwestern...</td>
+                                                <td>0.999</td>
+                                                <td>0.888</td>
+                                                <td>0.777</td>
+                                                <td>0.666</td>
+                                                <td>0.555</td>
+                                                <td>
+                                                    <div class="dropleft" style="float:right;">
+                                                        <a class="dropleftbtn"><img
+                                                                src="/dist/img/left-slideout-btn.png" /></a>
+                                                        <div class="dropleft-content-short">
+                                                            <ul class="nobullet">
+
+                                                                <li><a class="history" href="#" data-toggle="modal"
+                                                                        data-target="#medHistModal">Deactivate&nbsp;<i
+                                                                            class="fas fa-history"></i></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
                                 </div>
                             </div>
                             <!-- <ul class="pagination pagination-small pull-right"> -->
